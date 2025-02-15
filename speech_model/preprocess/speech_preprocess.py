@@ -37,13 +37,38 @@ def process_audio_segment(segment, sr=22050, n_mels=128, output_dir="./speech_mo
     
     # Compute STFT and Mel spectrogram
     stft = librosa.stft(y, n_fft=n_fft, hop_length=hop_length, window='hann')
+    stft_db = librosa.amplitude_to_db(np.abs(stft), ref=np.max)  # Convert amplitude to dB
+
     mel_spec = librosa.feature.melspectrogram(S=np.abs(stft)**2, sr=sr, n_mels=n_mels)
+    mel_spec_db = librosa.power_to_db(mel_spec, ref=np.max)
+
+    # Compute the Delta (∆) and Delta-Delta (∆∆2) features
+    delta_mel_spec = librosa.feature.delta(mel_spec_db)  # First-order Delta (∆)
+    delta2_mel_spec = librosa.feature.delta(mel_spec_db, order=2)  # Second-order Delta (∆∆2)
+
+    # Concatenate Mel-spectrogram with Delta and Delta-Delta features
+    features = np.concatenate((mel_spec_db, delta_mel_spec, delta2_mel_spec), axis=0)
+
     
     # Generate spectrogram plot
-    plt.figure(figsize=(10, 4))
+    plt.figure(figsize=(10, 6))
+    plt.subplot(3, 1, 1)
     librosa.display.specshow(librosa.power_to_db(mel_spec, ref=np.max), sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
     plt.colorbar(format='%+2.0f dB')
-    plt.title('Mel Spectrogram')
+    plt.title('Mel Spectrogram (db)')
+
+    # Plot the Delta features
+    plt.subplot(3, 1, 2)
+    librosa.display.specshow(delta_mel_spec, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
+    plt.title('Delta (First Derivative)')
+    plt.colorbar()
+
+    # Plot the Delta-Delta features
+    plt.subplot(3, 1, 3)
+    librosa.display.specshow(delta2_mel_spec, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
+    plt.title('Delta-Delta (Second Derivative)')
+    plt.colorbar()
+
     plt.tight_layout()
     
     # Ensure output directory exists
