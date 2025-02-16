@@ -28,6 +28,7 @@ def parse_csv(file_path):
     while current_time + segment_duration <= max_time:
         segment_start = current_time
         segment_end = current_time + segment_duration
+        filename = Path(file_path).stem + f"_{k}"
 
         # Find rows that overlap with this segment
         overlapping = df[(df["start_time"] < segment_end) & (df["end_time"] > segment_start)]
@@ -48,7 +49,7 @@ def parse_csv(file_path):
 
             # Store the segment information
             segmented_labels.append({
-                "id": k,
+                "filename": filename,
                 "segment_start": segment_start,
                 "segment_end": segment_end,
                 "emotion": dominant_emotion,
@@ -72,3 +73,4 @@ for file in os.listdir(input_dir):
 
         session_data.to_csv(os.path.join(output_dir, output_csv), index=False)
         print(f"Saved segmented labels to {output_csv}")
+        
