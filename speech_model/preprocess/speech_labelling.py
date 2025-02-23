@@ -4,9 +4,9 @@ import pandas as pd
 from pathlib import Path
 
 # path to EmoEvaluation folder
-emo_eval_folder = "./dataset/EmoEvaluation/"
+emo_eval_folder = "./dataset/4/EmoEvaluation/"
 # path to output dir
-output_dir = "./speech_model/labels/"
+output_dir = "./speech_model/labels/by_utterance/4"
 
 def parse_emo_eval(file_path):
     data = []
@@ -35,6 +35,8 @@ def parse_emo_eval(file_path):
                         emotion_label = "negative"
                     case "neu":
                         emotion_label = "neutral"
+                    case "fea":
+                        emotion_label = "negative"
 
                 valence = float(match.group(5))
                 arousal = float(match.group(6))
@@ -59,6 +61,8 @@ for file in os.listdir(emo_eval_folder):
         session_data = parse_emo_eval(file_path)
 
         session_data.to_csv(os.path.join(output_dir, output_csv), index=False)
+
+print("Processing Done.")
 
 # Example: Process an EmoEvaluation file
 # Single file processing

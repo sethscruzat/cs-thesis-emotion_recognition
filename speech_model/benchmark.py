@@ -12,6 +12,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, classification_report
 from tensorflow.keras.callbacks import EarlyStopping
+from sklearn.utils.class_weight import compute_class_weight
 
 # Define model
 model = Sequential()
@@ -84,11 +85,15 @@ early_stopping = EarlyStopping(
 
 X_train, X_test, y_train, y_test = train_test_split(X_resized, y_onehot, test_size=0.2, random_state=42, shuffle=True)
 
+class_labels = np.unique(np.argmax(y_train, axis=1)) 
+class_weights = compute_class_weight(class_weight='balanced', classes=class_labels, y=np.argmax(y_train, axis=1))
+class_weights_dict = dict(enumerate(class_weights))
+
 print("Train size:", len(X_train), len(y_train))
 print("Test size:", len(X_test), len(y_test))
 
 # early stopping
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, callbacks=[early_stopping])
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, callbacks=[early_stopping], class_weight=class_weights_dict)
 
 # # Train the model
 # model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32)

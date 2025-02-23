@@ -5,10 +5,15 @@ from pathlib import Path
 pd.options.mode.copy_on_write = True
 
 # path to input dir
-input_dir = "./speech_model/labels/sorted"
+input_dir = "./speech_model/labels/sorted/4/"
 
 # path to output dir
-output_dir = "./speech_model/labels/by_segment"
+output_dir = "./speech_model/labels/by_segment/4/"
+
+# sorted directory
+sorted_dir = "./speech_model/labels/sorted/4/"
+
+utterance_dir = "./speech_model/labels/by_utterance/4/"
 
 # Define the segment duration
 segment_duration = 6.0
@@ -28,7 +33,7 @@ def parse_csv(file_path):
     while current_time + segment_duration <= max_time:
         segment_start = current_time
         segment_end = current_time + segment_duration
-        filename = Path(file_path).stem + f"_{k}"
+        filename = Path(file_path).stem + f"_{k}.png"
 
         # Find rows that overlap with this segment
         overlapping = df[(df["start_time"] < segment_end) & (df["end_time"] > segment_start)]
@@ -74,3 +79,28 @@ for file in os.listdir(input_dir):
         session_data.to_csv(os.path.join(output_dir, output_csv), index=False)
         print(f"Saved segmented labels to {output_csv}")
         
+# # Load the emotion annotation file
+# csv_path = "/mnt/data/Ses05F_impro01.csv"  # Adjust this to your actual file path
+# df = pd.read_csv(csv_path)
+
+# # Ensure the start_time column is sorted in ascending order
+# df = df.sort_values(by="start_time").reset_index(drop=True)
+
+# # Save the sorted CSV
+# sorted_csv_path = "Ses05F_impro01_sorted.csv"
+# df.to_csv(sorted_csv_path, index=False)
+
+def sort_by_start_time(file_path, output_csv):
+    df = pd.read_csv(file_path)
+    df = df.sort_values(by="start_time").reset_index(drop=True)
+
+    df.to_csv(os.path.join(sorted_dir, output_csv), index=False)
+
+
+# for file in os.listdir(utterance_dir):
+#     if file.endswith(".csv"):
+#         file_path = os.path.join(utterance_dir, file)
+#         output_csv = Path(file_path).stem + ".csv"
+#         sort_by_start_time(file_path, output_csv)
+
+#         print(f"Saved sorted labels to {utterance_dir}")

@@ -5,6 +5,10 @@ import librosa.display
 import numpy as np
 import matplotlib.pyplot as plt
 import noisereduce as nr
+import cv2
+
+input_folder = "./dataset/5/wav"
+output_folder = "./speech_model/output_spectrograms/5/"
 
 def split_audio_to_segments(file_path, segment_length=6): #change segment length as needed
     audio = AudioSegment.from_file(file_path)
@@ -22,10 +26,10 @@ def reduce_noise(y, sr):
     """Apply noise reduction using noisereduce."""
     # Estimate noise profile from the first 0.5 seconds
     noise_sample = y[:int(sr * 0.5)]
-    reduced_y = nr.reduce_noise(y=y, sr=sr, y_noise=noise_sample)
+    reduced_y = nr.reduce_noise(y=y, sr=sr, noise_clip=noise_sample)
     return reduced_y
 
-def process_audio_segment(segment, sr=22050, n_mels=128, output_dir="./speech_model/output_spectrograms/", file_prefix="", j=0):
+def process_audio_segment(segment, sr=22050, n_mels=128, output_dir=output_folder, file_prefix="", j=0):
     samples = np.array(segment.get_array_of_samples()).astype(np.float32)
     samples = librosa.util.normalize(samples)  # Normalize
     # STFT parameters
@@ -37,51 +41,56 @@ def process_audio_segment(segment, sr=22050, n_mels=128, output_dir="./speech_mo
     
     # Compute STFT and Mel spectrogram
     stft = librosa.stft(y, n_fft=n_fft, hop_length=hop_length, window='hann')
-    stft_db = librosa.amplitude_to_db(np.abs(stft), ref=np.max)  # Convert amplitude to dB
 
     mel_spec = librosa.feature.melspectrogram(S=np.abs(stft)**2, sr=sr, n_mels=n_mels)
     mel_spec_db = librosa.power_to_db(mel_spec, ref=np.max)
 
-    # Compute the Delta (∆) and Delta-Delta (∆∆2) features
-    delta_mel_spec = librosa.feature.delta(mel_spec_db)  # First-order Delta (∆)
-    delta2_mel_spec = librosa.feature.delta(mel_spec_db, order=2)  # Second-order Delta (∆∆2)
+    # # Compute the Delta (∆) and Delta-Delta (∆∆2) features
+    # delta_mel_spec = librosa.feature.delta(mel_spec_db)  # First-order Delta (∆)
+    # delta2_mel_spec = librosa.feature.delta(mel_spec_db, order=2)  # Second-order Delta (∆∆2)
 
-    # Concatenate Mel-spectrogram with Delta and Delta-Delta features
-    features = np.concatenate((mel_spec_db, delta_mel_spec, delta2_mel_spec), axis=0)
+    # # Concatenate Mel-spectrogram with Delta and Delta-Delta features
+    # features = np.concatenate((mel_spec_db, delta_mel_spec, delta2_mel_spec), axis=0)
 
-    
     # Generate spectrogram plot
-    plt.figure(figsize=(10, 6))
-    plt.subplot(3, 1, 1)
-    librosa.display.specshow(librosa.power_to_db(mel_spec, ref=np.max), sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
-    plt.colorbar(format='%+2.0f dB')
-    plt.title('Mel Spectrogram (db)')
+    plt.figure(figsize=(10, 4))
 
-    # Plot the Delta features
-    plt.subplot(3, 1, 2)
-    librosa.display.specshow(delta_mel_spec, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
-    plt.title('Delta (First Derivative)')
-    plt.colorbar()
+    mel_spectrogram_db = librosa.power_to_db(mel_spec, ref=np.max)
+    mel_spec_normalized = cv2.normalize(mel_spec_db, None, 0, 255, cv2.NORM_MINMAX)
+    mel_spec_image = mel_spec_normalized.astype(np.uint8)
 
-    # Plot the Delta-Delta features
-    plt.subplot(3, 1, 3)
-    librosa.display.specshow(delta2_mel_spec, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
-    plt.title('Delta-Delta (Second Derivative)')
-    plt.colorbar()
-
-    plt.tight_layout()
-    
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
     specific_output_folder = output_dir + file_prefix
     os.makedirs(specific_output_folder, exist_ok=True)
+
+    segment_name = f"{file_prefix}_{j}.png"  # Unique naming
+    cv2.imwrite(os.path.join(specific_output_folder, segment_name), mel_spec_image)
+    
+    # librosa.display.specshow(mel_spectrogram_db, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
+
+    # plt.colorbar(format='%+2.0f dB')
+    # plt.title('Mel Spectrogram (db)')
+
+    # # Plot the Delta features
+    # plt.subplot(3, 1, 2)
+    # librosa.display.specshow(delta_mel_spec, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
+    # plt.title('Delta (First Derivative)')
+    # plt.colorbar()
+
+    # # Plot the Delta-Delta features
+    # plt.subplot(3, 1, 3)
+    # librosa.display.specshow(delta2_mel_spec, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
+    # plt.title('Delta-Delta (Second Derivative)')
+    # plt.colorbar()
+
+    # plt.tight_layout()
     
     # Save spectrogram as image
-    segment_name = f"{file_prefix}_{j}.png"  # Unique naming
-    plt.savefig(os.path.join(specific_output_folder, segment_name))
-    plt.close()
+    # plt.savefig(os.path.join(specific_output_folder, segment_name))
+    # plt.close()
 
-def process_audio_folder(folder_path, segment_length=6, output_dir="./speech_model/output_spectrograms/"):
+def process_audio_folder(folder_path, segment_length=6, output_dir=output_folder):
     for root, _, files in os.walk(folder_path):
         for file in files:
             if file.endswith((".wav", ".mp3")):  # Check file type
@@ -96,10 +105,7 @@ def process_audio_folder(folder_path, segment_length=6, output_dir="./speech_mod
                     process_audio_segment(segment, output_dir=output_dir, file_prefix=f"{os.path.splitext(file)[0]}", j = i)
 
 # BATCH PROCESSING
-input_folder = "./dataset/wav/"
-process_audio_folder(input_folder)
-
-
+process_audio_folder(folder_path=input_folder,output_dir=output_folder)
 
 # # SINGLE FILE PROCESSING
 # # Split file into segments
