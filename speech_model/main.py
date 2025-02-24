@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tensorflow.keras.layers import SeparableConv2D, MaxPooling2D, Flatten, Dense, Dropout, Bidirectional, GRU, Reshape, BatchNormalization
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, Bidirectional, GRU, Reshape, BatchNormalization
 from tensorflow.keras.models import Sequential
 import cv2
 import os
@@ -18,29 +18,21 @@ from tensorflow.keras.optimizers import Adam,RMSprop,SGD,Adamax
 
 model = Sequential()
 
-# Lightweight CNN feature extraction, 3 layers
-model.add(SeparableConv2D(64, (3, 3), activation='relu', input_shape=(128, 256, 1)))
 
-model.add(SeparableConv2D(128, (3, 3), activation='relu'))
-model.add(BatchNormalization())
+model.add(Conv2D(64, (3, 3), activation='relu', input_shape=(128, 256, 1)))
 model.add(MaxPooling2D((3, 3)))
 
-model.add(SeparableConv2D(256, (3, 3), activation='relu'))
-model.add(BatchNormalization())
+model.add(Conv2D(128, (3, 3), activation='relu'))
 model.add(MaxPooling2D((3, 3)))
+
+model.add(Conv2D(256, (3, 3), activation='relu'))
+model.add(MaxPooling2D((3, 3)))
+
+model.add(Conv2D(256, (3, 3), activation='relu'))
+model.add(MaxPooling2D((3, 3)))
+model.add(BatchNormalization())
+
 model.add(Dropout(0.25))
-
-model.add(SeparableConv2D(256, (3, 3), activation='relu'))
-model.add(BatchNormalization())
-model.add(MaxPooling2D((3, 3)))
-
-# # Reshape CNN output for BiGRU
-# model.add(Reshape((-1, 128)))
-
-# # BiGRU for sequential learning
-# model.add(Bidirectional(GRU(256, return_sequences=True)))
-# model.add(tf.keras.layers.GlobalAveragePooling1D())
-model.add(Dropout(0.50))
 
 model.add(Flatten())  # Convert CNN output to 1D vector
 
@@ -48,7 +40,7 @@ model.add(Flatten())  # Convert CNN output to 1D vector
 model.add(Dense(1024, activation='relu'))
 model.add(Dense(3, activation='softmax'))
 
-model.compile(optimizer="adam", loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1), metrics=['accuracy'])
+model.compile(optimizer=Adam(learning_rate=0.001), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1), metrics=['accuracy'])
 
 model.summary()
 
@@ -108,7 +100,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_s
 # class_weights_dict = dict(enumerate(class_weights))
 # model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, verbose=1, class_weight=class_weights_dict)
 
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, verbose=1)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=25, batch_size=32, verbose=1)
 
 def model_testing():
     # 1. Get predictions (probabilities)
