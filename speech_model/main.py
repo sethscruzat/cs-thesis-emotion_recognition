@@ -18,17 +18,16 @@ from tensorflow.keras.optimizers import Adam,RMSprop,SGD,Adamax
 
 model = Sequential()
 
-
 model.add(Conv2D(64, (3, 3), activation='relu', input_shape=(128, 256, 1)))
 
 model.add(Conv2D(128, (3, 3), activation='relu'))
-model.add(MaxPooling2D((3, 3)))
+model.add(MaxPooling2D((2, 2)))
 
 model.add(Conv2D(256, (3, 3), activation='relu'))
-model.add(MaxPooling2D((3, 3)))
+model.add(MaxPooling2D((2, 2)))
 
 model.add(Conv2D(256, (3, 3), activation='relu'))
-model.add(MaxPooling2D((3, 3)))
+model.add(MaxPooling2D((2, 2)))
 model.add(BatchNormalization())
 
 model.add(Flatten())  # Convert CNN output to 1D vector
@@ -42,7 +41,7 @@ model.compile(optimizer=Adam(learning_rate=0.001), loss=tf.keras.losses.Categori
 
 model.summary()
 
-df = pd.read_csv("./speech_model/labels/all_labels.csv")
+df = pd.read_csv("./speech_model/label/all_labels.csv")
 
 X = [] # spectrograms
 Y = [] # labels
@@ -92,11 +91,6 @@ X_balanced = np.array(X_balanced).reshape(-1, 128, 256, 1)  # Reshape for CNN (a
 X_balanced = X_balanced / 255.0  # Normalize pixel values (for image-based spectrograms)
 
 X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.2, random_state=13, shuffle=True)
-
-# class_labels = np.unique(np.argmax(y_train, axis=1)) 
-# class_weights = compute_class_weight(class_weight='balanced', classes=class_labels, y=np.argmax(y_train, axis=1))
-# class_weights_dict = dict(enumerate(class_weights))
-# model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, verbose=1, class_weight=class_weights_dict)
 
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, verbose=1)
 
