@@ -45,13 +45,6 @@ def process_audio_segment(segment, sr=22050, n_mels=128, output_dir=output_folde
     mel_spec = librosa.feature.melspectrogram(S=np.abs(stft)**2, sr=sr, n_mels=n_mels)
     mel_spec_db = librosa.power_to_db(mel_spec, ref=np.max)
 
-    # # Compute the Delta (∆) and Delta-Delta (∆∆2) features
-    # delta_mel_spec = librosa.feature.delta(mel_spec_db)  # First-order Delta (∆)
-    # delta2_mel_spec = librosa.feature.delta(mel_spec_db, order=2)  # Second-order Delta (∆∆2)
-
-    # # Concatenate Mel-spectrogram with Delta and Delta-Delta features
-    # features = np.concatenate((mel_spec_db, delta_mel_spec, delta2_mel_spec), axis=0)
-
     # Generate spectrogram plot
     plt.figure(figsize=(10, 4))
 

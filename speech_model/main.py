@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, Bidirectional, GRU, Reshape, BatchNormalization
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, Bidirectional, LSTM, Reshape, BatchNormalization, GlobalAveragePooling2D, TimeDistributed
 from tensorflow.keras.models import Sequential
 import cv2
 import os
@@ -18,19 +18,23 @@ from tensorflow.keras.optimizers import Adam,RMSprop,SGD,Adamax
 
 model = Sequential()
 
-model.add(Conv2D(64, (3, 3), activation='relu', input_shape=(128, 256, 1)))
+model.add(TimeDistributed(Conv2D(64, (3, 3), activation='relu'), input_shape=(1, 128, 256, 1)))
 
-model.add(Conv2D(128, (3, 3), activation='relu'))
-model.add(MaxPooling2D((2, 2)))
+model.add(TimeDistributed(Conv2D(128, (3, 3), activation='relu')))
+model.add(TimeDistributed(MaxPooling2D((2, 2))))
 
-model.add(Conv2D(256, (3, 3), activation='relu'))
-model.add(MaxPooling2D((2, 2)))
+model.add(TimeDistributed(Conv2D(256, (3, 3), activation='relu')))
+model.add(TimeDistributed(MaxPooling2D((2, 2))))
 
-model.add(Conv2D(256, (3, 3), activation='relu'))
-model.add(MaxPooling2D((2, 2)))
-model.add(BatchNormalization())
+model.add(TimeDistributed(Conv2D(256, (3, 3), activation='relu')))
+model.add(TimeDistributed(MaxPooling2D((2, 2))))
+model.add(TimeDistributed(BatchNormalization()))
 
-model.add(Flatten())  # Convert CNN output to 1D vector
+# model.add(Flatten())  # Convert CNN output to 1D vector
+
+model.add(TimeDistributed(GlobalAveragePooling2D()))  # Keeps time steps intact
+
+model.add(Bidirectional(LSTM(64, return_sequences=False)))  # Change to False if this is last LSTM layer
 
 # Fully connected layers
 model.add(Dense(1024, activation='relu'))
@@ -41,7 +45,7 @@ model.compile(optimizer=Adam(learning_rate=0.001), loss=tf.keras.losses.Categori
 
 model.summary()
 
-df = pd.read_csv("./speech_model/label/all_labels.csv")
+df = pd.read_csv("./speech_model/label/all_labels_six.csv")
 
 X = [] # spectrograms
 Y = [] # labels
@@ -58,7 +62,7 @@ def load_dataset(spectrogram_folder):
 def resize_spectrogram(image):
     return cv2.resize(image, (256, 128), interpolation=cv2.INTER_AREA)
 
-load_dataset("./speech_model/all_spectrograms/")
+load_dataset("./speech_model/all_spectrograms/six_seconds")
 
 X_resized = np.array([resize_spectrogram(img) for img in X])  # X contains spectrograms
 
@@ -91,6 +95,8 @@ X_balanced = np.array(X_balanced).reshape(-1, 128, 256, 1)  # Reshape for CNN (a
 X_balanced = X_balanced / 255.0  # Normalize pixel values (for image-based spectrograms)
 
 X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.2, random_state=13, shuffle=True)
+
+X_train = np.expand_dims(X_train, axis=1)  # Adds a time dimension
 
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, verbose=1)
 
