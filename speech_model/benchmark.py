@@ -1,5 +1,5 @@
 import tensorflow as tf
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, Bidirectional, LSTM, TimeDistributed, Reshape
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, Bidirectional, LSTM, Reshape, BatchNormalization, GlobalAveragePooling2D, TimeDistributed
 from tensorflow.keras.models import Sequential
 import cv2
 import os
@@ -13,42 +13,35 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, classification_report
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.utils.class_weight import compute_class_weight
+from tensorflow.keras.utils import Sequence
+from tensorflow.keras.optimizers import Adam,RMSprop,SGD,Adamax
 
-# Define model
 model = Sequential()
 
-# CNN for feature extraction
-model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(128, 500, 1)))
-model.add(MaxPooling2D((2, 2)))
-
-model.add(Conv2D(64, (3, 3), activation='relu'))
-model.add(MaxPooling2D((2, 2)))
+model.add(Conv2D(64, (3, 3), activation='relu', input_shape=(1, 128, 256, 1)))
 
 model.add(Conv2D(128, (3, 3), activation='relu'))
 model.add(MaxPooling2D((2, 2)))
 
+model.add(Conv2D(256, (3, 3), activation='relu'))
+model.add(MaxPooling2D((2, 2)))
+
+model.add(Conv2D(256, (3, 3), activation='relu'))
+model.add(MaxPooling2D((2, 2)))
+model.add(BatchNormalization())
+
 model.add(Flatten())  # Convert CNN output to 1D vector
 
-# Reshape CNN output for BiLSTM
-model.add(Reshape((-1, 128)))
-
-# BiLSTM for sequential feature learning
-model.add(Bidirectional(LSTM(128, return_sequences=True)))
-model.add(tf.keras.layers.GlobalAveragePooling1D())
-
-# # Optional: TimeDistributed if frame-level predictions are needed
-# model.add(TimeDistributed(Dense(64, activation='relu')))
-
 # Fully connected layers
-model.add(Dense(128, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(3, activation='softmax'))  # num_classes = number of emotion categories
+model.add(Dense(1024, activation='relu'))
+model.add(Dropout(0.25))
+model.add(Dense(3, activation='softmax'))
 
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer=Adam(learning_rate=0.001), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1), metrics=['accuracy'])
 
 model.summary()
 
-df = pd.read_csv("./speech_model/labels/all_labels.csv")
+df = pd.read_csv("./speech_model/label/all_labels_three.csv")
 
 X = [] # spectrograms
 Y = [] # labels
@@ -63,40 +56,45 @@ def load_dataset(spectrogram_folder):
 
 # Example function to resize spectrograms
 def resize_spectrogram(image):
-    return cv2.resize(image, (500, 128), interpolation=cv2.INTER_AREA)
+    return cv2.resize(image, (256, 128), interpolation=cv2.INTER_AREA)
 
-
-load_dataset("./speech_model/all_spectrograms/")
+load_dataset("./speech_model/all_spectrograms/three_seconds")
 
 X_resized = np.array([resize_spectrogram(img) for img in X])  # X contains spectrograms
 
 label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(Y)  # Convert labels to numbers
-y_onehot = to_categorical(y_encoded)  # Convert to one-hot encoding
 
-X_resized = np.array(X_resized).reshape(-1, 128, 500, 1)  # Reshape for CNN (assuming grayscale images)
-X_resized = X_resized / 255.0  # Normalize pixel values (for image-based spectrograms)
+# Indices for each class
+positive_indices = np.where(y_encoded == 2)[0]  # Positive
+neutral_indices = np.where(y_encoded == 1)[0]   # Neutral
+negative_indices = np.where(y_encoded == 0)[0]  # Negative
 
-early_stopping = EarlyStopping(
-    monitor='val_loss',  # Monitor validation loss
-    patience=5,  # Stop if no improvement for 5 epochs
-    restore_best_weights=True  # Restore the best model weights
-)
+# Downsample negative samples to match positive class size
+n_samples = len(neutral_indices)
+balanced_negative_indices = np.random.choice(negative_indices, n_samples, replace=False)
+balanced_positive_indices = np.random.choice(positive_indices, n_samples, replace=False)
 
-X_train, X_test, y_train, y_test = train_test_split(X_resized, y_onehot, test_size=0.2, random_state=42, shuffle=True)
+# Combine indices for a balanced dataset
+balanced_indices = np.concatenate([balanced_positive_indices, neutral_indices, balanced_negative_indices])
 
-class_labels = np.unique(np.argmax(y_train, axis=1)) 
-class_weights = compute_class_weight(class_weight='balanced', classes=class_labels, y=np.argmax(y_train, axis=1))
-class_weights_dict = dict(enumerate(class_weights))
+# Shuffle the indices
+np.random.shuffle(balanced_indices)
 
-print("Train size:", len(X_train), len(y_train))
-print("Test size:", len(X_test), len(y_test))
+# Create the balanced dataset
+X_balanced = X_resized[balanced_indices]
+y_balanced = y_encoded[balanced_indices]
 
-# early stopping
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, callbacks=[early_stopping], class_weight=class_weights_dict)
+y_onehot = to_categorical(y_balanced)  # Convert to one-hot encoding
 
-# # Train the model
-# model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32)
+X_balanced = np.array(X_balanced).reshape(-1, 128, 256, 1)  # Reshape for CNN (assuming grayscale images)
+X_balanced = X_balanced / 255.0  # Normalize pixel values (for image-based spectrograms)
+
+X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.2, random_state=13, shuffle=True)
+
+X_train = np.expand_dims(X_train, axis=1)  # Adds a time dimension
+
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, verbose=1)
 
 def model_testing():
     # 1. Get predictions (probabilities)

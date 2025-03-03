@@ -17,7 +17,7 @@ def merge_csv_files(directory, output_file):
 
 # Example usage
 # directory = "./speech_model/labels/all"
-# output_file = "all_labels_new.csv"  # Change this to your desired output file
+# output_file = "all_labels_three.csv"  # Change this to your desired output file
 # merge_csv_files(directory, output_file)
 
 def append_png_to_filenames(csv_file):
@@ -48,9 +48,9 @@ def copy_all_files(source_directory, target_directory):
     
     print(f"All files from {source_directory} have been copied to {target_directory}")
 
-# source_directory = "./speech_model/output_spectrograms/"
-# target_directory = "./speech_model/all_spectrograms"
-# copy_all_files(source_directory, target_directory)
+source_directory = "./speech_model/output_spectrograms/"
+target_directory = "./speech_model/all_spectrograms/nine_seconds"
+copy_all_files(source_directory, target_directory)
 
 def delete_files_not_in_csv(directory, csv_file):
     df = pd.read_csv(csv_file)
@@ -68,6 +68,6 @@ def delete_files_not_in_csv(directory, csv_file):
     else:
         print("No 'filename' column found in the CSV file.")
 
-target_directory = "./speech_model/all_spectrograms"
-csv_file = "./speech_model/labels/all_labels.csv"
-delete_files_not_in_csv(target_directory, csv_file)
+# target_directory = "./speech_model/all_spectrograms/nine_seconds"
+# csv_file = "./speech_model/label/all_labels_nine.csv"
+# delete_files_not_in_csv(target_directory, csv_file)
