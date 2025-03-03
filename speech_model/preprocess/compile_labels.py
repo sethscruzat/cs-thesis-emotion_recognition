@@ -48,9 +48,9 @@ def copy_all_files(source_directory, target_directory):
     
     print(f"All files from {source_directory} have been copied to {target_directory}")
 
-source_directory = "./speech_model/output_spectrograms/"
-target_directory = "./speech_model/all_spectrograms/nine_seconds"
-copy_all_files(source_directory, target_directory)
+# source_directory = "./speech_model/output_spectrograms/"
+# target_directory = "./speech_model/all_spectrograms/nine_seconds"
+# copy_all_files(source_directory, target_directory)
 
 def delete_files_not_in_csv(directory, csv_file):
     df = pd.read_csv(csv_file)

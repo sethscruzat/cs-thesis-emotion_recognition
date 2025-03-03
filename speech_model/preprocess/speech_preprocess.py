@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import noisereduce as nr
 import cv2
 
-input_folder = "./dataset/1/wav"
-output_folder = "./speech_model/output_spectrograms/1/"
+input_folder = "./dataset/5/wav"
+output_folder = "./speech_model/output_spectrograms/5/"
 
 def split_audio_to_segments(file_path, segment_length): #change segment length as needed
     audio = AudioSegment.from_file(file_path)
