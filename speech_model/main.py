@@ -97,6 +97,7 @@ X_balanced = X_balanced / 255.0  # Normalize pixel values (for image-based spect
 X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.2, random_state=13, shuffle=True)
 
 X_train = np.expand_dims(X_train, axis=1)  # Adds a time dimension
+X_test = np.expand_dims(X_test, axis=1)  # Adds a time dimension
 
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, verbose=1)
 
@@ -123,3 +124,5 @@ def model_testing():
     print(classification_report(y_true, y_pred, target_names=label_encoder.classes_))
 
 model_testing()
+
+model.save("cnn_six_seconds.h5")  
