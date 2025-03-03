@@ -21,13 +21,13 @@ model = Sequential()
 model.add(Conv2D(64, (3, 3), activation='relu', input_shape=(128, 256, 1)))
 
 model.add(Conv2D(128, (3, 3), activation='relu'))
-model.add(MaxPooling2D((2, 2)))
+model.add(MaxPooling2D((3, 3)))
 
 model.add(Conv2D(256, (3, 3), activation='relu'))
-model.add(MaxPooling2D((2, 2)))
+model.add(MaxPooling2D((3, 3)))
 
 model.add(Conv2D(256, (3, 3), activation='relu'))
-model.add(MaxPooling2D((2, 2)))
+model.add(MaxPooling2D((3, 3)))
 model.add(BatchNormalization())
 
 model.add(Flatten())  # Convert CNN output to 1D vector
@@ -118,4 +118,4 @@ def model_testing():
 
 model_testing()
 
-model.save("benchmark_six_seconds.h5")  
+model.save("benchmark_six_seconds.h5")
