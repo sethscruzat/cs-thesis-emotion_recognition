@@ -5,10 +5,10 @@ from pathlib import Path
 pd.options.mode.copy_on_write = True
 
 # path to input dir
-input_dir = "./speech_model/labels/sorted/5/"
+input_dir = "./speech_model/labels/sorted/1/"
 
 # path to output dir
-output_dir = "./speech_model/labels/by_segment/5/"
+output_dir = "./speech_model/labels/by_segment/1/"
 
 # sorted directory
 sorted_dir = "./speech_model/labels/sorted/4/"
@@ -16,7 +16,7 @@ sorted_dir = "./speech_model/labels/sorted/4/"
 utterance_dir = "./speech_model/labels/by_utterance/4/"
 
 # Define the segment duration
-segment_duration = 9.0
+segment_duration = 3.0
 
 # Create a list to store the new labels
 

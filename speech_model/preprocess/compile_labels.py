@@ -68,6 +68,6 @@ def delete_files_not_in_csv(directory, csv_file):
     else:
         print("No 'filename' column found in the CSV file.")
 
-# target_directory = "./speech_model/all_spectrograms/nine_seconds"
-# csv_file = "./speech_model/label/all_labels_nine.csv"
-# delete_files_not_in_csv(target_directory, csv_file)
+target_directory = "./speech_model/all_spectrograms/three_seconds"
+csv_file = "./speech_model/label/all_labels_three.csv"
+delete_files_not_in_csv(target_directory, csv_file)
