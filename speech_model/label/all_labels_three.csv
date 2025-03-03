@@ -432,8 +432,8 @@ Ses01F_script01_1_17.png,51,54,negative,2.1667,2.5,2.8333
 Ses01F_script01_1_18.png,54,57,negative,2.6667,2.6667,2.3333
 Ses01F_script01_1_19.png,57,60,negative,2.6667,3.1667,3
 Ses01F_script01_1_20.png,60,63,negative,2.6667,3.1667,3.1667
-Ses01F_script01_1_21.png,63,66, negative,2.6667,2.6667,2.6667
-Ses01F_script01_1_22.png,66,69, negative,2.33335,2.5,2.6667
+Ses01F_script01_1_21.png,63,66,negative,2.6667,2.6667,2.6667
+Ses01F_script01_1_22.png,66,69,negative,2.33335,2.5,2.6667
 Ses01F_script01_1_23.png,69,72,neutral,2.33335,2.66665,2.83335
 Ses01F_script01_1_24.png,72,75,neutral,2.6667,3,3
 Ses01F_script01_1_25.png,75,78,neutral,2.6667,3,3
@@ -466,17 +466,17 @@ Ses01F_script01_1_51.png,153,156,neutral,3,1.6667,2.3333
 Ses01F_script01_1_52.png,156,159,neutral,3,2.3333,3
 Ses01F_script01_1_53.png,159,162,neutral,3,2,2.83335
 Ses01F_script01_1_54.png,162,165,neutral,3,1.6667,2.6667
-Ses01F_script01_1_55.png,165,168, negative,2.83335,2.1667,2.83335
-Ses01F_script01_1_56.png,168,171, negative,3.1667,2.6667,2.66665
-Ses01F_script01_1_57.png,171,174, negative,2.83335,2.83335,3
+Ses01F_script01_1_55.png,165,168,negative,2.83335,2.1667,2.83335
+Ses01F_script01_1_56.png,168,171,negative,3.1667,2.6667,2.66665
+Ses01F_script01_1_57.png,171,174,negative,2.83335,2.83335,3
 Ses01F_script01_1_58.png,174,177,neutral,2.555566667,2.7778,2.8889
-Ses01F_script01_1_59.png,177,180, negative,2.8889,2.8889,2.8889
+Ses01F_script01_1_59.png,177,180,negative,2.8889,2.8889,2.8889
 Ses01F_script01_1_60.png,180,183,negative,3,3.3333,3.6667
-Ses01F_script01_1_61.png,183,186, negative,2.5,3.5,3.16665
+Ses01F_script01_1_61.png,183,186,negative,2.5,3.5,3.16665
 Ses01F_script01_1_62.png,186,189,negative,2.5,3.5,3.16665
 Ses01F_script01_1_63.png,189,192,negative,2,4.3333,4
 Ses01F_script01_1_64.png,192,195,negative,2.16665,4.16665,4.16665
-Ses01F_script01_1_65.png,195,198, negative,2.333333333,4.1111,4
+Ses01F_script01_1_65.png,195,198,negative,2.333333333,4.1111,4
 Ses01F_script01_1_66.png,198,201,negative,2.5,4,4
 Ses01F_script01_1_68.png,204,207,negative,2.3333,4,4
 Ses01F_script01_1_69.png,207,210,negative,2.3333,4,4

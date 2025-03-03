@@ -125,4 +125,4 @@ def model_testing():
 
 model_testing()
 
-model.save("cnn_six_seconds.h5")  
+model.save("cnn_six_seconds.keras")  

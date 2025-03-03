@@ -118,4 +118,4 @@ def model_testing():
 
 model_testing()
 
-model.save("benchmark_six_seconds.h5")
+model.save("benchmark_six_seconds.keras")
