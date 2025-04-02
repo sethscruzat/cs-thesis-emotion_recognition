@@ -34,7 +34,7 @@ model.add(TimeDistributed(BatchNormalization()))
 
 model.add(TimeDistributed(GlobalAveragePooling2D()))  # Keeps time steps intact
 
-model.add(Bidirectional(LSTM(128, return_sequences=False)))
+model.add(Bidirectional(LSTM(256, return_sequences=False)))
 
 # Fully connected layers
 model.add(Dense(1024, activation='relu'))
@@ -118,10 +118,13 @@ def model_testing():
     plt.xlabel('Predicted Label')
     plt.ylabel('True Label')
     plt.title('Confusion Matrix')
-    plt.show()
+
+    plt.savefig("confusion_matrix.png")  # Save figure
+    plt.close()
 
     # 5. Print classification report
     print(classification_report(y_true, y_pred, target_names=label_encoder.classes_))
+    print(confusion_matrix(y_true, y_pred))
 
 model_testing()
 

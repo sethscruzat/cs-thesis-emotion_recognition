@@ -9,9 +9,9 @@ import assemblyai as aai
 from tensorflow.keras.models import load_model
 
 # Load Models
-cnn_model = load_model("./combined_model/cnn_six_seconds.keras")  # Load trained CNN model
-nb_model = joblib.load("./combined_model/best_model.pkl")# Load trained Naïve Bayes model
-vectorizer = joblib.load("./combined_model/tfidf_vectorizer.pkl")
+cnn_model = load_model("./combined_model/models/cnn_six_seconds.keras")  # Load trained CNN model
+nb_model = joblib.load("./combined_model/models/best_model.pkl")# Load trained Naïve Bayes model
+vectorizer = joblib.load("./combined_model/models/tfidf_vectorizer.pkl")
 
 # Define Weights (Based on Validation Accuracy)
 cnn_weight = 0.52 
@@ -34,20 +34,7 @@ def reduce_noise(y, sr):
 
 def predict_audio(audio_file, target_size=(128, 256)):
     y, sr = librosa.load(audio_file, sr=22050)
-    # audio = AudioSegment.from_file(audio_file)
 
-    # y = librosa.resample(sample, orig_sr=audio.frame_rate, target_sr=sr)
-    # y = reduce_noise(y, sr)
-
-    # # STFT parameters
-    # segment_duration = len(y) / sr  # Get actual segment duration in seconds
-    # n_fft = min(int(segment_duration * sr * 0.025), 2048)  # 25ms window, cap at 2048
-    # hop_length = max(1, int(n_fft / 2))  # Ensure meaningful stride
-    
-    # # Compute STFT and Mel spectrogram
-    # stft = librosa.stft(y, n_fft=n_fft, hop_length=hop_length, window='hann')
-
-    # mel_spec = librosa.feature.melspectrogram(S=np.abs(stft)**2, sr=sr, n_mels=n_mels)
     mel_spec = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128)
     mel_spec_db = librosa.power_to_db(mel_spec, ref=np.max)
 
