@@ -1,0 +1,37 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[4.4900 - 7.2200],Ses05F_script01_2_F000,xxx,"[2.5000, 2.5000, 2.5000]",['invite']
+[9.3700 - 13.3300],Ses05F_script01_2_F001,neu,"[2.5000, 2.5000, 3.0000]","['new', 'york', 'three', 'half', 'years', 'sudden']"
+[16.7800 - 19.8800],Ses05F_script01_2_F002,xxx,"[2.0000, 2.5000, 3.0000]","['nobody', 'comes', 'seven', 'hundred', 'miles', 'see']"
+[29.5700 - 32.1300],Ses05F_script01_2_F003,xxx,"[2.0000, 2.0000, 2.5000]","['going', 'marry']"
+[33.0100 - 35.0100],Ses05F_script01_2_F004,xxx,"[2.5000, 3.5000, 2.5000]",['got']
+[38.4700 - 40.6800],Ses05F_script01_2_F005,fru,"[2.0000, 3.0000, 4.0000]","['going', 'joe']"
+[47.9200 - 50.4500],Ses05F_script01_2_F006,ang,"[2.0000, 3.5000, 3.5000]","['girl', 'knows']"
+[52.1900 - 61.8200],Ses05F_script01_2_F007,fru,"[1.5000, 3.5000, 3.5000]","['still', 'single', 'new', 'york', 'full', 'men', 'married', 'probably', 'hundred', 'people', 'told', 'foolish', 'waited']"
+[63.4600 - 71.2600],Ses05F_script01_2_F008,fru,"[2.5000, 3.0000, 4.5000]","['knows', 'know', 'faithful', 'rock', 'worst', 'moments', 'think', 'waiting', 'know', 'right']"
+[78.7300 - 86.9200],Ses05F_script01_2_F009,fru,"[2.0000, 3.5000, 4.0000]","['nobody', 'house', 'dares', 'shake', 'faith', 'strangers', 'might', 'father', 'brother']"
+[87.9900 - 91.1800],Ses05F_script01_2_F010,ang,"[1.5000, 4.0000, 4.5000]","['want', 'pretend', 'like', 'coming', 'back']"
+[97.1700 - 100.4800],Ses05F_script01_2_F011,ang,"[1.5000, 3.5000, 4.0000]","['coming', 'back', 'kill']"
+[100.8700 - 109.0700],Ses05F_script01_2_F012,ang,"[1.5000, 4.5000, 5.0000]","['laugh', 'laugh', 'happens', 'night', 'goes', 'sleep', 'bed', 'memorial', 'breaks', 'pieces']"
+[111.4700 - 114.7300],Ses05F_script01_2_F013,xxx,"[1.5000, 3.5000, 3.5000]","['believe', 'joe', 'stand', 'alone']"
+[122.2700 - 127.9100],Ses05F_script01_2_F014,ang,"[2.0000, 3.5000, 4.0000]","['last', 'week', 'another', 'boy', 'turned', 'detroit', 'missing', 'longer', 'larry', 'read']"
+[131.9700 - 135.5000],Ses05F_script01_2_F015,xxx,"[2.0000, 2.5000, 3.5000]","['got', 'believe', 'joe']"
+[140.5500 - 142.8900],Ses05F_script01_2_F016,sad,"[2.5000, 3.5000, 3.5000]","['got', 'believe', 'got']"
+[145.6600 - 147.3200],Ses05F_script01_2_F017,ang,"[1.5000, 3.5000, 3.5000]",['help']
+[7.1900 - 9.3200],Ses05F_script01_2_M000,neu,"[3.0000, 2.5000, 2.5000]",['bother']
+[12.8300 - 17.9000],Ses05F_script01_2_M001,neu,"[3.0000, 3.5000, 3.0000]","['well', 'maybe', 'maybe', 'wanted', 'see']"
+[19.4700 - 29.2400],Ses05F_script01_2_M002,neu,"[2.5000, 3.0000, 3.5000]","['mean', 'lived', 'next', 'door', 'girl', 'life', 'would', 'want', 'see', 'look', 'like', 'tell', 'told']"
+[31.7600 - 34.4200],Ses05F_script01_2_M003,fru,"[3.0000, 3.5000, 3.0000]","['know', 'even', 'thinking']"
+[35.4500 - 38.3100],Ses05F_script01_2_M004,fru,"[2.5000, 3.5000, 3.0000]",['well']
+[40.4400 - 43.9600],Ses05F_script01_2_M005,fru,"[2.0000, 3.5000, 3.0000]","['listen', 'kate']"
+[50.2000 - 52.0600],Ses05F_script01_2_M006,xxx,"[2.5000, 3.0000, 3.5000]","['read', 'mind']"
+[61.2300 - 64.0100],Ses05F_script01_2_M007,fru,"[2.0000, 3.5000, 3.0000]","['know', 'waited']"
+[70.5400 - 75.4300],Ses05F_script01_2_M008,fru,"[2.0000, 4.0000, 3.0000]","['look', 'nice', 'day', 'arguing']"
+[86.1600 - 88.9000],Ses05F_script01_2_M009,fru,"[1.5000, 3.5000, 4.5000]","['want', 'want']"
+[94.5700 - 96.2900],Ses05F_script01_2_M010,fru,"[2.0000, 2.5000, 2.5000]",['kate']
+[100.1500 - 101.3800],Ses05F_script01_2_M011,fru,"[4.0000, 3.0000, 2.5000]",['laughter']
+[109.5800 - 111.5000],Ses05F_script01_2_M012,fru,"[2.5000, 3.0000, 3.0000]",['calm']
+[113.9000 - 115.6400],Ses05F_script01_2_M013,fru,"[2.5000, 3.5000, 3.0000]",['calm']
+[127.1600 - 131.4200],Ses05F_script01_2_M014,fru,"[2.5000, 3.5000, 4.0000]","['right', 'right', 'calm']"
+[135.2500 - 138.2600],Ses05F_script01_2_M015,xxx,"[2.0000, 3.0000, 3.5000]",[]
+[142.3800 - 146.3500],Ses05F_script01_2_M016,ang,"[1.5000, 4.0000, 4.5000]","['mean', 'look', 'shaking']"
+[146.9900 - 151.8500],Ses05F_script01_2_M017,ang,"[1.5000, 4.0000, 5.0000]","['got', 'hide', 'hell', 'matter', 'kate']"

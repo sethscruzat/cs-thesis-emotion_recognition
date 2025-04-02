@@ -50,33 +50,18 @@ def process_audio_segment(segment, sr=22050, n_mels=128, output_dir=output_folde
     # Generate spectrogram plot
     plt.figure(figsize=(10, 4))
 
-    mel_spectrogram_db = librosa.power_to_db(mel_spec, ref=np.max)
-    # mel_spec_normalized = cv2.normalize(mel_spec_db, None, 0, 255, cv2.NORM_MINMAX)
-    # mel_spec_image = mel_spec_normalized.astype(np.uint8)
-
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
     specific_output_folder = output_dir + file_prefix
     os.makedirs(specific_output_folder, exist_ok=True)
 
     segment_name = f"{file_prefix}_{j}.png"  # Unique naming
-    # cv2.imwrite(os.path.join(specific_output_folder, segment_name), mel_spectrogram_db)
     
-    librosa.display.specshow(mel_spectrogram_db, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
+    librosa.display.specshow(mel_spec_db, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
 
     plt.colorbar(format='%+2.0f dB')
     plt.title('Mel Spectrogram (db)')
 
-    # # Plot the Delta features
-    # plt.subplot(3, 1, 2)
-    # librosa.display.specshow(delta_mel_spec, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
-    # plt.title('Delta (First Derivative)')
-    # plt.colorbar()
-
-    # # Plot the Delta-Delta features
-    # plt.subplot(3, 1, 3)
-    # librosa.display.specshow(delta2_mel_spec, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
-    # plt.title('Delta-Delta (Second Derivative)')
     # plt.colorbar()
 
     plt.tight_layout()

@@ -1,0 +1,77 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[6.0700 - 10.2900],Ses05M_script01_1_F000,sad,"[2.5000, 2.5000, 3.0000]","['going', 'say', 'maybe', 'tell', 'sees']"
+[10.9500 - 16.9600],Ses05M_script01_1_F001,sad,"[2.0000, 2.5000, 3.0000]","['first', 'one', 'still', 'bed', 'could', 'seen']"
+[28.1500 - 31.4400],Ses05M_script01_1_F003,xxx,"[2.0000, 2.0000, 3.0000]","['four', 'morning']"
+[36.9600 - 39.1800],Ses05M_script01_1_F004,sad,"[2.0000, 2.5000, 2.5000]",['talk']
+[43.6300 - 45.3000],Ses05M_script01_1_F005,sad,"[2.0000, 2.0000, 2.5000]","['cried', 'hard']"
+[48.9500 - 58.8400],Ses05M_script01_1_F006,xxx,"[2.0000, 2.5000, 3.0000]","['hour', 'getting', 'like', 'larry', 'died', 'walking', 'around', 'night', 'dreams']"
+[60.8800 - 63.5600],Ses05M_script01_1_F007,xxx,"[2.5000, 2.0000, 2.5000]",['meaning']
+[73.0000 - 75.0400],Ses05M_script01_1_F009,xxx,"[2.0000, 2.5000, 2.5000]","['mean', 'dishonest']"
+[81.4400 - 85.3200],Ses05M_script01_1_F010,fru,"[2.0000, 3.5000, 3.5000]","['want', 'argue']"
+[102.3700 - 104.4100],Ses05M_script01_1_F011,xxx,"[2.5000, 3.5000, 3.5000]",['say']
+[106.3200 - 108.9500],Ses05M_script01_1_F012,fru,"[2.0000, 3.0000, 4.0000]","['gon', 'na', 'prove', 'prove']"
+[113.4600 - 123.7900],Ses05M_script01_1_F013,fru,"[2.0000, 3.0000, 4.0000]","['talk', 'blue', 'face', 'chris', 'body', 'grave']"
+[127.6500 - 134.3100],Ses05M_script01_1_F014,ang,"[2.0000, 3.0000, 4.0000]","['trouble', 'god', 'damn', 'newspapers', 'mean', 'every', 'every', 'week', 'kid', 'turns', 'missing', 'like', 'longer', 'larry']"
+[142.8900 - 145.9400],Ses05M_script01_1_F016,xxx,"[2.0000, 2.5000, 3.5000]","['well', 'idea', 'story']"
+[150.8000 - 153.1900],Ses05M_script01_1_F017,xxx,"[2.0000, 1.5000, 3.0000]","['well', 'business', 'chris']"
+[154.3400 - 158.1600],Ses05M_script01_1_F018,ang,"[2.0000, 3.5000, 3.5000]","['well', 'want', 'old', 'enough', 'make', 'know', 'mind']"
+[159.0100 - 161.6200],Ses05M_script01_1_F019,xxx,"[2.0000, 3.0000, 2.5000]","['well', 'want', 'make', 'sure', 'father']"
+[163.3700 - 165.1900],Ses05M_script01_1_F020,fru,"[1.5000, 3.5000, 3.5000]",['saying']
+[180.1600 - 183.4700],Ses05M_script01_1_F021,ang,"[2.0000, 3.0000, 3.0000]","['ignore', 'got', 'ignore', 'mean', 'girl', 'larry', 'girl']"
+[184.5000 - 199.5700],Ses05M_script01_1_F022,ang,"[1.5000, 3.5000, 4.0000]","['father', 'point', 'view', 'dead', 'still', 'girl', 'go', 'know', 'go', 'chris', 'know']"
+[209.7700 - 213.1700],Ses05M_script01_1_F023,neu,"[2.5000, 2.0000, 2.5000]","['well', 'considerate', 'fella', 'nothing', 'wrong']"
+[213.2400 - 215.8200],Ses05M_script01_1_F024,neu,"[2.5000, 3.0000, 3.5000]","['asked', 'annie', 'yet']"
+[219.0900 - 225.5000],Ses05M_script01_1_F025,neu,"[2.5000, 3.0000, 3.0000]","['well', 'feels', 'like', 'father', 'know', 'marry']"
+[240.4800 - 244.0200],Ses05M_script01_1_F026,neu,"[2.0000, 3.0000, 3.5000]","['well', 'trouble', 'never', 'saw', 'enough', 'women']"
+[246.0600 - 248.9800],Ses05M_script01_1_F027,fru,"[2.0000, 3.5000, 3.5000]","['well', 'see', 'annie']"
+[250.0900 - 255.5800],Ses05M_script01_1_F028,fru,"[2.5000, 3.0000, 3.5000]","['well', 'good', 'reason', 'mean', 'anything', 'mean', 'seen', 'five', 'years']"
+[263.7700 - 282.0200],Ses05M_script01_1_F029,fru,"[2.0000, 2.5000, 4.0000]","['want', 'look', 'father', 'thinks', 'coming', 'back', 'chris', 'marry', 'girl', 'pronouncing', 'dead', 'going', 'happen', 'father', 'know']"
+[287.4000 - 289.7200],Ses05M_script01_1_F030,xxx,"[2.5000, 2.0000, 3.0000]","['give', 'thought']"
+[306.2900 - 308.3000],Ses05M_script01_1_F031,sur,"[2.5000, 2.5000, 3.0000]",['hell']
+[311.6600 - 313.4200],Ses05M_script01_1_F032,ang,"[1.5000, 3.0000, 3.5000]",['crazy']
+[317.9200 - 323.0400],Ses05M_script01_1_F033,xxx,"[2.0000, 3.0000, 3.5000]","['mean', 'tell', 'something', 'mean', 'would', 'leave', 'business']"
+[325.0600 - 327.2300],Ses05M_script01_1_F034,xxx,"[2.0000, 3.0000, 3.5000]","['think', 'like']"
+[330.7700 - 336.8900],Ses05M_script01_1_F035,ang,"[1.5000, 3.0000, 4.0000]","['right', 'think', 'like', 'hell', 'work', 'chris', 'mean', 'whole', 'thing']"
+[339.5700 - 342.0300],Ses05M_script01_1_F036,ang,"[2.0000, 2.5000, 3.5000]","['think', 'way', 'hear']"
+[346.2700 - 348.7900],Ses05M_script01_1_F037,fru,"[2.0000, 2.5000, 2.5000]",['understand']
+[353.5200 - 356.0700],Ses05M_script01_1_F038,fru,"[2.0000, 3.0000, 3.5000]","['yeah', 'see']"
+[9.6400 - 11.4400],Ses05M_script01_1_M000,xxx,"[2.5000, 2.5000, 3.0000]",['saw']
+[16.5700 - 18.6700],Ses05M_script01_1_M001,xxx,"[2.5000, 2.5000, 3.0000]",['broke']
+[19.5300 - 28.2000],Ses05M_script01_1_M002,xxx,"[2.0000, 3.0000, 3.5000]","['know', 'like', 'four', ""o'clock"", 'morning', 'heard', 'crack', 'woke', 'looked', 'window', 'standing', 'right', 'broke']"
+[30.9600 - 37.3000],Ses05M_script01_1_M003,xxx,"[2.0000, 2.5000, 3.5000]","['know', 'broke', 'ran', 'back', 'inside', 'started', 'crying', 'kitchen']"
+[39.0200 - 43.0800],Ses05M_script01_1_M004,sad,"[2.0000, 3.0000, 3.0000]","['figured', 'best', 'leave', 'alone']"
+[44.9800 - 47.9600],Ses05M_script01_1_M005,xxx,"[2.0000, 3.0000, 3.0000]","['could', 'hear', 'right', 'floor', 'room']"
+[58.4400 - 60.4100],Ses05M_script01_1_M006,xxx,"[2.0000, 2.0000, 2.5000]",['guess']
+[63.6700 - 69.0800],Ses05M_script01_1_M007,xxx,"[2.0000, 2.5000, 3.5000]","['know', 'meaning', 'know', 'one', 'thing', 'mom', 'made', 'terrible', 'mistake', 'dad']"
+[69.4500 - 73.9100],Ses05M_script01_1_M008,xxx,"[2.0000, 3.5000, 3.5000]","['dishonest', 'kind', 'thing', 'pays', 'paying']"
+[74.4200 - 81.9000],Ses05M_script01_1_M009,fru,"[2.0000, 4.0000, 4.0000]","['know', 'larry', 'coming', 'back', 'know', 'go', 'letting', 'think', 'believe']"
+[84.6800 - 92.0700],Ses05M_script01_1_M010,fru,"[2.0000, 4.0000, 4.5000]","['want', 'argue', 'time', 'knows', 'nobody', 'else', 'thinks', 'larry', 'alive', 'anymore']"
+[92.0800 - 103.1400],Ses05M_script01_1_M011,ang,"[2.0000, 4.0000, 4.0000]","['dream', 'walking', 'around', 'looking', 'night', 'contradict', 'say', 'straight', 'hope', 'anymore', 'hope', 'years']"
+[103.5200 - 106.0500],Ses05M_script01_1_M012,fru,"[2.0000, 3.5000, 3.5000]",['say']
+[108.5600 - 114.2800],Ses05M_script01_1_M013,ang,"[1.0000, 4.0000, 4.5000]","['gods', 'sake', 'three', 'years', 'nobody', 'comes', 'back', 'three', 'years', 'insane']"
+[124.9500 - 128.5500],Ses05M_script01_1_M014,xxx,"[2.5000, 3.0000, 3.0000]","['sit', 'mom', 'want', 'talk']"
+[132.7200 - 140.2200],Ses05M_script01_1_M015,fru,"[2.0000, 4.0000, 4.0000]","['right', 'right', 'mom', 'listen', 'know', 'invited', 'annie']"
+[141.7100 - 143.1500],Ses05M_script01_1_M016,neu,"[2.5000, 3.0000, 3.0000]",['know']
+[146.8900 - 149.7500],Ses05M_script01_1_M017,neu,"[3.0000, 2.5000, 4.0000]","['going', 'ask', 'marry']"
+[152.6700 - 154.7700],Ses05M_script01_1_M018,fru,"[2.0000, 3.5000, 4.0000]",['business']
+[157.4900 - 159.7500],Ses05M_script01_1_M019,fru,"[2.0000, 4.0000, 4.0000]","['okay', 'go', 'ahead']"
+[161.1300 - 163.9200],Ses05M_script01_1_M020,ang,"[1.5000, 4.0000, 4.5000]","['oh', 'business']"
+[164.3800 - 170.8100],Ses05M_script01_1_M021,ang,"[1.5000, 4.0000, 4.0000]","['infuriate', 'sometimes', 'know', 'god']"
+[172.5200 - 181.0800],Ses05M_script01_1_M022,ang,"[2.0000, 4.0000, 4.5000]","['business', 'dad', 'tell', 'dad', 'throws', 'fit', 'mean', 'talent', 'ignoring', 'things']"
+[182.7800 - 185.0100],Ses05M_script01_1_M023,ang,"[1.5000, 4.5000, 4.5000]","['larry', 'girl']"
+[200.3900 - 210.4000],Ses05M_script01_1_M024,fru,"[1.5000, 4.0000, 4.5000]","['know', 'everytime', 'reach', 'something', 'want', 'pull', 'back', 'might', 'hurt', 'somebody', 'else', 'whole', 'bloody', 'life', 'time', 'time', 'time']"
+[211.4400 - 213.4600],Ses05M_script01_1_M025,ang,"[1.0000, 4.5000, 5.0000]",['hell']
+[215.8500 - 219.2300],Ses05M_script01_1_M026,xxx,"[2.0000, 3.0000, 3.5000]","['wanted', 'get', 'taken', 'care', 'first']"
+[225.4700 - 240.2700],Ses05M_script01_1_M027,xxx,"[2.0000, 3.5000, 4.5000]","['well', 'case', 'end', 'letters', 'sounds', 'like', 'forgotten', 'find', 'thrash', 'dad', 'right', 'mom', 'avoid']"
+[243.6100 - 246.6300],Ses05M_script01_1_M028,ang,"[2.0000, 3.5000, 4.0000]","['fast', 'women']"
+[255.4806 - 264.7700],Ses05M_script01_1_M030,fru,"[1.5000, 4.0000, 4.5000]","['know', 'best', 'right', 'know', 'grew', 'next', 'think', 'somebody', 'wife', 'days', 'think', 'annie', 'want', 'diagram']"
+[284.7400 - 287.2700],Ses05M_script01_1_M031,xxx,"[2.0000, 2.0000, 3.0000]","['right', 'mom']"
+[289.7000 - 301.7700],Ses05M_script01_1_M032,ang,"[2.0000, 4.0000, 4.5000]","['given', 'three', 'years', 'thought', 'hoped', 'waited', 'dad', 'would', 'forgotten', 'could', 'like', 'normal', 'wedding', 'everybody', 'happy']"
+[302.0800 - 306.7100],Ses05M_script01_1_M033,ang,"[2.0000, 3.0000, 4.0000]","['happen', 'get']"
+[307.8300 - 312.0400],Ses05M_script01_1_M034,ang,"[2.0000, 4.0000, 3.5000]","['get', 'go', 'get', 'married', 'live', 'someplace', 'else', 'know', 'maybe', 'new', 'york']"
+[313.0100 - 318.0700],Ses05M_script01_1_M035,ang,"[1.5000, 4.0000, 4.5000]","['good', 'son', 'long', 'good', 'sucker']"
+[322.7500 - 325.0300],Ses05M_script01_1_M036,ang,"[2.5000, 3.5000, 4.0000]","['yes', 'would']"
+[327.1500 - 331.0700],Ses05M_script01_1_M037,ang,"[2.0000, 3.0000, 3.5000]","['well', 'help', 'stay']"
+[335.8800 - 340.0500],Ses05M_script01_1_M038,fru,"[2.0000, 4.5000, 4.5000]","['know', 'mom', 'help', 'stay']"
+[341.4800 - 344.0500],Ses05M_script01_1_M039,xxx,"[1.5000, 4.5000, 4.5000]","['thinking', 'way']"
+[348.4300 - 353.6000],Ses05M_script01_1_M040,fru,"[1.5000, 4.0000, 4.5000]","['pretty', 'tough', 'guy']"

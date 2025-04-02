@@ -1,0 +1,53 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[8.0341 - 13.5000],Ses05F_script01_1_F000,neg,"[2.5000, 2.5000, 2.5000]","[ ' go ' , ' say ' , ' maybe ' , ' tell ' , ' see ' ]"
+[38.1100 - 39.8800],Ses05F_script01_1_F004,neg,"[2.5000, 2.5000, 3.0000]",[ ' talk ' ]
+[44.6200 - 46.4500],Ses05F_script01_1_F005,neg,"[3.0000, 2.5000, 2.5000]","[ ' cry ' , ' hard ' ]"
+[50.9500 - 53.3100],Ses05F_script01_1_F006,neg,"[2.5000, 2.0000, 2.5000]",[ ' think ' ]
+[53.6400 - 58.7700],Ses05F_script01_1_F007,neg,"[2.5000, 2.5000, 3.0000]","[ ' get ' , ' like ' , ' larry ' , ' die ' , ' dream ' , ' walk ' , ' around ' , ' night ' ]"
+[61.9800 - 64.2300],Ses05F_script01_1_F008,neg,"[2.5000, 2.0000, 2.5000]",[ ' mean ' ]
+[128.5500 - 138.3700],Ses05F_script01_1_F014,neg,"[2.0000, 4.0000, 4.0000]","[ ' father ' , ' look ' , ' talk ' , ' blue ' , ' face ' , ' body ' , ' grave ' ]"
+[159.1900 - 162.2800],Ses05F_script01_1_F017,neu,"[3.0000, 2.5000, 3.0000]","[ ' well ' , ' get ' , ' idea ' , ' story ' ]"
+[194.8000 - 198.4600],Ses05F_script01_1_F021,neg,"[2.5000, 4.0000, 3.5000]","[ ' ignore ' , ' get ' , ' ignore ' , ' girl ' , ' larry ' , ' girl ' ]"
+[207.4700 - 217.9800],Ses05F_script01_1_F023,neg,"[2.5000, 3.5000, 4.0000]","[ ' chris ' , ' go ' , ' know ' , ' mean ' , ' know ' ]"
+[227.4700 - 230.8100],Ses05F_script01_1_F024,neu,"[2.5000, 2.5000, 3.5000]","[ ' well ' , ' considerate ' , ' fellow ' , ' nothing ' , ' wrong ' ]"
+[232.1700 - 235.1600],Ses05F_script01_1_F025,neu,"[2.5000, 4.0000, 3.0000]","[ ' ask ' , ' annie ' , ' yet ' , ' marry ' ]"
+[237.5200 - 243.8800],Ses05F_script01_1_F026,neu,"[2.5000, 3.0000, 3.0000]","[ ' well ' , ' know ' , ' go ' , ' along ' , ' mean ' , ' maybe ' , ' feel ' , ' way ' , ' father ' ]"
+[260.3300 - 263.3300],Ses05F_script01_1_F027,neu,"[2.0000, 3.5000, 4.0000]","[ ' trouble ' , ' see ' , ' enough ' , ' woman ' , ' never ' ]"
+[265.2100 - 268.0400],Ses05F_script01_1_F028,neu,"[2.5000, 2.5000, 3.0000]","[ ' well ' , ' see ' , ' annie ' ]"
+[284.9400 - 294.2000],Ses05F_script01_1_F030,neg,"[2.0000, 2.5000, 4.0000]","[ ' want ' , ' diagram ' , ' chris ' , ' father ' , ' think ' , ' larry ' , ' come ' , ' back ' ]"
+[294.6600 - 304.5800],Ses05F_script01_1_F031,neg,"[1.5000, 2.5000, 4.0000]","[ ' marry ' , ' girl ' , ' pronounce ' , ' dead ' , ' going ' , ' happen ' , ' father ' , ' know ' ]"
+[323.1800 - 324.6400],Ses05F_script01_1_F033,neg,"[2.0000, 3.0000, 2.5000]",[ ' hell ' ]
+[328.2100 - 330.0200],Ses05F_script01_1_F034,neg,"[2.0000, 3.0000, 3.5000]",[ ' crazy ' ]
+[333.8000 - 339.3800],Ses05F_script01_1_F035,neg,"[2.0000, 3.0000, 4.0000]","[ ' wait ' , ' minute ' , ' tell ' , ' mean ' , ' say ' , ' would ' , ' leave ' , ' business ' ]"
+[364.5700 - 368.9800],Ses05F_script01_1_F037,neg,"[2.5000, 4.5000, 3.5000]","[ ' think ' , ' like ' , ' think ' , ' like ' ]"
+[372.5800 - 381.3700],Ses05F_script01_1_F038,neg,"[1.5000, 4.0000, 4.5000]","[ ' right ' , ' think ' , ' like ' , ' mean ' , ' hell ' , ' chris ' , ' whole ' , ' business ' , ' whole ' , ' shoot ' , ' match ' ]"
+[390.4200 - 393.2500],Ses05F_script01_1_F040,neg,"[2.0000, 2.0000, 3.0000]",[ ' understand ' ]
+[13.0842 - 15.2700],Ses05F_script01_1_M000,neg,"[2.5000, 2.5000, 3.0000]",[ ' see ' ]
+[18.6100 - 21.0200],Ses05F_script01_1_M001,neg,"[2.0000, 2.5000, 2.5000]",[ ' break ' ]
+[22.0700 - 29.1500],Ses05F_script01_1_M002,neg,"[2.0000, 3.0000, 3.0000]","[ ' around ' , ' four ' , ' morning ' , ' crack ' , ' look ' , ' stand ' , ' right ' , ' crack ' ]"
+[31.9700 - 38.2200],Ses05F_script01_1_M003,neg,"[2.5000, 3.0000, 3.5000]","[ ' know ' , ' crack ' , ' run ' , ' back ' , ' house ' , ' start ' , ' cry ' , ' kitchen ' ]"
+[39.8400 - 44.0600],Ses05F_script01_1_M004,neg,"[2.5000, 3.0000, 3.0000]","[ ' figure ' , ' good ' , ' leave ' , ' alone ' ]"
+[46.1100 - 49.3300],Ses05F_script01_1_M005,neg,"[2.0000, 3.0000, 3.0000]","[ ' could ' , ' hear ' , ' right ' , ' floor ' , ' room ' ]"
+[58.6000 - 60.6600],Ses05F_script01_1_M006,neg,"[2.0000, 3.0000, 2.5000]",[ ' guess ' ]
+[63.8000 - 70.2300],Ses05F_script01_1_M007,neg,"[2.0000, 3.5000, 3.5000]","[ ' know ' , ' mean ' , ' know ' , ' one ' , ' thing ' , ' mom ' , ' make ' , ' terrible ' , ' mistake ' , ' dad ' ]"
+[71.0800 - 75.9100],Ses05F_script01_1_M008,neg,"[1.5000, 3.0000, 4.0000]","[ ' dishonest ' , ' kind ' , ' thing ' , ' pay ' , ' pay ' ]"
+[77.5600 - 85.4600],Ses05F_script01_1_M009,neg,"[2.0000, 3.0000, 4.0000]","[ ' know ' , ' larry ' , ' come ' , ' back ' , ' know ' , ' go ' , ' let ' , ' think ' , ' believe ' ]"
+[87.2500 - 93.7000],Ses05F_script01_1_M010,neg,"[2.0000, 3.5000, 4.0000]","[ ' um ' , ' want ' , ' argue ' , ' time ' , ' realize ' , ' nobody ' , ' else ' , ' believe ' , ' larry ' , ' alive ' ]"
+[94.0900 - 105.2700],Ses05F_script01_1_M011,neg,"[1.5000, 3.5000, 4.5000]","[ ' dream ' , ' walk ' , ' around ' , ' night ' , ' look ' , ' um ' , ' contradict ' , ' say ' , ' outright ' , ' hope ' , ' anymore ' , ' year ' ]"
+[106.7400 - 108.9400],Ses05F_script01_1_M012,neg,"[2.0000, 3.5000, 4.0000]",[ ' say ' ]
+[122.8100 - 129.6100],Ses05F_script01_1_M013,neg,"[1.5000, 4.0000, 4.5000]","[ ' god ' , ' sake ' , ' mom ' , ' three ' , ' year ' , ' nobody ' , ' come ' , ' back ' , ' three ' , ' year ' , ' insane ' ]"
+[138.4900 - 142.2100],Ses05F_script01_1_M014,neg,"[2.5000, 3.5000, 3.5000]","[ ' sit ' , ' mom ' , ' want ' , ' talk ' ]"
+[148.2000 - 151.9200],Ses05F_script01_1_M015,neg,"[2.5000, 4.0000, 3.5000]","[ ' right ' , ' right ' , ' mom ' , ' listen ' ]"
+[153.2090 - 156.5500],Ses05F_script01_1_M016,neg,"[3.0000, 3.0000, 3.5000]","[ ' know ' , ' ask ' , ' annie ' ]"
+[157.7200 - 159.5100],Ses05F_script01_1_M017,neg,"[2.5000, 3.5000, 3.5000]",[ ' know ' ]
+[162.0800 - 164.5700],Ses05F_script01_1_M018,neu,"[3.0000, 3.0000, 3.5000]","[ ' go ' , ' ask ' , ' marry ' ]"
+[168.7200 - 171.3000],Ses05F_script01_1_M019,neg,"[2.0000, 4.0000, 4.0000]","[ ' know ' , ' business ' ]"
+[174.2700 - 176.6900],Ses05F_script01_1_M020,neg,"[2.0000, 4.0000, 4.0000]","[ ' right ' , ' go ' , ' ahead ' ]"
+[218.6600 - 228.4200],Ses05F_script01_1_M024,neg,"[1.5000, 4.0000, 4.5000]","[ ' know ' , ' every ' , ' time ' , ' reach ' , ' something ' , ' want ' , ' pull ' , ' back ' , ' people ' , ' suffer ' , ' whole ' , ' bloody ' , ' life ' , ' time ' , ' time ' , ' time ' ]"
+[229.6600 - 231.7700],Ses05F_script01_1_M025,neg,"[1.5000, 4.5000, 4.5000]",[ ' hell ' ]
+[262.7400 - 265.7900],Ses05F_script01_1_M028,neg,"[1.5000, 4.0000, 4.5000]","[ ' fast ' , ' woman ' ]"
+[274.5500 - 285.9500],Ses05F_script01_1_M030,neg,"[2.0000, 4.0000, 4.0000]","[ ' help ' , ' know ' , ' good ' , ' bring ' , ' next ' , ' door ' , ' easy ' , ' think ' , ' somebody ' , ' wife ' , ' think ' , ' annie ' , ' want ' , ' diagram ' ]"
+[304.2500 - 306.5200],Ses05F_script01_1_M031,neg,"[3.0000, 3.0000, 3.5000]","[ ' right ' , ' mom ' ]"
+[309.4400 - 322.8500],Ses05F_script01_1_M032,neg,"[2.0000, 4.0000, 4.5000]","[ ' give ' , ' three ' , ' year ' , ' think ' , ' hope ' , ' would ' , ' forget ' , ' larry ' , ' regular ' , ' wedding ' , ' everybody ' , ' happy ' , ' happen ' , ' set ' , ' get ' ]"
+[324.2500 - 328.7500],Ses05F_script01_1_M033,neg,"[2.5000, 4.0000, 4.0000]","[ ' get ' , ' get ' , ' marry ' , ' live ' , ' place ' , ' else ' , ' maybe ' , ' maybe ' , ' new ' , ' york ' ]"
+[338.6600 - 342.5600],Ses05F_script01_1_M035,neg,"[1.5000, 4.0000, 4.0000]","[ ' business ' , ' business ' , ' inspire ' ]"

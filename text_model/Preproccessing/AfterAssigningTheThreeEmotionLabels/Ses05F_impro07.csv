@@ -1,0 +1,66 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[2.7258 - 4.6600],Ses05F_impro07_F000,pos,"[4.5000, 3.5000, 3.5000]",[ ' guess ' ]
+[5.0200 - 7.8100],Ses05F_impro07_F001,pos,"[4.5000, 3.0000, 4.0000]","[ ' get ' , ' college ' ]"
+[9.2300 - 10.2500],Ses05F_impro07_F002,pos,"[4.0000, 3.0000, 3.0000]",[ ' u.s.c ' ]
+[11.0800 - 12.5700],Ses05F_impro07_F003,pos,"[4.5000, 3.0000, 3.0000]",[ ' yeah ' ]
+[14.9700 - 16.7000],Ses05F_impro07_F005,pos,"[4.5000, 3.0000, 4.0000]","[ ' stay ' , ' town ' ]"
+[19.3700 - 21.6800],Ses05F_impro07_F006,pos,"[4.0000, 3.0000, 3.5000]","[ ' uh ' , ' know ' ]"
+[24.0100 - 27.7700],Ses05F_impro07_F007,neu,"[4.5000, 2.5000, 3.0000]","[ ' well ' , ' want ' , ' want ' , ' live ' , ' mom ' ]"
+[30.8000 - 35.7900],Ses05F_impro07_F008,pos,"[4.5000, 4.0000, 4.5000]","[ ' whoa ' , ' idea ' , ' would ' , ' want ' , ' live ' ]"
+[49.7600 - 52.8800],Ses05F_impro07_F011,pos,"[4.5000, 3.5000, 4.0000]","[ ' whoa ' , ' go ' , ' much ' , ' fun ' ]"
+[54.1600 - 58.2600],Ses05F_impro07_F012,pos,"[4.5000, 4.0000, 4.0000]","[ ' thank ' , ' know ' , ' really ' , ' really ' , ' really ' , ' excited ' ]"
+[60.2400 - 64.5700],Ses05F_impro07_F013,pos,"[4.0000, 3.0000, 3.5000]","[ ' know ' , ' really ' , ' really ' , ' great ' , ' program ' , ' want ' ]"
+[70.8000 - 73.3400],Ses05F_impro07_F014,pos,"[4.5000, 3.5000, 4.0000]","[ ' real ' , ' live ' , ' together ' ]"
+[75.2700 - 76.6600],Ses05F_impro07_F015,pos,"[4.5000, 3.0000, 3.5000]",[ ' awesome ' ]
+[77.1200 - 79.8400],Ses05F_impro07_F016,pos,"[4.0000, 3.5000, 3.5000]","[ ' get ' , ' place ' , ' near ' , ' campus ' ]"
+[85.8800 - 87.1200],Ses05F_impro07_F017,pos,"[3.5000, 2.5000, 2.5000]",[ ' okay ' ]
+[95.5700 - 98.8000],Ses05F_impro07_F021,pos,"[4.5000, 3.0000, 3.5000]","[ ' go ' , ' ridiculous ' , ' go ' , ' cool ' ]"
+[104.2400 - 108.4200],Ses05F_impro07_F023,pos,"[4.5000, 4.0000, 4.0000]","[ ' laughter ' , ' oh ' , ' going ' , ' work ' , ' mean ' ]"
+[117.3000 - 119.3600],Ses05F_impro07_F024,pos,"[4.0000, 3.0000, 3.5000]",[ ' hear ' ]
+[119.4400 - 121.7200],Ses05F_impro07_F025,pos,"[4.0000, 2.5000, 3.5000]","[ ' know ' , ' feel ' ]"
+[123.6900 - 124.9300],Ses05F_impro07_F026,pos,"[4.0000, 3.5000, 3.5000]","[ ' oh ' , ' yeah ' ]"
+[125.0500 - 126.5400],Ses05F_impro07_F027,pos,"[4.0000, 3.5000, 3.5000]","[ ' oh ' , ' yeah ' ]"
+[129.9000 - 133.9600],Ses05F_impro07_F028,pos,"[5.0000, 4.0000, 4.0000]","[ ' laughter ' , ' oh ' , ' awesome ' , ' sure ' ]"
+[135.7300 - 139.1500],Ses05F_impro07_F029,pos,"[4.0000, 3.5000, 3.5000]","[ ' well ' , ' pick ' , ' move ' , ' boston ' ]"
+[144.4700 - 146.7100],Ses05F_impro07_F030,pos,"[5.0000, 4.5000, 4.0000]",[ ' laughter ' ]
+[147.1600 - 149.3500],Ses05F_impro07_F031,pos,"[4.0000, 3.5000, 3.5000]",[ ' kid ' ]
+[149.5000 - 152.3600],Ses05F_impro07_F032,pos,"[4.0000, 3.0000, 3.5000]","[ ' live ' , ' near ' , ' campus ' , ' go ' , ' school ' ]"
+[158.1200 - 160.0200],Ses05F_impro07_F033,pos,"[5.0000, 4.0000, 4.0000]",[ ' laughter ' ]
+[162.8100 - 164.0400],Ses05F_impro07_F034,pos,"[4.0000, 2.5000, 3.0000]",[ ' yeah ' ]
+[169.4400 - 172.3700],Ses05F_impro07_F035,pos,"[3.5000, 3.0000, 3.5000]","[ ' go ' , ' apartment ' , ' shop - er - hunt ' ]"
+[172.6600 - 174.0200],Ses05F_impro07_F036,pos,"[3.5000, 2.5000, 3.0000]","[ ' let ' , ' go ' , ' tomorrow ' ]"
+[174.6500 - 175.7300],Ses05F_impro07_F037,pos,"[4.0000, 2.5000, 2.5000]",[ ' yeah ' ]
+[177.2100 - 179.1400],Ses05F_impro07_F038,pos,"[4.5000, 3.5000, 4.0000]",[ ' woo ' ]
+[179.6000 - 180.7600],Ses05F_impro07_F039,pos,"[4.5000, 3.5000, 3.5000]",[ ' exciting ' ]
+[7.1500 - 10.0800],Ses05F_impro07_M001,pos,"[4.0000, 3.5000, 3.5000]","[ ' shut ' , ' get ' , ' get ' , ' accept ' , ' please ' ]"
+[10.1100 - 12.3400],Ses05F_impro07_M002,pos,"[4.5000, 4.5000, 4.0000]","[ ' oh ' , ' sweet ' ]"
+[12.3600 - 14.2600],Ses05F_impro07_M003,pos,"[4.5000, 3.5000, 4.0000]","[ ' go ' , ' leave ' ]"
+[14.4500 - 17.7449],Ses05F_impro07_M004,pos,"[4.5000, 3.5000, 4.0000]","[ ' oh ' , ' good ' , ' good ' , ' good ' , ' good ' , ' good ' , ' good ' ]"
+[17.7762 - 19.9400],Ses05F_impro07_M005,pos,"[3.5000, 3.0000, 3.5000]","[ ' go ' , ' live ' , ' campus ' , ' go ' , ' live ' ]"
+[21.0600 - 25.8200],Ses05F_impro07_M006,pos,"[4.0000, 3.5000, 3.5000]","[ ' uh ' , ' stay ' , ' like ' , ' travel ' , ' school ' , ' close ' ]"
+[27.2000 - 31.3700],Ses05F_impro07_M007,pos,"[3.5000, 3.5000, 4.5000]","[ ' okay ' , ' right ' , ' right ' , ' right ' , ' right ' , ' maybe ' , ' get ' , ' place ' , ' together ' ]"
+[31.6200 - 34.0900],Ses05F_impro07_M008,pos,"[4.5000, 4.0000, 4.0000]",[ ' awesome ' ]
+[34.9000 - 42.6100],Ses05F_impro07_M009,pos,"[3.5000, 3.0000, 3.0000]","[ ' know ' , ' well ' , ' would ' , ' mind ' , ' live ' , ' u.s.c ' , ' campus ' , ' know ' , ' go ' , ' go ' , ' school ' , ' right ' ]"
+[44.9400 - 50.1700],Ses05F_impro07_M011,pos,"[4.0000, 3.0000, 3.5000]","[ ' love ' , ' go ' , ' we ' , ' u.s.c ' , ' party ' , ' crazy ' , ' stuff ' ]"
+[50.6600 - 53.3286],Ses05F_impro07_M012,pos,"[4.5000, 3.0000, 4.0000]","[ ' go ' , ' much ' , ' fun ' , ' yes ' ]"
+[53.3599 - 55.9900],Ses05F_impro07_M013,pos,"[4.5000, 4.0000, 4.0000]","[ ' uh ' , ' happy ' , ' go ' , ' go ' , ' away ' ]"
+[56.7900 - 60.9500],Ses05F_impro07_M014,pos,"[4.5000, 3.0000, 4.0000]","[ ' oh ' , ' bet ' , ' go ' , ' love ' , ' always ' , ' want ' , ' go ' , ' u.s.c ' ]"
+[63.7300 - 71.2400],Ses05F_impro07_M015,pos,"[4.5000, 3.5000, 4.5000]","[ ' go ' , ' much ' , ' fun ' , ' lo ' , ' ton ' , ' people ' , ' go ' , ' meet ' , ' many ' , ' people ' , ' go ' , ' meet ' , ' many ' , ' people ' , ' go ' , ' together ' ]"
+[72.3700 - 77.5000],Ses05F_impro07_M016,pos,"[4.5000, 4.5000, 4.5000]","[ ' sure ' , ' know ' , ' anything ' , ' plan ' , ' could ' , ' live ' , ' anywhere ' , ' want ' ]"
+[79.0300 - 81.5400],Ses05F_impro07_M017,pos,"[4.0000, 3.5000, 4.0000]","[ ' great ' , ' great ' ]"
+[81.5700 - 88.1600],Ses05F_impro07_M018,pos,"[3.5000, 3.0000, 4.0000]","[ ' try ' , ' find ' , ' like ' , ' party ' , ' spot ' , ' though ' , ' like ' , ' know ' , ' go ' , ' lot ' , ' party ' , ' cool ' , ' people ' , ' though ' , ' know ' , ' people ' , ' might ' ]"
+[89.2200 - 90.1600],Ses05F_impro07_M019,pos,"[2.5000, 2.5000, 3.0000]","[ ' yeah ' , ' either ' ]"
+[90.1700 - 96.2000],Ses05F_impro07_M020,pos,"[3.0000, 3.5000, 3.5000]","[ ' garbage ' , ' know ' , ' know ' , ' know ' , ' figure ' , ' right ' , ' garbage ' , ' go ' , ' much ' , ' fun ' ]"
+[97.7800 - 101.5000],Ses05F_impro07_M021,pos,"[3.0000, 3.0000, 4.0000]","[ ' make ' , ' fun ' , ' go ' , ' school ' , ' though ' , ' go ' , ' work ' , ' though ' ]"
+[118.9700 - 122.6400],Ses05F_impro07_M024,pos,"[4.5000, 3.5000, 4.5000]",[ ' woo ' ]
+[122.6500 - 128.7700],Ses05F_impro07_M025,pos,"[4.0000, 4.0000, 4.0000]","[ ' know ' , ' exactly ' , ' feel ' , ' think ' , ' feel ' , ' really ' , ' excited ' , ' know ' , ' tell ' , ' know ' ]"
+[128.8000 - 131.5300],Ses05F_impro07_M026,pos,"[4.0000, 3.5000, 3.5000]","[ ' wild ' , ' crazy ' , ' woman ' ]"
+[132.6900 - 136.2300],Ses05F_impro07_M027,pos,"[4.0000, 3.5000, 4.0000]","[ ' uh ' , ' huh ' , ' awesome ' ]"
+[143.9800 - 149.6700],Ses05F_impro07_M029,pos,"[4.0000, 3.5000, 4.0000]","[ ' live ' , ' near ' , ' u.s.c ' , ' campus ' , ' go ' , ' school ' , ' really ' , ' pathetic ' , ' sad ' ]"
+[151.0200 - 161.4800],Ses05F_impro07_M030,pos,"[4.0000, 3.5000, 4.5000]","[ ' exactly ' , ' mooch ' , ' like ' , ' college ' , ' experience ' , ' would ' , ' save ' , ' disaster ' , ' thank ' , ' thank ' , ' much ' ]"
+[161.5700 - 163.0800],Ses05F_impro07_M031,pos,"[4.0000, 3.5000, 3.5000]","[ ' oh ' , ' go ' , ' much ' , ' fun ' ]"
+[164.3500 - 170.8000],Ses05F_impro07_M032,pos,"[4.5000, 4.0000, 4.0000]","[ ' well ' , ' congratulation ' , ' get ' , ' to - have ' ]"
+[171.6300 - 173.1400],Ses05F_impro07_M033,pos,"[4.0000, 3.5000, 3.5000]","[ ' good ' , ' idea ' ]"
+[173.6500 - 175.5400],Ses05F_impro07_M034,pos,"[4.0000, 3.0000, 3.0000]","[ ' tomorrow ' , ' tomorrow ' , ' tomorrow ' ]"
+[175.5500 - 178.9500],Ses05F_impro07_M035,pos,"[3.5000, 3.0000, 3.5000]","[ ' good ' , ' one ' , ' soon ' , ' go ' , ' go ' , ' school ' , ' couple ' , ' month ' ]"
+[179.0466 - 185.3300],Ses05F_impro07_M036,pos,"[4.0000, 3.5000, 3.5000]","[ ' oh ' , ' god ' , ' awesome ' , ' go ' , ' ton ' , ' place ' , ' garbage ' ]"

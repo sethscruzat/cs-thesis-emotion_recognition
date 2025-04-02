@@ -1,0 +1,82 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[9.5800 - 11.9629],Ses05F_script02_2_F000,xxx,"[3.0000, 2.0000, 2.5000]",[]
+[13.4666 - 15.6200],Ses05F_script02_2_F001,xxx,"[2.5000, 3.5000, 3.5000]",['ridiculous']
+[19.8700 - 25.7100],Ses05F_script02_2_F002,xxx,"[3.0000, 3.5000, 3.5000]","['pr', 'somebody', 'sold', 'bill', 'goods', 'wonderful', 'event', 'going', 'occur', 'beach']"
+[26.9700 - 38.3700],Ses05F_script02_2_F003,xxx,"[2.5000, 3.5000, 4.0000]","['yeah', 'told', 'thing', 'told', 'know', 'gets', 'excited', 'wait', 'get', 'right', 'spot', 'maybe', 'life', 'start']"
+[40.3329 - 43.8750],Ses05F_script02_2_F004,fru,"[2.0000, 3.5000, 3.5000]","['sorry', 'fish']"
+[48.5866 - 54.2339],Ses05F_script02_2_F005,ang,"[1.5000, 4.5000, 3.5000]","['god', 'damn', 'augie', 'always', 'ask', 'things', 'like', 'insulting']"
+[56.4727 - 60.4492],Ses05F_script02_2_F006,fru,"[2.5000, 3.5000, 3.0000]","['different', 'idea', 'evening', 'going', 'look', 'like']"
+[75.3192 - 79.2200],Ses05F_script02_2_F007,fru,"[2.5000, 3.5000, 3.0000]","['heaven', 'sake', 'augie', 'grow', 'going', 'see', 'grunions']"
+[80.2800 - 83.9000],Ses05F_script02_2_F008,fru,"[2.5000, 3.0000, 3.0000]","['never', 'ever', 'never']"
+[85.1800 - 88.2900],Ses05F_script02_2_F009,fru,"[2.5000, 3.0000, 3.5000]","['twice', 'every', 'time', 'tried', 'ever']"
+[89.4541 - 107.1645],Ses05F_script02_2_F010,fru,"[1.5000, 4.5000, 4.5000]","['augie', 'like', 'waiting', 'santa', 'claus', 'come', 'feel', 'like', 'going', 'spend', 'entire', 'life', 'standing', 'beach', 'eyes', 'wide', 'open', 'hands', 'clasp', 'expectantly', 'front', 'waiting', 'fish', 'show', 'fish', 'show']"
+[107.7994 - 113.8142],Ses05F_script02_2_F011,fru,"[2.0000, 3.5000, 3.5000]","['want', 'see', 'always', 'want', 'see', 'augie']"
+[117.7200 - 120.6645],Ses05F_script02_2_F012,fru,"[2.0000, 4.0000, 4.5000]","['heaven', 'sake', 'fish']"
+[145.3100 - 157.0543],Ses05F_script02_2_F013,sad,"[2.5000, 2.0000, 3.5000]","['augie', 'remember', 'first', 'time', 'came', 'see', 'four', 'years', 'ago', 'right', 'got', 'married', 'thought', 'pregnant']"
+[157.2548 - 181.3810],Ses05F_script02_2_F014,sad,"[2.5000, 2.0000, 3.5000]","['bottle', 'champagne', 'glasses', 'ask', 'dance', 'took', 'shoes', 'dancing', 'said', 'intimate', 'things', 'right', 'ears', 'could', 'feel', 'much', 'hear']"
+[181.4813 - 192.0072],Ses05F_script02_2_F015,hap,"[3.0000, 2.0000, 3.5000]","['remember', 'thinking', 'finally', 'finally', 'happy', 'supposed']"
+[197.7213 - 203.7028],Ses05F_script02_2_F016,sad,"[4.0000, 2.5000, 3.5000]","['dancing', 'barefoot', 'sand', 'drinking', 'champagne', 'bottle']"
+[213.0412 - 219.0072],Ses05F_script02_2_F017,sad,"[2.0000, 2.5000, 3.5000]","['rather', 'remember', 'things', 'rather', 'hope', 'things']"
+[225.3896 - 227.2275],Ses05F_script02_2_F018,sad,"[2.0000, 2.5000, 2.5000]",[]
+[228.8315 - 230.6025],Ses05F_script02_2_F019,sad,"[2.0000, 3.0000, 2.5000]",[]
+[231.3376 - 232.8079],Ses05F_script02_2_F020,fru,"[2.0000, 2.5000, 3.5000]",[]
+[235.0468 - 236.6842],Ses05F_script02_2_F021,xxx,"[2.0000, 3.0000, 2.5000]",[]
+[238.5600 - 240.0800],Ses05F_script02_2_F022,xxx,"[2.0000, 1.5000, 2.5000]",[]
+[242.1644 - 243.7400],Ses05F_script02_2_F023,fru,"[2.0000, 3.5000, 3.5000]",[]
+[247.6200 - 252.0554],Ses05F_script02_2_F024,fru,"[1.5000, 3.5000, 4.0000]","['want', 'something', 'turn', 'way', 'suppose', 'turn']"
+[292.7100 - 297.7349],Ses05F_script02_2_F025,sad,"[1.5000, 4.0000, 4.0000]","['even', 'anything']"
+[298.2600 - 303.5158],Ses05F_script02_2_F026,sad,"[2.0000, 3.5000, 4.0000]","['sure', 'standing', 'waiting', 'fighting']"
+[304.7522 - 309.1296],Ses05F_script02_2_F027,sad,"[2.0000, 2.5000, 3.0000]","['anything', 'like', 'thought', 'would']"
+[312.8054 - 332.1197],Ses05F_script02_2_F028,sad,"[1.5000, 3.0000, 3.0000]","['mean', 'mean', 'includes', 'lot', 'everything', 'know', 'sand', 'full', 'moon', 'just-i', 'sorry', 'could', 'help', 'wishing', 'somewhere', 'else']"
+[336.0962 - 338.1012],Ses05F_script02_2_F029,sad,"[2.5000, 2.5000, 2.0000]",['say']
+[341.9774 - 349.5294],Ses05F_script02_2_F030,sad,"[2.0000, 2.0000, 3.5000]","['heaven', 'sake', 'augie', 'wherever', 'always', 'wanted']"
+[350.9997 - 354.6800],Ses05F_script02_2_F031,xxx,"[2.0000, 2.0000, 3.0000]","['heaven', 'sake', 'know']"
+[358.2843 - 374.7917],Ses05F_script02_2_F032,sad,"[2.0000, 2.5000, 3.5000]","['whatever', 'wanted', 'mean', 'probably', 'one', 'wishes', 'somebody', 'else', 'somebody', 'take', 'everything', 'hard', 'knows', 'enjoy']"
+[380.7063 - 387.5566],Ses05F_script02_2_F033,hap,"[4.0000, 2.0000, 3.0000]","['good', 'maybe', 'wrong', 'spot', 'right', 'person']"
+[394.0058 - 403.8969],Ses05F_script02_2_F034,hap,"[4.0000, 2.0000, 3.0000]","['yes', 'notice', 'look', 'really', 'beautiful', 'water', 'gold', 'white', 'moon']"
+[406.9377 - 409.4500],Ses05F_script02_2_F035,xxx,"[4.5000, 3.5000, 3.5000]","['augie', 'bought', 'refreshments']"
+[410.5132 - 412.9860],Ses05F_script02_2_F036,xxx,"[4.5000, 3.0000, 3.5000]","['well', 'need', 'glasses']"
+[418.3600 - 424.2471],Ses05F_script02_2_F037,hap,"[4.0000, 2.5000, 3.5000]","['beginning', 'think', 'maybe', 'spot']"
+[434.0379 - 435.9426],Ses05F_script02_2_F038,xxx,"[4.0000, 3.0000, 2.5000]",[]
+[6.2100 - 10.0200],Ses05F_script02_2_M000,exc,"[4.0000, 3.0000, 3.0000]","['well', 'think']"
+[11.2611 - 14.0100],Ses05F_script02_2_M001,fru,"[3.5000, 3.5000, 3.0000]",['saying']
+[15.0400 - 21.0520],Ses05F_script02_2_M002,neu,"[3.0000, 3.5000, 3.0000]","['certainly', 'slightly', 'exaggerated', 'scientific', 'fact']"
+[25.2700 - 27.5000],Ses05F_script02_2_M003,neu,"[2.5000, 4.0000, 3.0000]","['one', 'look', 'people']"
+[38.0200 - 41.0346],Ses05F_script02_2_M004,xxx,"[3.0000, 3.0000, 2.0000]","['talking', 'thing']"
+[43.1064 - 49.6559],Ses05F_script02_2_M005,neu,"[3.0000, 3.0000, 3.5000]","['carla', 'ask', 'question', 'upset', 'period']"
+[53.5600 - 55.4702],Ses05F_script02_2_M006,fru,"[2.5000, 3.5000, 3.0000]",['bugging']
+[59.9814 - 70.8081],Ses05F_script02_2_M007,fru,"[3.0000, 4.0000, 4.0000]","['nothing', 'come', 'grunion', 'arrives', 'little', 'fish', 'thing', 'say', 'oh', 'wow', 'look', 'little', 'fish', 'go', 'home', 'go', 'home']"
+[78.8200 - 80.4319],Ses05F_script02_2_M008,fru,"[2.0000, 2.5000, 2.5000]",[]
+[83.5300 - 86.0000],Ses05F_script02_2_M009,fru,"[2.0000, 3.5000, 3.0000]","['miss', 'twice', 'ever']"
+[87.6497 - 89.3200],Ses05F_script02_2_M010,neu,"[3.0000, 3.5000, 3.0000]","['well', 'see', 'year']"
+[106.2289 - 108.5011],Ses05F_script02_2_M011,fru,"[2.0000, 3.5000, 4.0000]","['thought', 'wanted', 'see']"
+[114.7833 - 118.8934],Ses05F_script02_2_M012,fru,"[2.0000, 3.5000, 3.0000]","['fish', 'nothing', 'get', 'traumatize']"
+[120.1632 - 127.0803],Ses05F_script02_2_M013,fru,"[3.0000, 3.5000, 3.0000]","['okay', 'trying', 'work', 'backwards', 'seem', 'pinpoint', 'moment', 'took', 'turn', 'worst']"
+[127.1806 - 139.0736],Ses05F_script02_2_M014,xxx,"[2.5000, 4.0000, 3.5000]","['phone', 'marge', 'everything', 'fine', 'dinner', 'okay', 'dishes', 'problem', 'let', 'see', 'took', 'shower', 'watching', 'news', 'said', 'grunions', 'running', 'tonight', 'said', 'great', 'let', 'go', 'feeling', 'lucky']"
+[139.1070 - 145.9937],Ses05F_script02_2_M015,xxx,"[2.5000, 4.0000, 3.5000]","['right', 'putting', 'jacket', 'putting', 'animals', 'pulling', 'car', 'garage']"
+[191.8300 - 197.3700],Ses05F_script02_2_M016,neu,"[4.0000, 3.5000, 2.5000]","['wait', 'minute', 'got']"
+[203.3018 - 214.6297],Ses05F_script02_2_M017,xxx,"[3.5000, 4.0000, 3.5000]","['car', 'right', 'passing', 'knickerbocker', 'liquor', 'locker', 'said', 'let', 'get', 'champagne', 'said', 'time', 'wasting', 'something', 'like', 'right', 'course']"
+[218.1200 - 225.4899],Ses05F_script02_2_M018,exc,"[3.5000, 4.0000, 3.0000]","['okay', 'right', 'got', 'wanted', 'like', 'time', 'okay', 'problem', 'listen', 'want', 'dance']"
+[226.8933 - 229.0654],Ses05F_script02_2_M019,exc,"[3.5000, 3.5000, 3.0000]","['want', 'go', 'get', 'champagne']"
+[230.1347 - 231.9200],Ses05F_script02_2_M020,exc,"[3.5000, 3.5000, 3.0000]","['take', 'shoes']"
+[232.3735 - 235.2807],Ses05F_script02_2_M021,xxx,"[3.0000, 3.0000, 3.0000]","['want', 'whisper', 'ear']"
+[236.1829 - 238.8400],Ses05F_script02_2_M022,fru,"[3.0000, 3.5000, 3.0000]","['want', 'get', 'married']"
+[239.3574 - 242.7100],Ses05F_script02_2_M023,fru,"[2.0000, 3.5000, 3.5000]","['want', 'divorce']"
+[242.8661 - 249.4500],Ses05F_script02_2_M024,fru,"[2.0000, 4.5000, 4.5000]","['vacation', 'new', 'carpet', 'poodle', 'bag', 'ice', 'cream', 'suicide', 'pack', 'carla', 'hell', 'want']"
+[251.1866 - 253.6928],Ses05F_script02_2_M025,ang,"[2.0000, 4.5000, 4.5000]","['welcome', 'human', 'race']"
+[253.7262 - 270.2149],Ses05F_script02_2_M026,xxx,"[1.5000, 4.5000, 5.0000]","['think', 'mind', 'think', 'propose', 'great', 'fantasy', 'going', 'four', 'years', 'road', 'end', 'beach', 'arguing', 'fish', 'think', 'knew', 'would', 'times', 'look', 'like', 'used', 'kleenex', 'look', 'think', 'holy', 'hell', 'next', 'flight', 'alaska']"
+[270.2483 - 288.2782],Ses05F_script02_2_M027,fru,"[1.5000, 4.0000, 5.0000]","['like', 'thought', 'peaches', 'roses', 'sand', 'toes', 'wind', 'hair', 'fish', 'always', 'come', 'bills', 'always', 'magically', 'pay', 'three', 'fat', 'rosy', 'kids', 'haha', 'baby', 'joke', 'us']"
+[288.3116 - 293.2200],Ses05F_script02_2_M028,xxx,"[2.0000, 4.5000, 5.0000]","['know', 'carla', 'know', 'get']"
+[297.2700 - 298.9400],Ses05F_script02_2_M029,xxx,"[3.0000, 3.0000, 3.0000]",['yes']
+[302.9811 - 304.3512],Ses05F_script02_2_M030,xxx,"[3.0000, 2.5000, 3.0000]",['right']
+[308.5950 - 312.7386],Ses05F_script02_2_M031,sad,"[2.5000, 2.5000, 2.5000]","['know', 'either']"
+[332.5875 - 336.5306],Ses05F_script02_2_M032,sad,"[2.0000, 2.5000, 3.0000]","['maybe', 'somebody', 'else']"
+[337.5900 - 342.5200],Ses05F_script02_2_M033,sad,"[1.5000, 2.5000, 2.5000]","['know', 'know', 'make', 'happy']"
+[349.2620 - 351.2002],Ses05F_script02_2_M034,xxx,"[3.5000, 3.0000, 2.5000]",['yeah']
+[374.2571 - 381.1073],Ses05F_script02_2_M035,hap,"[4.0000, 2.5000, 3.0000]","['actually', 'mention']"
+[387.1700 - 393.8721],Ses05F_script02_2_M036,hap,"[4.0000, 3.5000, 3.0000]","['know', 'seems', 'like', 'pretty', 'good', 'spot', 'mean', 'look', 'view', 'moon', 'got']"
+[404.2645 - 407.2719],Ses05F_script02_2_M037,hap,"[4.0000, 3.5000, 3.0000]","['well', 'look', 'got']"
+[408.9600 - 411.1700],Ses05F_script02_2_M038,xxx,"[4.0000, 3.0000, 3.0000]","['well', 'champagne']"
+[413.0528 - 417.4700],Ses05F_script02_2_M039,xxx,"[4.0000, 3.0000, 2.0000]","['still', 'cold', 'still', 'want', 'go', 'home']"
+[428.1568 - 433.3362],Ses05F_script02_2_M040,hap,"[4.0000, 3.0000, 2.5000]","['shh', 'quiet', 'fish', 'might', 'come']"
+[436.5441 - 438.3820],Ses05F_script02_2_M041,hap,"[3.5000, 2.0000, 2.5000]",[]

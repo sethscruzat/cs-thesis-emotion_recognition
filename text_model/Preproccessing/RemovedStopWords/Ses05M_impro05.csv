@@ -1,0 +1,46 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[9.9600 - 11.5200],Ses05M_impro05_F000,neu,"[3.0000, 2.3333, 2.0000]","['hmm', 'hmm']"
+[11.5500 - 13.3300],Ses05M_impro05_F001,neu,"[3.0000, 2.6667, 1.6667]","['long', 'ago']"
+[19.1100 - 20.4800],Ses05M_impro05_F002,neu,"[3.0000, 1.6667, 2.0000]",['uh-hmm']
+[22.4400 - 26.7400],Ses05M_impro05_F003,neu,"[3.0000, 2.3333, 2.6667]","['um', 'okay', 'well', 'fly', 'file', 'claim', 'coming']"
+[29.8300 - 32.8600],Ses05M_impro05_F004,neu,"[3.0000, 2.6667, 3.0000]","['within', 'country', 'though', 'umm']"
+[34.0400 - 41.3900],Ses05M_impro05_F005,neu,"[3.0000, 2.0000, 2.6667]","['yeah', 'well', 'chances', 'lost', 'forever', 'know', 'slight']"
+[41.4000 - 46.8300],Ses05M_impro05_F006,neu,"[3.0000, 2.6667, 3.0000]","['well', 'mean', 'know', 'happens', 'pretty', 'often', 'sometimes', 'baggage', 'gets', 'lost']"
+[46.8700 - 48.0600],Ses05M_impro05_F007,neu,"[3.0000, 2.6667, 2.3333]",['yeah']
+[52.3600 - 53.6000],Ses05M_impro05_F008,neu,"[3.0000, 1.6667, 2.0000]",['okay']
+[56.8300 - 60.8500],Ses05M_impro05_F009,neu,"[3.0000, 2.0000, 2.6667]","['insurance', 'flight']"
+[63.8100 - 67.8800],Ses05M_impro05_F010,neu,"[3.0000, 1.6667, 2.6667]","['buy', 'like', 'thirty', 'dollar', 'extra']"
+[70.2300 - 73.1300],Ses05M_impro05_F011,neu,"[3.0000, 2.3333, 2.3333]","['well', 'something', 'worth']"
+[74.4400 - 76.2800],Ses05M_impro05_F012,neu,"[3.0000, 2.0000, 2.0000]","['yeah', 'know']"
+[78.9900 - 85.7900],Ses05M_impro05_F013,neu,"[3.0000, 2.0000, 2.6667]","['chances', 'probably', 'know', 'taking', 'time', 'um', 'unloaded', 'airplane']"
+[86.4700 - 94.8600],Ses05M_impro05_F014,neu,"[2.3333, 2.3333, 2.6667]","['um', 'well', 'much', 'file', 'report', 'call', 'comes']"
+[100.3200 - 101.9800],Ses05M_impro05_F015,neu,"[2.3333, 2.0000, 2.0000]",['wow']
+[102.9400 - 108.8400],Ses05M_impro05_F016,neu,"[3.0000, 2.0000, 2.3333]","['wow', 'well', 'really', 'important', 'obviously', 'um']"
+[112.4000 - 118.1900],Ses05M_impro05_F017,neu,"[3.0000, 3.0000, 2.6667]","['uh', 'actually', 'know', 'legal', 'um', 'issue']"
+[118.2200 - 121.6200],Ses05M_impro05_F018,neu,"[3.0000, 3.3333, 3.0000]","['yeah', 'mean', 'bag', 'might', 'confiscated']"
+[122.5700 - 125.3700],Ses05M_impro05_F019,neu,"[2.6667, 2.3333, 2.6667]","['biohazard', 'um']"
+[130.4200 - 134.1300],Ses05M_impro05_F020,neu,"[3.3333, 2.3333, 2.6667]","['yeah', 'let', 'call', 'security']"
+[134.9000 - 136.3100],Ses05M_impro05_F021,neu,"[4.3333, 3.3333, 2.0000]","['laughter', 'okay', 'hold']"
+[4.7300 - 10.2900],Ses05M_impro05_M000,neu,"[3.3333, 3.0000, 2.3333]","['hi', 'um', 'luggage', 'come', 'conveyor', 'thingy']"
+[10.3200 - 13.0500],Ses05M_impro05_M001,neu,"[3.0000, 2.3333, 2.3333]",['um']
+[13.0700 - 19.8200],Ses05M_impro05_M002,neu,"[3.0000, 3.0000, 2.3333]","['uh', 'like', 'hour', 'half', 'ago', 'talked', 'somebody', 'standing', 'said', 'wait', 'sometimes', 'like', 'random', 'butt', 'pieces', 'come', 'late']"
+[19.8500 - 22.7500],Ses05M_impro05_M003,neu,"[3.0000, 3.0000, 2.3333]","['waited', 'nothing', 'came']"
+[26.1700 - 30.3400],Ses05M_impro05_M004,neu,"[3.0000, 3.0000, 2.3333]","['coming', 'um', 'midwest', 'like', 'iowa']"
+[31.4200 - 34.3700],Ses05M_impro05_M005,neu,"[3.0000, 3.0000, 2.6667]","['yeah', 'know', 'country', 'mean', 'complicated']"
+[39.3100 - 41.4800],Ses05M_impro05_M006,neu,"[3.3333, 3.0000, 2.3333]","['well', 'would', 'hope']"
+[44.7300 - 46.1000],Ses05M_impro05_M007,neu,"[2.0000, 2.6667, 2.6667]","['people', 'lose']"
+[46.1200 - 47.2800],Ses05M_impro05_M008,sur,"[2.6667, 3.3333, 2.3333]",['forever']
+[47.3700 - 52.9400],Ses05M_impro05_M009,neu,"[2.6667, 3.6667, 3.0000]","['know', 'actually', 'mean', 'really', 'important', 'piece', 'luggage']"
+[53.1100 - 57.5300],Ses05M_impro05_M010,neu,"[3.0000, 3.6667, 2.6667]","['mean', 'big', 'anything', 'like', 'mean', 'worth', 'lot', 'money', 'anything']"
+[60.7100 - 64.3400],Ses05M_impro05_M011,xxx,"[2.0000, 3.3333, 2.6667]","['mean', 'get', 'insurance', 'buy', 'ticket', 'something']"
+[67.8500 - 74.8000],Ses05M_impro05_M012,fru,"[2.0000, 4.0000, 3.3333]","['well', 'one', 'even', 'told', 'like', 'would', 'think', 'buy', 'insurance', 'like', 'three', 'hour', 'flight']"
+[75.3800 - 79.2800],Ses05M_impro05_M013,fru,"[2.0000, 3.6667, 3.3333]","['lose', 'luggage', 'like', 'like']"
+[79.7900 - 81.4900],Ses05M_impro05_M014,xxx,"[2.0000, 3.3333, 3.0000]","['four', 'hundred', 'miles']"
+[83.5900 - 86.6100],Ses05M_impro05_M015,fru,"[2.0000, 4.0000, 3.6667]","['hope', 'know', 'need', 'today']"
+[92.6600 - 102.9000],Ses05M_impro05_M016,fru,"[2.3333, 3.6667, 3.3333]","['let', 'explain', 'problem', 'grandfather', 'remains', 'bag', 'like', 'distribute', 'today', 'suppose', 'know', 'throw', 'sea', 'today']"
+[107.6500 - 113.6700],Ses05M_impro05_M017,fru,"[2.3333, 4.0000, 3.3333]","['yeah', 'mean', 'suggestion', 'like', 'would', 'great', 'help']"
+[116.5000 - 119.6300],Ses05M_impro05_M018,fru,"[2.3333, 4.3333, 3.6667]","['well', 'care', 'legal', 'happened', 'already', 'done']"
+[121.2200 - 124.2800],Ses05M_impro05_M019,fru,"[1.6667, 4.3333, 3.3333]","['well', 'could', 'tell', 'confiscated']"
+[124.3500 - 130.4400],Ses05M_impro05_M020,fru,"[2.0000, 4.0000, 3.0000]","['mean', 'information', 'would', 'great', 'help', 'like', 'type', 'something', 'find']"
+[132.6500 - 135.0100],Ses05M_impro05_M021,fru,"[4.0000, 3.6667, 2.6667]","['would', 'great', 'thank', 'much']"
+[135.1100 - 136.3100],Ses05M_impro05_M022,neu,"[4.6667, 3.3333, 2.6667]",['thank']

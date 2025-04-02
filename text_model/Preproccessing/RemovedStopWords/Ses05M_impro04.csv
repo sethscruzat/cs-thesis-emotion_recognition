@@ -1,0 +1,82 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[12.4200 - 14.2700],Ses05M_impro04_F000,xxx,"[2.5000, 2.0000, 2.5000]",['mean']
+[22.7800 - 25.1300],Ses05M_impro04_F001,neu,"[1.5000, 3.0000, 3.5000]","['really', 'long']"
+[26.7800 - 28.2500],Ses05M_impro04_F002,neu,"[2.5000, 3.0000, 2.5000]",['wow']
+[38.4100 - 40.6600],Ses05M_impro04_F003,neu,"[2.5000, 2.5000, 3.0000]",['trying']
+[49.2500 - 50.5400],Ses05M_impro04_F004,neu,"[2.5000, 2.0000, 2.5000]",['right']
+[61.0500 - 70.2700],Ses05M_impro04_F005,neu,"[2.5000, 2.5000, 4.0000]","['well', 'mean', 'right', 'little', 'bit', 'everything', 'think', 'like', 'profession', 'like', 'career', 'oriented', 'place']"
+[71.9100 - 78.5000],Ses05M_impro04_F006,neu,"[2.5000, 2.5000, 3.5000]","['working', 'restaurants', 'stuff', 'also', 'trying', 'audition']"
+[81.4700 - 83.1700],Ses05M_impro04_F007,neu,"[2.5000, 2.0000, 2.5000]",['really']
+[92.4500 - 100.5400],Ses05M_impro04_F008,neu,"[2.0000, 3.5000, 4.0000]","['l.a.', 'really', 'hard', 'mean', 'tried', 'like', 'going', 'bar', 'couple', 'times', 'make', 'friends', 'people', 'work']"
+[107.3800 - 111.7200],Ses05M_impro04_F009,neu,"[3.0000, 3.0000, 3.5000]","['going', 'say', 'issue', 'maybe', 'going', 'much', 'mean']"
+[111.7300 - 114.5100],Ses05M_impro04_F010,neu,"[2.5000, 2.5000, 3.0000]","['going', 'bars', 'every', 'night']"
+[119.7300 - 124.2300],Ses05M_impro04_F011,neu,"[2.5000, 2.5000, 3.5000]","['well', 'really', 'know', 'know', 'like', 'job', 'situation']"
+[128.2200 - 132.8200],Ses05M_impro04_F012,neu,"[2.5000, 3.0000, 3.0000]","['wow', 'mean', 'attitude', 'problem', 'job']"
+[134.6000 - 136.2300],Ses05M_impro04_F013,neu,"[2.5000, 2.0000, 3.0000]","['maybe', 'garbage']"
+[136.8700 - 142.9200],Ses05M_impro04_F014,neu,"[2.5000, 2.0000, 3.5000]","['right', 'maybe', 'like', 'know', 'little', 'bit', 'abrasive', 'vibe', 'something']"
+[143.3600 - 146.0100],Ses05M_impro04_F015,neu,"[2.0000, 3.5000, 3.0000]","['know', 'trying']"
+[149.6700 - 151.5800],Ses05M_impro04_F016,neu,"[3.0000, 2.5000, 3.5000]","['getting', 'defensive']"
+[157.6100 - 161.2300],Ses05M_impro04_F017,neu,"[3.0000, 3.5000, 3.0000]","['yeah', 'might', 'something', 'want', 'look', 'mean']"
+[165.6200 - 166.8400],Ses05M_impro04_F018,neu,"[2.5000, 2.5000, 3.0000]",['okay']
+[167.5300 - 169.1900],Ses05M_impro04_F019,neu,"[2.5000, 2.5000, 3.5000]",['understand']
+[172.3100 - 174.6500],Ses05M_impro04_F020,neu,"[2.5000, 2.0000, 3.0000]","['yeah', 'stressful', 'recognize']"
+[177.4700 - 178.8500],Ses05M_impro04_F021,neu,"[2.5000, 3.0000, 2.5000]",['ah']
+[182.3400 - 184.6800],Ses05M_impro04_F022,neu,"[3.0000, 2.5000, 3.5000]","['selling', 'pot', 'right']"
+[185.1900 - 186.5600],Ses05M_impro04_F023,neu,"[4.0000, 3.0000, 3.0000]",['okay']
+[186.6100 - 188.0600],Ses05M_impro04_F024,neu,"[4.0000, 2.5000, 3.5000]","['fair', 'enough']"
+[188.5400 - 190.9400],Ses05M_impro04_F025,xxx,"[4.5000, 3.5000, 3.5000]","['yeah', 'laughter', 'joke']"
+[191.9200 - 199.0000],Ses05M_impro04_F026,neu,"[2.5000, 3.0000, 3.5000]","['sorry', 'let', 'see', 'else', 'available', 'um', 'hmm']"
+[200.4500 - 205.6500],Ses05M_impro04_F027,neu,"[2.5000, 3.5000, 3.0000]","['well', 'top', 'head', 'take', 'know', 'take', 'minute', 'like', 'special', 'skills']"
+[207.3600 - 211.0300],Ses05M_impro04_F028,neu,"[4.0000, 3.0000, 3.0000]","['well', 'maybe', 'find', 'something', 'juggling']"
+[211.0400 - 213.3300],Ses05M_impro04_F029,neu,"[4.0000, 2.5000, 3.5000]","['checked', 'craig', 'list', 'stuff']"
+[215.3700 - 218.9900],Ses05M_impro04_F030,neu,"[4.0000, 3.0000, 3.5000]","['kids', 'parties', 'oh', 'come']"
+[225.3700 - 227.1500],Ses05M_impro04_F031,neu,"[4.0000, 2.5000, 3.0000]","['okay', 'right']"
+[227.6800 - 232.4800],Ses05M_impro04_F032,neu,"[3.0000, 3.0000, 3.5000]","['okay', 'well', 'fine', 'argue']"
+[232.9500 - 236.8300],Ses05M_impro04_F033,fru,"[3.5000, 3.5000, 3.5000]","['else', 'uh', 'drawing', 'blank']"
+[239.6600 - 242.7200],Ses05M_impro04_F034,neu,"[3.0000, 3.0000, 3.5000]","['rough', 'really', 'sorry', 'ryan']"
+[245.7800 - 253.9900],Ses05M_impro04_F035,neu,"[2.5000, 2.5000, 3.0000]","['well', 'um', 'kinda', 'like', 'side', 'let', 'people', 'see', 'go', 'job', 'interviews']"
+[254.3800 - 262.8600],Ses05M_impro04_F036,neu,"[3.5000, 2.5000, 3.5000]","['okay', 'well', 'good', 'yeah', 'mean', 'happy', 'pretty', 'personable', 'guy']"
+[262.9200 - 266.1900],Ses05M_impro04_F037,neu,"[2.5000, 2.5000, 3.0000]","['see', 'issue', 'would']"
+[270.5400 - 274.3600],Ses05M_impro04_F038,xxx,"[2.5000, 2.5000, 3.5000]","['sorry', 'good', 'luck', 'man']"
+[5.3295 - 12.8500],Ses05M_impro04_M000,fru,"[1.5000, 3.5000, 4.0000]","['uh', 'god', 'know', 'anymore', 'like', 'said']"
+[15.3400 - 24.5800],Ses05M_impro04_M001,fru,"[1.5000, 4.0000, 4.5000]","['know', 'nothing', 'get', 'job', 'gotten', 'job', 'year', 'three', 'years', 'three', 'years', 'right', 'able', 'job']"
+[24.6000 - 34.8900],Ses05M_impro04_M002,fru,"[1.5000, 3.5000, 4.5000]","['something', 'like', 'even', 'remember', 'anymore', 'know', 'anymore', 'get', 'everyday', 'well', 'everyday', 'almost', 'everyday']"
+[35.0700 - 38.9000],Ses05M_impro04_M003,fru,"[2.0000, 3.0000, 4.5000]","['try', 'something', 'mean']"
+[40.3300 - 46.7200],Ses05M_impro04_M004,fru,"[2.0000, 3.0000, 4.0000]","['well', 'everything', 'temping', 'know', 'office', 'work', 'know', 'whatever', 'pay', 'bills', 'know', 'anything']"
+[46.7300 - 51.4400],Ses05M_impro04_M005,fru,"[2.0000, 4.0000, 4.0000]","['mean', 'want', 'keep', 'jobs', 'want', 'jobs.it', 'want']"
+[51.4600 - 59.4500],Ses05M_impro04_M006,fru,"[1.5000, 4.0000, 4.5000]","['know', 'god', 'going', 'go', 'back', 'school', 'afford', 'go', 'back', 'school']"
+[59.4900 - 61.5400],Ses05M_impro04_M007,fru,"[2.0000, 3.5000, 4.0000]",[]
+[69.6000 - 73.0100],Ses05M_impro04_M008,neu,"[2.0000, 3.5000, 4.0000]","['plan', 'forever', 'mean', 'like']"
+[74.2700 - 75.1800],Ses05M_impro04_M009,neu,"[2.5000, 2.5000, 3.0000]",['yeah']
+[75.2000 - 76.1900],Ses05M_impro04_M010,neu,"[3.0000, 2.5000, 3.5000]",['right']
+[78.0400 - 84.3800],Ses05M_impro04_M011,fru,"[2.0000, 4.0000, 4.0000]","['yeah', 'yeah', 'well', 'hello', 'get', 'restaurant', 'job', 'get', 'restaurant', 'gig', 'one', 'give', 'anything']"
+[84.3900 - 92.1500],Ses05M_impro04_M012,fru,"[2.0000, 4.0000, 4.0000]","['go', 'interviews', 'cool', 'everything', 'know', 'nice', 'nice', 'know', 'give', 'take', 'back', 'forth', 'whatever']"
+[92.1600 - 94.5400],Ses05M_impro04_M013,fru,"[2.0000, 3.5000, 4.5000]","['always', 'go', 'somebody', 'else']"
+[98.1300 - 105.6900],Ses05M_impro04_M014,fru,"[2.0000, 4.0000, 4.5000]","['yeah', 'absolutely', 'hello', 'know', 'go', 'bars', 'time', 'like', 'know', 'know', 'one', 'wants', 'hire']"
+[105.6990 - 110.7700],Ses05M_impro04_M015,fru,"[2.0000, 4.0000, 3.5000]","['maybe', 'want', 'hire', 'know', 'know', 'wrong', 'something', 'wrong']"
+[111.6400 - 121.2100],Ses05M_impro04_M016,fru,"[2.5000, 4.0000, 4.0000]","['mean', 'tell', 'one', 'hiring', 'honest', 'tell', 'know', 'take', 'take', 'tell']"
+[123.2900 - 128.0600],Ses05M_impro04_M017,fru,"[2.0000, 4.5000, 4.5000]","['yeah', 'okay', 'well', 'personality', 'wise', 'mean', 'people', 'know', 'hire']"
+[131.7000 - 137.2200],Ses05M_impro04_M018,xxx,"[2.0000, 4.0000, 4.0000]","['think', 'attitude', 'problem', 'job', 'attitude', 'problem', 'right', 'job']"
+[142.2100 - 143.8800],Ses05M_impro04_M019,ang,"[2.0000, 3.5000, 3.5000]","['abrasive', 'vibe']"
+[144.3400 - 151.1800],Ses05M_impro04_M020,ang,"[2.0000, 3.5000, 4.0000]","['let', 'know', 'fine', 'think', 'abrasive', 'vibe', 'whatever', 'entitled', 'opinion', 'course', 'maybe', 'job']"
+[151.1900 - 157.4400],Ses05M_impro04_M021,xxx,"[2.0000, 4.0000, 4.0000]","['getting', 'defensive', 'getting', 'defensive', 'asked', 'question', 'told']"
+[160.5400 - 165.8800],Ses05M_impro04_M022,fru,"[2.0000, 3.5000, 4.0000]","['like', 'time', 'mean', 'frustrated', 'right', 'right', 'want']"
+[165.9100 - 172.7600],Ses05M_impro04_M023,fru,"[2.0000, 4.0000, 5.0000]","['want', 'make', 'money', 'need', 'make', 'money', 'got', 'pay', 'bills', 'owe', 'people', 'money', 'owe', 'lots', 'people', 'money', 'need', 'make', 'money']"
+[173.9700 - 182.8800],Ses05M_impro04_M024,fru,"[2.0000, 4.0000, 4.5000]","['idea', 'make', 'money', 'mean', 'make', 'quick', 'money', 'something', 'anything', 'relatively', 'within', 'know', 'law']"
+[183.5000 - 186.9100],Ses05M_impro04_M025,fru,"[2.0000, 3.0000, 3.5000]","['right', 'probably', 'selling', 'pot', 'want', 'go', 'jail']"
+[186.9200 - 189.2500],Ses05M_impro04_M026,fru,"[2.0000, 3.5000, 4.0000]","['would', 'really', 'topper']"
+[190.4400 - 192.3100],Ses05M_impro04_M027,fru,"[2.0000, 2.5000, 3.5000]","['thank', 'ha', 'ha']"
+[198.3800 - 201.3300],Ses05M_impro04_M028,fru,"[2.0000, 4.0000, 4.0000]","['see', 'mean', 'even', 'think', 'anything']"
+[205.5800 - 207.7600],Ses05M_impro04_M029,fru,"[3.0000, 3.0000, 3.0000]",['juggle']
+[210.8200 - 212.4300],Ses05M_impro04_M030,fru,"[2.5000, 3.0000, 3.5000]",['tried']
+[212.6200 - 220.0000],Ses05M_impro04_M031,fru,"[2.0000, 4.0000, 4.5000]","['yes', 'nobody', 'wants', 'juggler', 'going', 'going', 'dress', 'like', 'clown', 'going', 'dress', 'like', 'freaking', 'clown']"
+[220.0100 - 226.0600],Ses05M_impro04_M032,fru,"[1.5000, 3.5000, 4.5000]","['demeaning', 'clown', 'talent', 'clowns', 'talent']"
+[226.4900 - 227.9100],Ses05M_impro04_M033,fru,"[2.5000, 3.0000, 3.5000]",['simple']
+[231.1000 - 232.6000],Ses05M_impro04_M034,fru,"[2.5000, 2.5000, 3.0000]",['yeah']
+[236.6900 - 238.9100],Ses05M_impro04_M035,fru,"[2.5000, 3.0000, 3.5000]",[]
+[242.6000 - 245.0300],Ses05M_impro04_M036,xxx,"[1.5000, 3.0000, 3.5000]","['yeah', 'life', 'sucks']"
+[252.7100 - 255.5000],Ses05M_impro04_M037,fru,"[2.5000, 3.0000, 3.0000]","['showed', 'garbage']"
+[262.0100 - 264.0000],Ses05M_impro04_M038,fru,"[3.0000, 3.0000, 3.5000]","['like', 'think']"
+[264.7900 - 266.3100],Ses05M_impro04_M039,fru,"[2.5000, 3.0000, 3.5000]",['see']
+[267.8300 - 270.4200],Ses05M_impro04_M040,ang,"[3.0000, 3.0000, 3.5000]","['yeah', 'well', 'thanks', 'help']"
+[273.8000 - 275.8900],Ses05M_impro04_M041,sad,"[2.0000, 2.5000, 3.5000]",['need']

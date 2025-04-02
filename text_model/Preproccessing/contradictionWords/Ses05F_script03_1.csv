@@ -1,0 +1,69 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[6.4800 - 8.7100],Ses05F_script03_1_F000,xxx,"[4.0000, 2.5000, 2.5000]",You think it is them?
+[9.9200 - 13.3500],Ses05F_script03_1_F001,xxx,"[3.5000, 3.5000, 3.5000]","Freda is the only one who knows we're up here, and she would not call up."
+[14.4500 - 16.5800],Ses05F_script03_1_F002,xxx,"[3.5000, 3.0000, 2.5000]",What will be do?
+[18.3800 - 20.5000],Ses05F_script03_1_F003,xxx,"[4.0000, 3.5000, 3.0000]",Now and always my sweet.
+[21.9900 - 24.5700],Ses05F_script03_1_F004,xxx,"[4.0000, 3.5000, 3.0000]",It was bound to happen sooner or later.
+[31.2700 - 34.1300],Ses05F_script03_1_F005,exc,"[4.0000, 3.5000, 3.0000]","Oh, it sent shivers up my spine."
+[35.2700 - 37.2800],Ses05F_script03_1_F006,exc,"[3.5000, 3.5000, 3.5000]",Behave exquisitely.
+[37.8800 - 40.6500],Ses05F_script03_1_F007,exc,"[4.0000, 3.0000, 3.0000]","Yes, I shall probably do a Court Curtsey."
+[44.4400 - 50.1600],Ses05F_script03_1_F008,xxx,"[3.5000, 3.5000, 3.0000]",Um... It is a pity that one cannot stay this way forever.
+[52.5500 - 55.7900],Ses05F_script03_1_F009,xxx,"[2.5000, 3.0000, 3.0000]","Well, it is true."
+[58.4500 - 61.5600],Ses05F_script03_1_F010,neu,"[2.5000, 3.5000, 3.0000]",The whole business is really rather ridiculous.
+[63.9400 - 66.0700],Ses05F_script03_1_F011,neu,"[3.0000, 3.5000, 3.0000]",Meaning exactly that.
+[73.0900 - 75.2000],Ses05F_script03_1_F012,xxx,"[2.5000, 3.5000, 3.0000]",Do not laugh at me; I'm serious.
+[77.7200 - 79.2100],Ses05F_script03_1_F013,neu,"[3.0000, 2.5000, 2.5000]",Who is they?
+[93.1300 - 96.2900],Ses05F_script03_1_F014,xxx,"[3.0000, 3.5000, 3.5000]","Well, if I laugh at everything, I must laugh at us, too."
+[98.8500 - 103.9600],Ses05F_script03_1_F015,neu,"[3.0000, 3.5000, 2.5000]","Well, what if-what happens when our love-"
+[107.1500 - 109.7200],Ses05F_script03_1_F016,xxx,"[3.5000, 3.5000, 3.0000]","How long will it last, this overbearing love of ours?"
+[111.1100 - 113.9100],Ses05F_script03_1_F017,xxx,"[3.0000, 2.0000, 2.5000]","Well, shall we always want to bicker and fight?"
+[116.8500 - 119.4600],Ses05F_script03_1_F018,xxx,"[2.5000, 3.0000, 3.0000]","Oh, dear, shall we like that?"
+[120.8300 - 124.2900],Ses05F_script03_1_F019,neu,"[3.0000, 3.0000, 3.0000]","Well, what if one of us dies, does the other laugh then?"
+[125.7200 - 128.1500],Ses05F_script03_1_F020,xxx,"[2.5000, 2.5000, 2.5000]","Well, that is rather serious, is not it?"
+[133.3800 - 136.5800],Ses05F_script03_1_F021,xxx,"[4.0000, 2.5000, 3.5000]","My dear, I do believe you're talking nonsense."
+[160.0200 - 163.2000],Ses05F_script03_1_F022,xxx,"[4.0000, 2.5000, 3.0000]","Elliot, worms do not pop."
+[173.6100 - 179.6200],Ses05F_script03_1_F023,xxx,"[4.0000, 3.5000, 3.5000]","Oh, thank you dear.  And the same goes for you except that if I so much as see you looking at another woman, I'll kill you."
+[182.9400 - 184.8800],Ses05F_script03_1_F024,xxx,"[4.0000, 3.0000, 3.5000]",Which particular one?
+[188.4100 - 194.5200],Ses05F_script03_1_F025,exc,"[4.0000, 3.5000, 3.5000]",Charles.  That was his name.  He did wriggle so beautifully.
+[195.4100 - 200.4800],Ses05F_script03_1_F026,xxx,"[4.5000, 4.0000, 4.0000]",I know.  You threw him out the window into the canal.  I do not think I'll ever forgive you for that.
+[201.7900 - 204.8800],Ses05F_script03_1_F027,xxx,"[4.0000, 3.0000, 3.5000]",It went on intermittently for days.
+[209.5400 - 213.8800],Ses05F_script03_1_F028,xxx,"[4.0000, 3.5000, 3.0000]","Uh- It burned all the towels in the bathroom, too."
+[216.4200 - 218.8000],Ses05F_script03_1_F029,xxx,"[3.0000, 3.0000, 2.5000]",That was the first time you ever hit me.
+[220.7100 - 227.1200],Ses05F_script03_1_F030,exc,"[4.5000, 3.5000, 3.5000]",And then the manager came in and found us rolling around on the floor biting and scratching like panthers.
+[227.9400 - 232.6500],Ses05F_script03_1_F031,hap,"[4.5000, 4.0000, 3.5000]","Oh, ridiculous. utterly ridiculous"
+[232.6900 - 234.2200],Ses05F_script03_1_F032,xxx,"[4.0000, 3.0000, 3.5000]",And very much sillier.
+[241.6700 - 243.4048],Ses05F_script03_1_F033,neu,"[3.0000, 2.5000, 2.5000]",You knew there was nothing.
+[4.3300 - 6.6700],Ses05F_script03_1_M000,exc,"[3.0000, 3.5000, 3.5000]",Good God.
+[8.2500 - 10.3400],Ses05F_script03_1_M001,exc,"[4.0000, 3.5000, 3.5000]",I wonder.
+[13.0900 - 14.9200],Ses05F_script03_1_M002,xxx,"[3.5000, 3.5000, 3.5000]",It must be them then.
+[15.8100 - 19.0400],Ses05F_script03_1_M003,xxx,"[2.5000, 3.5000, 3.5000]","We're all right, darling, are not we whatever happens?"
+[20.1600 - 22.2800],Ses05F_script03_1_M004,xxx,"[3.5000, 3.5000, 3.0000]",I do not care then.
+[24.1800 - 31.8800],Ses05F_script03_1_M005,exc,"[3.0000, 4.0000, 3.5000]",Hello?  Hello?  What?  Wrong number.
+[33.1100 - 36.0600],Ses05F_script03_1_M006,fea,"[3.5000, 4.0000, 3.0000]","Oh, what shall we do if they suddenly walk in on us?"
+[36.4500 - 38.5400],Ses05F_script03_1_M007,exc,"[4.0000, 3.5000, 3.0000]",With the most perfect poise.
+[39.5600 - 45.7600],Ses05F_script03_1_M008,xxx,"[4.0000, 4.0000, 4.0000]","[LAUGHTER] Oh, the things that ought to matter most dreadfully do not seem to matter at all when one's happy, do they?"
+[49.4500 - 51.7300],Ses05F_script03_1_M009,xxx,"[2.5000, 3.5000, 3.5000]","Darling, do not say that."
+[61.0800 - 64.1900],Ses05F_script03_1_M010,xxx,"[4.0000, 3.5000, 3.5000]","Meaning that sacred and beautiful thing, love?"
+[65.4500 - 73.6700],Ses05F_script03_1_M011,exc,"[3.0000, 4.5000, 4.5000]","What does it all mean?  That is what I asked myself in my ceaseless quest for ultimate truth.  Dear God, what does it all mean?"
+[74.9200 - 78.2100],Ses05F_script03_1_M012,xxx,"[4.0000, 3.5000, 3.5000]","You must not be serious my dear one, that is just what they want."
+[78.7300 - 93.5400],Ses05F_script03_1_M013,exc,"[4.0000, 4.0000, 4.0000]","All the futile mortals who try to make life unbearable.  Laugh at them.  Be flippant.  Laugh at everything, all their sacred shibboleths.  Flippancy brings out the acid in their damned sweetness and light."
+[95.5500 - 99.3800],Ses05F_script03_1_M014,exc,"[3.5000, 3.5000, 3.0000]",Certainly you must.  We're figures of fun alright [LAUGHTER].
+[109.2300 - 110.7500],Ses05F_script03_1_M015,exc,"[3.0000, 3.0000, 3.0000]",Who knows?
+[113.3400 - 117.4100],Ses05F_script03_1_M016,exc,"[3.0000, 3.5000, 3.5000]","No, that fire will fade along with our passion."
+[118.5800 - 121.0700],Ses05F_script03_1_M017,exc,"[3.5000, 3.5000, 3.0000]",It all depends on how well we played.
+[123.7400 - 125.9200],Ses05F_script03_1_M018,exc,"[3.5000, 3.5000, 3.5000]","Yes, yes, with all his might."
+[127.4300 - 133.5400],Ses05F_script03_1_M019,exc,"[3.5000, 4.5000, 3.5000]","No, no it is not.  Death is very laughable.  Come such a cunning little mystery all done with mirrors."
+[135.7500 - 145.3400],Ses05F_script03_1_M020,exc,"[3.5000, 4.0000, 4.0000]","no, So is everyone else in the long run.  Let's be superficial and pity the poor philosophers.  Let's blow trumpets and squeakers and --"
+[145.3500 - 154.3300],Ses05F_script03_1_M021,exc,"[4.5000, 4.0000, 4.0000]",enjoy the party as long as we can like very little quite idiotic schoolchildren. [garbage] Let's savor the delight of the moment.
+[154.3400 - 161.0400],Ses05F_script03_1_M022,exc,"[4.0000, 3.5000, 4.5000]","Darling, come here and kiss me before your body rots and worms pop in and out of your eye sockets."
+[162.4100 - 173.9600],Ses05F_script03_1_M023,xxx,"[4.5000, 4.0000, 4.0000]","I do not mind what you do, see, you could paint your body green all over and dance naked through the Place Vendome and run off with every man in the world.  And I shan't say a word as long as I know that you love me best."
+[179.0800 - 183.2400],Ses05F_script03_1_M024,exc,"[4.0000, 4.0000, 3.5000]",Do you remember that awful scene we had in Venice?
+[184.3400 - 189.2300],Ses05F_script03_1_M025,exc,"[3.0000, 3.5000, 3.0000]",The one where you bought that little painted wooden snake and put it on my bed.
+[193.7500 - 196.3700],Ses05F_script03_1_M026,exc,"[2.5000, 3.5000, 4.0000]","Horrible thing, I hate it."
+[200.1400 - 202.1000],Ses05F_script03_1_M027,exc,"[4.5000, 3.5000, 3.0000]",How long did that row last?
+[204.5800 - 211.5500],Ses05F_script03_1_M028,exc,"[2.5000, 3.5000, 4.0000]",The worst one was in Cannes when your curling irons burnt a hole in my new dressing gown.
+[212.8200 - 216.9500],Ses05F_script03_1_M029,exc,"[4.5000, 3.5000, 3.0000]","Oh, that was quite a rouser, was not it?"
+[218.4700 - 220.6200],Ses05F_script03_1_M030,neu,"[3.5000, 3.0000, 3.0000]","Oh, I did not hit you very hard."
+[226.4900 - 229.4500],Ses05F_script03_1_M031,exc,"[4.5000, 4.0000, 4.0000]",[LAUGHTER] I shall never forget his face.
+[230.6100 - 233.3200],Ses05F_script03_1_M032,exc,"[4.0000, 4.0000, 3.0000]","Oh, we were very much younger then."
+[234.0400 - 242.0500],Ses05F_script03_1_M033,exc,"[2.5000, 4.0000, 3.5000]","Oh, As a matter of fact, the real cause of that row was Peter Burden."

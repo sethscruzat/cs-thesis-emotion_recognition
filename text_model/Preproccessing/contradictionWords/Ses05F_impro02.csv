@@ -1,0 +1,82 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[5.1700 - 7.6605],Ses05F_impro02_F000,xxx,"[2.0000, 2.0000, 2.0000]","baby, I need you to sit down."
+[12.3000 - 14.4800],Ses05F_impro02_F001,sad,"[2.0000, 1.5000, 1.5000]",um.
+[19.0000 - 24.6600],Ses05F_impro02_F002,sad,"[2.0000, 2.5000, 1.5000]",I'm sorry.  It is just a lot ahh to explain. ahh I got a call--
+[24.7000 - 28.4600],Ses05F_impro02_F003,xxx,"[1.5000, 2.5000, 2.0000]","Yeah, um everything's fine so far. um"
+[28.8000 - 31.1014],Ses05F_impro02_F004,sad,"[1.5000, 2.0000, 1.5000]","I got a call today,"
+[33.6400 - 37.1300],Ses05F_impro02_F005,sad,"[1.5000, 2.0000, 2.0000]",I'm going to need to go overseas for a while.
+[40.9200 - 42.2900],Ses05F_impro02_F006,fea,"[1.5000, 1.5000, 2.5000]",Iraq.
+[44.4900 - 47.6500],Ses05F_impro02_F007,xxx,"[1.5000, 2.5000, 1.5000]","I'm sorry.  I thought so. ""sigh"""
+[51.7400 - 54.4200],Ses05F_impro02_F008,sad,"[1.5000, 3.5000, 1.5000]","I do not know ""sigh""."
+[61.5700 - 65.7300],Ses05F_impro02_F009,sad,"[1.0000, 3.0000, 1.5000]",I know.  I know.
+[68.8300 - 79.7900],Ses05F_impro02_F010,sad,"[2.0000, 2.5000, 2.0000]","I know.  Well, we'll have to figure all that out.  I mean, I think the Army's going to provide childcare and help us out with that. um."
+[83.0500 - 85.3000],Ses05F_impro02_F011,sad,"[2.0000, 2.5000, 1.5000]",Iraq.
+[88.3300 - 93.3000],Ses05F_impro02_F012,sad,"[1.5000, 2.5000, 2.0000]",I think infantry.  I'm not sure.
+[97.7400 - 103.8500],Ses05F_impro02_F013,fru,"[2.0000, 2.5000, 1.5000]","It is going to be at least six months, probably a year. I tried."
+[106.6800 - 109.9800],Ses05F_impro02_F014,fru,"[1.5000, 3.0000, 2.5000]","I know, I know.  It is really, really messed up."
+[117.3600 - 121.0200],Ses05F_impro02_F015,xxx,"[1.5000, 3.5000, 1.5000]","Believe me, if I had a choice, I would not have chosen this."
+[125.2100 - 130.2600],Ses05F_impro02_F016,xxx,"[1.5000, 3.0000, 1.5000]","You do not know how to what?  You'll be fine. I mean, you're a great parent. I know."
+[133.5800 - 138.1400],Ses05F_impro02_F017,fru,"[1.5000, 2.5000, 2.0000]","Well, maybe you should move in with my mom and she can help."
+[140.6200 - 144.2000],Ses05F_impro02_F018,fru,"[2.0000, 3.5000, 2.5000]","I do not know, I'm just--I'm trying to think of something."
+[145.0128 - 148.8000],Ses05F_impro02_F019,xxx,"[2.5000, 2.0000, 2.5000]","She likes you. Of course, she likes you."
+[156.4300 - 158.2300],Ses05F_impro02_F020,fru,"[2.0000, 1.5000, 1.0000]",You cannot what?
+[164.2500 - 167.3900],Ses05F_impro02_F021,sad,"[1.5000, 3.5000, 1.5000]",I do not think there's anything we can do.
+[169.1700 - 182.0200],Ses05F_impro02_F022,xxx,"[1.5000, 3.5000, 2.5000]","Well, we can try it.  Baby, do not beg me.  I mean, if there were anything that I could do, I would do it.  Believe me.  This is not what I want."
+[183.0200 - 188.9000],Ses05F_impro02_F023,sad,"[1.0000, 3.5000, 2.0000]",I know.  I know it is not fair.
+[199.5600 - 202.7800],Ses05F_impro02_F024,sad,"[1.5000, 1.5000, 1.5000]","Well, apparently nobody else can go."
+[205.9800 - 213.1700],Ses05F_impro02_F025,fru,"[1.5000, 3.5000, 3.0000]","I do not know.  Baby, why are you asking me this?  It is just as hard for me.  Please, try to understand that."
+[223.6300 - 233.5000],Ses05F_impro02_F026,fru,"[2.0000, 3.0000, 3.5000]","I understand, baby.  I'm sorry. I mean try to understand I'm I'm scared myself."
+[238.6500 - 240.4100],Ses05F_impro02_F027,sad,"[1.5000, 3.0000, 2.0000]",I know.
+[246.3500 - 248.2000],Ses05F_impro02_F028,sad,"[1.5000, 3.5000, 2.0000]",I know.
+[252.2100 - 262.6900],Ses05F_impro02_F029,sad,"[2.0000, 2.5000, 2.5000]",We'll figure something out.  We just have to ... we just have to think about this.  Could any of your family help us?
+[265.5084 - 269.0981],Ses05F_impro02_F030,xxx,"[2.0000, 2.5000, 2.0000]",Maybe we should call your parents.
+[285.7900 - 289.1700],Ses05F_impro02_F031,sad,"[1.0000, 4.0000, 1.5000]",I'm going to miss their first words.
+[291.0500 - 294.9200],Ses05F_impro02_F032,sad,"[1.0000, 3.0000, 2.0000]",You'll have to send me pictures and letters everyday.
+[298.0200 - 301.2800],Ses05F_impro02_F033,xxx,"[1.5000, 2.5000, 2.5000]",I do not know. I hope so.
+[307.5400 - 310.2100],Ses05F_impro02_F034,sad,"[2.5000, 2.0000, 2.0000]","Yeah, as much as I can."
+[311.9000 - 316.1000],Ses05F_impro02_F035,sad,"[2.0000, 2.0000, 1.5000]","""sigh"" Three weeks."
+[318.9700 - 320.7100],Ses05F_impro02_F036,sad,"[2.0000, 1.0000, 1.0000]",Yeah.
+[328.2000 - 329.4000],Ses05F_impro02_F037,sad,"[2.0000, 1.0000, 1.0000]",Yeah.
+[335.2658 - 343.4000],Ses05F_impro02_F038,sad,"[1.5000, 3.5000, 1.5000]","I love you.  I'm going to miss you so much. ""sigh"""
+[7.6018 - 10.4300],Ses05F_impro02_M000,neu,"[3.0000, 2.5000, 1.5000]",What is it?
+[15.5400 - 18.2200],Ses05F_impro02_M001,xxx,"[2.5000, 2.5000, 1.5000]",You can say it.
+[23.2800 - 24.8100],Ses05F_impro02_M002,xxx,"[2.5000, 3.0000, 1.5000]",Are you all right?
+[31.5600 - 33.2600],Ses05F_impro02_M003,xxx,"[2.5000, 3.0000, 1.5000]",okay.
+[38.4900 - 40.6800],Ses05F_impro02_M004,ang,"[1.5000, 2.5000, 1.0000]",You got called up.
+[41.8900 - 44.9700],Ses05F_impro02_M005,ang,"[1.5000, 2.5000, 2.0000]",I thought you said this was not going to happen for at least a year.
+[50.1000 - 52.3200],Ses05F_impro02_M006,fru,"[1.5000, 3.0000, 1.0000]",What am I going to do?
+[54.1800 - 59.5700],Ses05F_impro02_M007,xxx,"[1.5000, 3.5000, 2.0000]",I cannot do this by myself. I I do not know how to do this.  You know how to do this.
+[60.3500 - 61.9000],Ses05F_impro02_M008,fru,"[1.5000, 3.0000, 1.5000]",The kids-
+[65.1400 - 69.6600],Ses05F_impro02_M009,xxx,"[1.5000, 3.0000, 1.5000]",Nobody's even here.  Your parents live on the other side of the country.
+[80.4600 - 83.4400],Ses05F_impro02_M010,ang,"[2.0000, 3.5000, 2.5000]",Where do you have to go?  Where are you going?
+[85.6700 - 90.1700],Ses05F_impro02_M011,xxx,"[1.5000, 3.5000, 2.0000]",What are you going to do there?  Is it going to be dangerous?  What are you-?
+[94.9700 - 97.4600],Ses05F_impro02_M012,xxx,"[1.5000, 3.0000, 2.0000]",It is--
+[99.3300 - 103.4000],Ses05F_impro02_M013,xxx,"[1.5000, 3.5000, 3.0000]",Can we do something else?  Can you tell them that you just had two kids?
+[103.9163 - 108.1300],Ses05F_impro02_M014,ang,"[1.5000, 3.5000, 2.5000]",I do not understand why they would just do something like this?
+[109.4000 - 116.8600],Ses05F_impro02_M015,ang,"[1.5000, 4.0000, 3.5000]",It does not make any sense.  It is stupid.  I told you you should not go in the Army.
+[120.5800 - 125.5400],Ses05F_impro02_M016,fru,"[1.5000, 2.5000, 2.0000]",I do not know I do not know what I'm going to do.  I do not know how to-
+[127.3700 - 131.8400],Ses05F_impro02_M017,xxx,"[1.5000, 4.0000, 3.0000]","They are six months old. Six months old, they are tiny."
+[131.9300 - 136.2100],Ses05F_impro02_M018,xxx,"[1.5000, 3.5000, 2.5000]",I cannot do this.  I've never done this before.  I do not know anything about this.
+[137.6900 - 141.9100],Ses05F_impro02_M019,sur,"[1.5000, 4.0000, 2.5000]","Your Your mom, you want me to move in with your mom?"
+[142.8000 - 146.9500],Ses05F_impro02_M020,xxx,"[1.5000, 3.0000, 2.0000]",She does not even like me.  She is never liked me. No.
+[147.8300 - 150.6600],Ses05F_impro02_M021,xxx,"[1.5000, 2.5000, 2.0000]",She likes you.  She likes the kids.
+[151.6700 - 156.6800],Ses05F_impro02_M022,xxx,"[1.5000, 3.5000, 1.0000]","I no I cannot- ""sigh"""
+[159.1700 - 166.0100],Ses05F_impro02_M023,xxx,"[1.5000, 3.5000, 2.0000]",I cannot let you go.  I cannot let you go.  I'll call them.  I'll say something.  I'll do anything.  I'll tell them something different.
+[166.0500 - 169.5200],Ses05F_impro02_M024,sad,"[1.5000, 3.5000, 1.5000]",I'll tell them I'm sick and that you cannot leave something.
+[181.7500 - 183.7300],Ses05F_impro02_M025,sad,"[1.0000, 3.5000, 1.0000]",It is not fair.
+[189.2800 - 200.1600],Ses05F_impro02_M026,sad,"[1.5000, 3.5000, 1.5000]",Why has to be you?  There's all those other people.  Somebody else can go instead.  It is not right.
+[203.4300 - 207.0000],Ses05F_impro02_M027,xxx,"[1.5000, 3.5000, 3.0000]",What are you going to do that is any different than anybody else?
+[212.6000 - 224.5500],Ses05F_impro02_M028,xxx,"[1.5000, 4.0000, 1.5000]","I do not know.  It is not me, so I'm the one who has to stay here.  I'm the one who has to take care of them, and I do not have-I do not have anybody else.  You're all I have."
+[233.4100 - 240.2300],Ses05F_impro02_M029,sad,"[1.5000, 3.0000, 1.0000]",I understand.  I'm worried about you.  I do not know what is going to happen to you.
+[240.5300 - 247.4700],Ses05F_impro02_M030,xxx,"[1.5000, 3.5000, 1.5000]",Iraq of all-come on.  People die every day.
+[249.9654 - 252.0563],Ses05F_impro02_M031,sad,"[1.5000, 1.5000, 1.0000]",I jus-
+[262.9800 - 264.8200],Ses05F_impro02_M032,sad,"[1.5000, 3.5000, 1.0000]",I do not know.
+[269.5200 - 278.8500],Ses05F_impro02_M033,sad,"[1.5000, 3.0000, 1.0000]",Yeah.  I guess.  I do not know what they are going to say.
+[280.4300 - 286.6900],Ses05F_impro02_M034,sad,"[2.0000, 2.5000, 1.5000]","Yeah, we'll call them.  We'll figure something out.  I'm sorry, I'm sorry, I'm sorry.  You're right."
+[289.0500 - 291.1800],Ses05F_impro02_M035,sad,"[1.5000, 3.5000, 1.5000]",I know.
+[293.4100 - 299.9900],Ses05F_impro02_M036,sad,"[1.5000, 3.0000, 2.0000]","All the time, every day, every day.  They have e-mail over there and stuff like that, right? I can send you pictures."
+[301.1900 - 307.9200],Ses05F_impro02_M037,xxx,"[2.0000, 3.0000, 2.5000]",You have to call me all the time whenever you can.  You have to tell me what you're doing and how you're doing.  Okay?
+[309.8100 - 312.1800],Ses05F_impro02_M038,xxx,"[1.5000, 3.0000, 1.5000]",How long do we have?  When do you leave?
+[315.4100 - 319.4100],Ses05F_impro02_M039,sur,"[1.5000, 4.0000, 1.0000]",Three weeks?
+[320.3500 - 328.8200],Ses05F_impro02_M040,xxx,"[1.5000, 2.0000, 2.5000]","I do not Okay.  Okay, we can do this.  We can do this.  It is okay.  We'll make it work."
+[332.8230 - 335.1399],Ses05F_impro02_M041,sad,"[2.0000, 2.5000, 2.0000]",I love you.

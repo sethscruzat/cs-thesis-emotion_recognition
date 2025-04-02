@@ -1,0 +1,24 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[18.5100 - 21.4600],Ses05M_script01_2_F002,neu,"[2.3333, 3.3333, 3.6667]","[ ' nobody ' , ' come ' , ' seven ' , ' hundred ' , ' mile ' , ' see ' ]"
+[36.3900 - 38.8800],Ses05M_script01_2_F004,neu,"[2.3333, 2.3333, 2.6667]",[ ' get ' ]
+[42.2600 - 44.6300],Ses05M_script01_2_F005,neg,"[2.0000, 3.3333, 3.0000]","[ ' go ' , ' joe ' ]"
+[88.4100 - 98.0100],Ses05M_script01_2_F010,neg,"[2.0000, 4.0000, 4.0000]","[ ' want ' , ' pretend ' , ' like ' , ' come ' , ' back ' , ' think ' , ' notice ' , ' chris ' , ' since ' , ' get ' , ' want ' , ' nonsense ' ]"
+[98.5100 - 105.2000],Ses05M_script01_2_F011,neg,"[1.6667, 4.0000, 4.0000]","[ ' come ' , ' back ' , ' kill ' , ' laugh ' , ' laugh ' ]"
+[118.6100 - 123.1500],Ses05M_script01_2_F014,neg,"[3.0000, 3.3333, 3.0000]","[ ' last ' , ' week ' , ' man ' , ' turn ' , ' detroit ' , ' miss ' , ' long ' , ' larry ' , ' read ' ]"
+[123.4600 - 126.4400],Ses05M_script01_2_F015,neg,"[2.0000, 3.6667, 3.6667]","[ ' get ' , ' believe ' ]"
+[135.4100 - 136.9000],Ses05M_script01_2_F017,neg,"[2.0000, 3.6667, 2.6667]",[ ' help ' ]
+[8.1900 - 10.6800],Ses05M_script01_2_M000,neu,"[3.0000, 2.6667, 2.3333]",[ ' bother ' ]
+[13.8600 - 19.4000],Ses05M_script01_2_M001,neu,"[3.0000, 3.0000, 2.6667]","[ ' well ' , ' maybe ' , ' maybe ' , ' want ' , ' see ' ]"
+[21.0500 - 31.0600],Ses05M_script01_2_M002,neg,"[2.6667, 3.3333, 3.0000]","[ ' talk ' , ' grow ' , ' next ' , ' girl ' , ' whole ' , ' life ' , ' would ' , ' want ' , ' see ' , ' look ' , ' like ' , ' tell ' , ' anything ' , ' tell ' ]"
+[33.7900 - 37.1100],Ses05M_script01_2_M003,neu,"[2.6667, 3.0000, 2.6667]","[ ' think ' , ' even ' , ' think ' ]"
+[39.0300 - 42.4100],Ses05M_script01_2_M004,neg,"[3.0000, 3.3333, 2.6667]",[ ' well ' ]
+[44.3100 - 47.6800],Ses05M_script01_2_M005,neg,"[2.3333, 3.0000, 2.6667]",[ ' listen ' ]
+[62.7700 - 66.1700],Ses05M_script01_2_M007,neg,"[2.0000, 3.3333, 3.0000]","[ ' know ' , ' wait ' ]"
+[75.0600 - 79.5000],Ses05M_script01_2_M008,neg,"[2.6667, 3.3333, 3.0000]","[ ' look ' , ' beautiful ' , ' day ' , ' outside ' , ' argue ' ]"
+[86.8400 - 89.6500],Ses05M_script01_2_M009,neg,"[1.6667, 3.6667, 3.0000]","[ ' well ' , ' want ' , ' want ' ]"
+[97.5100 - 99.0400],Ses05M_script01_2_M010,neg,"[2.3333, 3.0000, 2.6667]",[ ' kate ' ]
+[111.8200 - 113.9300],Ses05M_script01_2_M011,neg,"[2.6667, 2.3333, 3.3333]",[ ' calm ' ]
+[116.9800 - 119.2100],Ses05M_script01_2_M012,neg,"[3.0000, 3.3333, 3.3333]",[ ' calm ' ]
+[122.6900 - 124.7200],Ses05M_script01_2_M013,neg,"[3.0000, 3.3333, 3.3333]","[ ' right ' , ' right ' ]"
+[132.8400 - 136.2200],Ses05M_script01_2_M015,neg,"[2.0000, 4.0000, 4.0000]","[ ' suppose ' , ' mean ' , ' look ' , ' shake ' ]"
+[136.6000 - 140.5800],Ses05M_script01_2_M016,neg,"[1.6667, 4.0000, 4.3333]","[ ' get ' , ' hide ' , ' kate ' , ' hell ' , ' matter ' ]"

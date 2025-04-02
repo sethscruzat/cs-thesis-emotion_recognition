@@ -1,0 +1,128 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[2.8098 - 4.5479],Ses05F_impro03_F000,exc,"[4.0000, 3.0000, 3.5000]","['okay', 'big', 'news']"
+[7.9600 - 9.8400],Ses05F_impro03_F001,exc,"[4.5000, 3.0000, 3.5000]","['getting', 'married']"
+[10.2000 - 11.3300],Ses05F_impro03_F002,exc,"[4.5000, 3.0000, 4.0000]",['yeah']
+[11.5800 - 12.7187],Ses05F_impro03_F003,exc,"[4.5000, 3.5000, 4.0000]",['yeah']
+[13.4800 - 14.6600],Ses05F_impro03_F004,exc,"[4.5000, 3.5000, 4.0000]",['uh-huh']
+[16.2500 - 18.1600],Ses05F_impro03_F005,exc,"[4.5000, 3.5000, 4.0000]","['couple', 'days', 'ago']"
+[18.6200 - 20.5600],Ses05F_impro03_F006,xxx,"[4.5000, 4.0000, 3.5000]",['laughter']
+[24.0500 - 25.7600],Ses05F_impro03_F007,exc,"[4.5000, 3.0000, 4.0000]","['know', 'neither']"
+[26.0600 - 30.7700],Ses05F_impro03_F008,exc,"[4.5000, 4.0000, 3.5000]","['right', 'thought', 'would', 'way', 'older', 'thought', 'would', 'least', 'thirty', 'something']"
+[30.9400 - 32.4700],Ses05F_impro03_F009,exc,"[4.5000, 4.0000, 4.0000]",['yeah']
+[33.6100 - 37.1900],Ses05F_impro03_F010,xxx,"[4.0000, 3.5000, 4.5000]","['know', 'right', 'say', 'thirty', 'nine']"
+[40.1200 - 41.8700],Ses05F_impro03_F011,exc,"[4.5000, 4.5000, 4.0000]",['sorry']
+[45.1000 - 52.2600],Ses05F_impro03_F012,xxx,"[4.0000, 3.0000, 3.5000]","['um', 'well', 'uh', 'not-i', 'know', 'much', 'planning', 'done']"
+[55.2100 - 57.1200],Ses05F_impro03_F013,xxx,"[4.0000, 3.0000, 3.5000]","['really', 'beautiful']"
+[57.1800 - 61.1900],Ses05F_impro03_F014,xxx,"[4.0000, 3.0000, 3.5000]","['yeah', 'went', 'really', 'great', 'jazz', 'show', 'um']"
+[62.2000 - 69.3900],Ses05F_impro03_F015,xxx,"[4.0000, 3.0000, 3.5000]","['yeah', 'went', 'um', 'place', 'like', 'restaurant', 'roof', 'kind', 'thing']"
+[69.5500 - 74.3100],Ses05F_impro03_F016,xxx,"[4.0000, 3.0000, 4.0000]","['know', 'like', 'late', 'dinner', 'champagne']"
+[74.8000 - 76.0500],Ses05F_impro03_F017,xxx,"[4.0000, 3.5000, 3.0000]",['mm-hmm']
+[78.3500 - 81.1000],Ses05F_impro03_F018,xxx,"[4.0000, 3.0000, 3.5000]","['beautiful', 'full', 'moon']"
+[87.1900 - 89.4800],Ses05F_impro03_F019,xxx,"[4.0000, 3.0000, 3.5000]","['know', 'guess', 'next', 'summer']"
+[89.8800 - 93.0500],Ses05F_impro03_F020,exc,"[4.5000, 3.5000, 4.5000]","['yeah', 'yeah', 'course']"
+[93.1600 - 95.4700],Ses05F_impro03_F021,xxx,"[4.0000, 3.0000, 3.5000]","['next', 'fall', 'guess']"
+[95.6300 - 97.4800],Ses05F_impro03_F022,xxx,"[4.0000, 2.5000, 3.0000]","['yeah', 'like', 'autumn']"
+[98.5200 - 100.2000],Ses05F_impro03_F023,xxx,"[4.0000, 3.0000, 3.5000]","['oh', 'town']"
+[100.4400 - 103.9900],Ses05F_impro03_F024,xxx,"[3.0000, 2.5000, 3.0000]","['yeah', 'family', 'live', 'far', 'away', 'think']"
+[104.8600 - 106.8700],Ses05F_impro03_F025,xxx,"[3.5000, 2.5000, 2.5000]","['chicago', 'well']"
+[106.9300 - 108.2000],Ses05F_impro03_F026,xxx,"[4.0000, 3.0000, 3.0000]",['yeah']
+[110.8900 - 117.4400],Ses05F_impro03_F027,hap,"[4.5000, 3.0000, 4.0000]","['weird', 'right', 'like', 'grow', 'near', 'somebody', 'never', 'know', 'travel', 'hundreds', 'miles', 'away']"
+[120.4900 - 121.7500],Ses05F_impro03_F028,hap,"[4.5000, 4.5000, 3.5000]",['know']
+[123.7500 - 129.8600],Ses05F_impro03_F029,hap,"[4.0000, 3.5000, 4.0000]","['right', 'like', 'oh', 'u.s.', 'u.s.', 'chicago', 'chicago']"
+[129.8900 - 132.4500],Ses05F_impro03_F030,hap,"[4.0000, 3.5000, 4.0000]","['knowing', 'neighborhood', 'yeah', 'pretty', 'bizarre']"
+[132.6100 - 133.9100],Ses05F_impro03_F031,hap,"[4.0000, 2.0000, 3.0000]",['yeah']
+[136.4700 - 137.5600],Ses05F_impro03_F032,hap,"[4.0000, 3.0000, 3.0000]",['mm-hmm']
+[138.4400 - 140.4300],Ses05F_impro03_F033,hap,"[4.0000, 3.0000, 4.0000]","['yeah', 'loves']"
+[147.1100 - 150.0500],Ses05F_impro03_F034,hap,"[4.0000, 3.5000, 3.5000]","['yeah', 'she-yeah', 'type']"
+[158.0600 - 159.2800],Ses05F_impro03_F035,hap,"[4.5000, 3.0000, 3.0000]",['thank']
+[165.3200 - 167.3600],Ses05F_impro03_F036,hap,"[5.0000, 4.5000, 4.5000]",['laughter']
+[167.6700 - 170.0600],Ses05F_impro03_F037,exc,"[4.5000, 3.5000, 4.5000]","['yeah', 'hang']"
+[180.1100 - 185.5389],Ses05F_impro03_F038,xxx,"[4.0000, 3.0000, 4.0000]","['mean', 'duty', 'man', 'going', 'marry', 'nobody', 'else', 'came']"
+[187.3100 - 189.6400],Ses05F_impro03_F039,hap,"[4.5000, 4.0000, 4.0000]",['sorry']
+[193.1900 - 194.8400],Ses05F_impro03_F040,hap,"[4.0000, 3.5000, 3.0000]","['still', 'time']"
+[198.1700 - 199.7300],Ses05F_impro03_F041,hap,"[4.5000, 4.5000, 4.0000]",['breathing']
+[205.5400 - 207.3700],Ses05F_impro03_F042,exc,"[4.5000, 3.0000, 3.5000]","['know', 'believe']"
+[207.4600 - 209.7600],Ses05F_impro03_F043,exc,"[4.5000, 3.0000, 3.5000]",['excited']
+[210.9900 - 212.5700],Ses05F_impro03_F044,xxx,"[3.5000, 3.0000, 3.0000]",['people']
+[212.5900 - 214.3700],Ses05F_impro03_F045,xxx,"[4.0000, 3.0000, 3.0000]","['close', 'friends', 'far']"
+[217.4800 - 220.8500],Ses05F_impro03_F046,hap,"[4.0000, 3.5000, 3.5000]","['think', 'moving', 'going', 'move', 'together']"
+[220.8800 - 223.8100],Ses05F_impro03_F047,hap,"[4.0000, 3.0000, 3.0000]","['think', 'good', 'idea', 'live', 'together', 'get', 'married']"
+[225.0800 - 227.1600],Ses05F_impro03_F048,hap,"[3.5000, 2.5000, 3.0000]","['want', 'house', 'mean']"
+[227.1700 - 228.5596],Ses05F_impro03_F049,hap,"[4.0000, 2.5000, 3.0000]","['l.a.', 'apartment', 'fine']"
+[229.4700 - 230.5800],Ses05F_impro03_F050,xxx,"[4.0000, 2.5000, 2.5000]",['yeah']
+[232.9500 - 237.3100],Ses05F_impro03_F051,hap,"[4.0000, 3.0000, 4.0000]","['two', 'artists', 'though', 'bound', 'poor', 'forever']"
+[239.5700 - 242.1400],Ses05F_impro03_F052,xxx,"[4.0000, 3.0000, 3.5000]","['yeah', 'think', 'mean']"
+[242.1500 - 243.9400],Ses05F_impro03_F053,hap,"[4.0000, 2.5000, 3.0000]",['definitely']
+[244.6800 - 245.7800],Ses05F_impro03_F054,hap,"[4.0000, 2.0000, 2.5000]",['yeah']
+[248.2900 - 252.8000],Ses05F_impro03_F055,hap,"[5.0000, 4.5000, 4.0000]","['laughter', 'good', 'luck']"
+[253.4051 - 255.5300],Ses05F_impro03_F056,hap,"[4.0000, 2.5000, 3.0000]","['trouble', 'trouble']"
+[256.7900 - 260.8800],Ses05F_impro03_F057,hap,"[4.0000, 3.5000, 3.5000]","['approach', 'like', 'hey', 'bear', 'children']"
+[263.0500 - 264.4400],Ses05F_impro03_F058,hap,"[4.0000, 3.0000, 3.0000]","['yeah', 'totally']"
+[265.6600 - 267.6800],Ses05F_impro03_F059,hap,"[3.5000, 3.0000, 3.5000]","['total', 'turn']"
+[267.8200 - 269.7800],Ses05F_impro03_F060,hap,"[4.5000, 4.0000, 4.0000]",['laughter']
+[5.6200 - 9.3800],Ses05F_impro03_M001,exc,"[4.0000, 3.5000, 3.5000]",['come']
+[9.6100 - 10.9700],Ses05F_impro03_M002,sur,"[3.0000, 4.0000, 4.5000]",['shut']
+[11.0100 - 12.6200],Ses05F_impro03_M003,exc,"[3.5000, 3.5000, 4.5000]",['way']
+[12.6500 - 14.3000],Ses05F_impro03_M004,xxx,"[3.5000, 3.5000, 4.5000]",['asked']
+[14.4300 - 17.6100],Ses05F_impro03_M005,exc,"[4.5000, 4.5000, 4.5000]","['way', 'happen']"
+[17.8500 - 19.8800],Ses05F_impro03_M006,exc,"[4.5000, 4.0000, 4.0000]","['oh', 'gosh']"
+[19.9900 - 24.6800],Ses05F_impro03_M007,exc,"[3.5000, 4.0000, 4.5000]","['actually', 'said', 'yes', 'believe', 'never', 'thought', 'would', 'get', 'married']"
+[25.3500 - 27.2000],Ses05F_impro03_M008,exc,"[4.0000, 3.5000, 4.0000]","['oh', 'gosh']"
+[27.3300 - 29.2900],Ses05F_impro03_M009,exc,"[4.0000, 3.0000, 3.5000]","['oh', 'absolutely']"
+[29.8300 - 35.5200],Ses05F_impro03_M010,exc,"[3.5000, 3.0000, 4.0000]","['well', 'always', 'said', 'thirtieth', 'got', 'married', 'going', 'get', 'married']"
+[36.2700 - 41.5691],Ses05F_impro03_M011,exc,"[3.0000, 4.0000, 4.5000]","['thirty', 'nine', 'yeah', 'believe', 'broke', 'pact', 'thanks', 'lot']"
+[41.6005 - 45.9800],Ses05F_impro03_M012,exc,"[4.5000, 4.0000, 4.5000]","['thanks', 'lot', 'well', 'okay', 'got', 'tell', 'details', 'say', 'happened']"
+[51.9600 - 56.1400],Ses05F_impro03_M013,exc,"[4.0000, 4.5000, 4.5000]","['okay', 'okay', 'spontaneous', 'great', 'spontaneous', 'awesome']"
+[56.1500 - 57.6600],Ses05F_impro03_M014,xxx,"[4.0000, 3.5000, 3.5000]","['got', 'love']"
+[60.2600 - 63.5100],Ses05F_impro03_M015,xxx,"[4.0000, 3.0000, 3.5000]","['nice', 'love', 'jazz']"
+[68.7600 - 70.1500],Ses05F_impro03_M016,xxx,"[4.0000, 3.5000, 3.5000]","['oh', 'okay', 'yeah']"
+[73.5700 - 75.3300],Ses05F_impro03_M017,xxx,"[4.0000, 3.0000, 3.5000]",['chicago']
+[75.5600 - 80.1300],Ses05F_impro03_M018,xxx,"[4.0000, 2.5000, 3.5000]","['downtown', 'beautiful', 'course', 'beautiful']"
+[80.8500 - 87.9000],Ses05F_impro03_M019,xxx,"[4.0000, 4.0000, 4.5000]","['guy', 'believe', 'okay', 'know', 'details', 'going', 'anything']"
+[90.7300 - 93.7800],Ses05F_impro03_M021,xxx,"[4.0000, 3.0000, 3.5000]","['okay', 'certainly', 'hope', 'course']"
+[94.8300 - 95.9700],Ses05F_impro03_M022,xxx,"[3.5000, 3.0000, 3.5000]","['next', 'fall']"
+[96.7600 - 99.0100],Ses05F_impro03_M023,xxx,"[2.5000, 3.5000, 3.5000]","['going', 'town', 'town']"
+[99.5600 - 100.8300],Ses05F_impro03_M024,xxx,"[4.0000, 2.5000, 3.5000]","['oh', 'okay']"
+[103.4400 - 105.2200],Ses05F_impro03_M025,xxx,"[3.0000, 3.0000, 3.0000]",['yeah']
+[106.2100 - 107.4800],Ses05F_impro03_M026,xxx,"[4.0000, 2.5000, 3.0000]","['oh', 'okay']"
+[107.5100 - 111.5700],Ses05F_impro03_M027,exc,"[4.0000, 4.0000, 4.5000]","['cool', 'perfect', 'another', 'chicagoite', 'got', 'love']"
+[116.7800 - 121.0400],Ses05F_impro03_M028,xxx,"[4.5000, 3.5000, 4.5000]","['exactly', 'yeah', 'believe', 'met', 'africa']"
+[121.0600 - 124.6700],Ses05F_impro03_M029,xxx,"[3.5000, 3.5000, 4.0000]","['chances', 'chances', 'meeting', 'somebody', 'africa', 'coming', 'back', 'chicago']"
+[129.1200 - 131.4200],Ses05F_impro03_M030,hap,"[4.0000, 3.5000, 4.0000]","['laughter', 'sil']"
+[131.6500 - 133.3400],Ses05F_impro03_M031,exc,"[3.5000, 3.0000, 3.5000]","['getting', 'married']"
+[133.3600 - 136.9500],Ses05F_impro03_M032,exc,"[3.5000, 3.5000, 3.5000]","['amazing', 'must', 'excited', 'tell', 'mom']"
+[137.1700 - 138.9600],Ses05F_impro03_M033,exc,"[4.0000, 3.5000, 3.5000]","['oh', 'cry']"
+[139.7600 - 148.3600],Ses05F_impro03_M034,xxx,"[4.0000, 3.0000, 4.5000]","['knew', 'knew', 'course', 'could', 'love', 'mr.', 'peace', 'corps', 'worker', 'man', 'nicest', 'guy', 'ever']"
+[149.3700 - 151.6200],Ses05F_impro03_M035,exc,"[3.5000, 3.5000, 3.0000]",['breathing']
+[151.6400 - 158.3900],Ses05F_impro03_M036,exc,"[4.0000, 3.0000, 4.5000]","['believe', 'happy', 'exactly', 'wanted', 'dream', 'come', 'true']"
+[158.4600 - 166.2000],Ses05F_impro03_M037,exc,"[4.0000, 3.5000, 4.5000]","['exact', 'right', 'guy', 'fully', 'approve', 'wonderful', 'guy', 'great', 'time', 'drink', 'awesome']"
+[166.3200 - 168.2200],Ses05F_impro03_M038,hap,"[4.5000, 4.0000, 3.5000]",['laughter']
+[169.5200 - 180.6600],Ses05F_impro03_M039,exc,"[4.0000, 4.0000, 4.0000]","['course', 'course', 'course', 'yeah', 'go', 'disappear', 'like', 'everyone', 'else', 'get', 'married', 'never', 'see', 'make', 'mad', 'want', 'make', 'mad', 'know', 'get', 'get', 'mad']"
+[183.9300 - 185.2800],Ses05F_impro03_M040,hap,"[4.0000, 3.0000, 3.5000]",['exactly']
+[185.3000 - 187.6300],Ses05F_impro03_M041,hap,"[5.0000, 3.5000, 4.0000]","['exactly', 'laugh']"
+[188.8100 - 194.4800],Ses05F_impro03_M042,xxx,"[3.5000, 2.5000, 4.0000]","['ahh', 'always', 'worried', 'little', 'bit', 'jealous', 'never', 'quite', 'lucky']"
+[194.5000 - 198.6900],Ses05F_impro03_M043,exc,"[4.5000, 4.5000, 4.0000]","['oh', 'thanks', 'move', 'get', 'married', 'laughter']"
+[199.1200 - 201.7600],Ses05F_impro03_M044,exc,"[4.5000, 4.0000, 4.0000]","['perfect', 'okay', 'good', 'sigh']"
+[201.7800 - 206.7100],Ses05F_impro03_M045,exc,"[4.0000, 3.0000, 4.0000]","['feel', 'bad', 'well', 'excited']"
+[207.0500 - 208.6600],Ses05F_impro03_M046,exc,"[3.5000, 2.5000, 3.5000]",['believe']
+[209.3700 - 211.0200],Ses05F_impro03_M047,xxx,"[3.5000, 2.5000, 3.0000]","['else', 'told']"
+[212.2400 - 213.5100],Ses05F_impro03_M048,xxx,"[4.0000, 3.5000, 3.0000]",['really']
+[213.9600 - 217.8900],Ses05F_impro03_M049,hap,"[4.0000, 2.5000, 3.0000]","['one', 'first', 'ones', 'makes', 'feel', 'important']"
+[220.2900 - 222.7500],Ses05F_impro03_M050,exc,"[3.5000, 3.5000, 3.5000]","['oh', 'yeah', 'course']"
+[222.9400 - 225.5300],Ses05F_impro03_M051,exc,"[3.5000, 3.0000, 3.5000]","['think', 'going', 'get', 'house']"
+[228.4700 - 229.8800],Ses05F_impro03_M053,xxx,"[4.0000, 3.0000, 3.0000]","['oh', 'nice']"
+[229.9300 - 233.4400],Ses05F_impro03_M054,xxx,"[3.5000, 3.0000, 3.5000]","['good', 'apartment', 'breathing']"
+[234.7200 - 236.5600],Ses05F_impro03_M055,xxx,"[4.0000, 2.5000, 3.5000]","['yeah', 'going', 'survive']"
+[236.5951 - 239.5300],Ses05F_impro03_M056,xxx,"[4.0000, 3.0000, 3.5000]","['exactly', 'going', 'kids']"
+[240.8700 - 242.1100],Ses05F_impro03_M057,hap,"[4.5000, 3.0000, 4.0000]",['yeah']
+[242.1900 - 243.4600],Ses05F_impro03_M058,hap,"[4.0000, 3.0000, 3.0000]",['yeah']
+[245.5800 - 248.7100],Ses05F_impro03_M059,xxx,"[3.5000, 2.0000, 3.0000]","['going', 'find', 'somebody', 'else', 'bear', 'children']"
+[249.6000 - 251.2000],Ses05F_impro03_M060,hap,"[4.5000, 3.5000, 3.5000]",['laughter']
+[252.4800 - 254.5600],Ses05F_impro03_M061,hap,"[3.5000, 2.5000, 3.5000]","['oh', 'thanks', 'need']"
+[254.6400 - 256.2500],Ses05F_impro03_M062,hap,"[3.5000, 2.5000, 3.0000]","['oh', 'thanks', 'nice']"
+[256.3600 - 258.1300],Ses05F_impro03_M063,hap,"[4.0000, 3.5000, 3.5000]",['polite']
+[258.3600 - 260.1200],Ses05F_impro03_M064,hap,"[4.0000, 3.0000, 3.0000]","['getting', 'married']"
+[260.1500 - 263.9800],Ses05F_impro03_M065,hap,"[4.5000, 4.5000, 4.5000]","['exactly', 'laughter', 'think', 'go', 'great']"
+[264.0000 - 265.5500],Ses05F_impro03_M066,hap,"[4.0000, 3.5000, 3.5000]","['girls', 'like', 'right']"
+[267.0700 - 269.2300],Ses05F_impro03_M067,hap,"[4.0000, 3.0000, 3.5000]","['would', 'mind', 'popping']"
+[269.2700 - 271.5900],Ses05F_impro03_M068,hap,"[4.0000, 3.5000, 4.0000]","['great', 'thanks']"

@@ -1,0 +1,51 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[12.3000 - 14.4800],Ses05F_impro02_F001,neg,"[2.0000, 1.5000, 1.5000]",[ ' um ' ]
+[19.0000 - 24.6600],Ses05F_impro02_F002,neg,"[2.0000, 2.5000, 1.5000]","[ ' sorry ' , ' lot ' , ' ahh ' , ' explain ' , ' ahh ' , ' get ' , ' call ' ]"
+[28.8000 - 31.1014],Ses05F_impro02_F004,neg,"[1.5000, 2.0000, 1.5000]","[ ' get ' , ' call ' , ' today ' ]"
+[33.6400 - 37.1300],Ses05F_impro02_F005,neg,"[1.5000, 2.0000, 2.0000]","[ ' go ' , ' need ' , ' go ' , ' overseas ' ]"
+[40.9200 - 42.2900],Ses05F_impro02_F006,neg,"[1.5000, 1.5000, 2.5000]",[ ' iraq ' ]
+[51.7400 - 54.4200],Ses05F_impro02_F008,neg,"[1.5000, 3.5000, 1.5000]","[ ' know ' , ' sigh ' ]"
+[61.5700 - 65.7300],Ses05F_impro02_F009,neg,"[1.0000, 3.0000, 1.5000]","[ ' know ' , ' know ' ]"
+[68.8300 - 79.7900],Ses05F_impro02_F010,neg,"[2.0000, 2.5000, 2.0000]","[ ' know ' , ' well ' , ' figure ' , ' mean ' , ' think ' , ' army ' , ' go ' , ' provide ' , ' childcare ' , ' help ' , ' we ' , ' um ' ]"
+[83.0500 - 85.3000],Ses05F_impro02_F011,neg,"[2.0000, 2.5000, 1.5000]",[ ' iraq ' ]
+[88.3300 - 93.3000],Ses05F_impro02_F012,neg,"[1.5000, 2.5000, 2.0000]","[ ' think ' , ' infantry ' , ' sure ' ]"
+[97.7400 - 103.8500],Ses05F_impro02_F013,neg,"[2.0000, 2.5000, 1.5000]","[ ' go ' , ' least ' , ' six ' , ' month ' , ' probably ' , ' year ' , ' try ' ]"
+[106.6800 - 109.9800],Ses05F_impro02_F014,neg,"[1.5000, 3.0000, 2.5000]","[ ' know ' , ' know ' , ' really ' , ' really ' , ' mess ' ]"
+[133.5800 - 138.1400],Ses05F_impro02_F017,neg,"[1.5000, 2.5000, 2.0000]","[ ' well ' , ' maybe ' , ' move ' , ' mom ' , ' help ' ]"
+[140.6200 - 144.2000],Ses05F_impro02_F018,neg,"[2.0000, 3.5000, 2.5000]","[ ' know ' , ' try ' , ' think ' , ' something ' ]"
+[164.2500 - 167.3900],Ses05F_impro02_F021,neg,"[1.5000, 3.5000, 1.5000]","[ ' think ' , ' anything ' ]"
+[183.0200 - 188.9000],Ses05F_impro02_F023,neg,"[1.0000, 3.5000, 2.0000]","[ ' know ' , ' know ' , ' fair ' ]"
+[199.5600 - 202.7800],Ses05F_impro02_F024,neg,"[1.5000, 1.5000, 1.5000]","[ ' well ' , ' apparently ' , ' nobody ' , ' else ' , ' go ' ]"
+[205.9800 - 213.1700],Ses05F_impro02_F025,neg,"[1.5000, 3.5000, 3.0000]","[ ' know ' , ' baby ' , ' ask ' , ' hard ' , ' please ' , ' try ' , ' understand ' ]"
+[223.6300 - 233.5000],Ses05F_impro02_F026,neg,"[2.0000, 3.0000, 3.5000]","[ ' understand ' , ' baby ' , ' sorry ' , ' mean ' , ' try ' , ' understand ' , ' scared ' ]"
+[238.6500 - 240.4100],Ses05F_impro02_F027,neg,"[1.5000, 3.0000, 2.0000]",[ ' know ' ]
+[246.3500 - 248.2000],Ses05F_impro02_F028,neg,"[1.5000, 3.5000, 2.0000]",[ ' know ' ]
+[252.2100 - 262.6900],Ses05F_impro02_F029,neg,"[2.0000, 2.5000, 2.5000]","[ ' figure ' , ' something ' , ' think ' , ' could ' , ' family ' , ' help ' , ' we ' ]"
+[285.7900 - 289.1700],Ses05F_impro02_F031,neg,"[1.0000, 4.0000, 1.5000]","[ ' go ' , ' miss ' , ' first ' , ' word ' ]"
+[291.0500 - 294.9200],Ses05F_impro02_F032,neg,"[1.0000, 3.0000, 2.0000]","[ ' send ' , ' picture ' , ' letter ' , ' everyday ' ]"
+[307.5400 - 310.2100],Ses05F_impro02_F034,neg,"[2.5000, 2.0000, 2.0000]","[ ' yeah ' , ' much ' ]"
+[311.9000 - 316.1000],Ses05F_impro02_F035,neg,"[2.0000, 2.0000, 1.5000]","[ ' sigh ' , ' three ' , ' week ' ]"
+[318.9700 - 320.7100],Ses05F_impro02_F036,neg,"[2.0000, 1.0000, 1.0000]",[ ' yeah ' ]
+[328.2000 - 329.4000],Ses05F_impro02_F037,neg,"[2.0000, 1.0000, 1.0000]",[ ' yeah ' ]
+[335.2658 - 343.4000],Ses05F_impro02_F038,neg,"[1.5000, 3.5000, 1.5000]","[ ' love ' , ' go ' , ' miss ' , ' much ' , ' sigh ' ]"
+[38.4900 - 40.6800],Ses05F_impro02_M004,neg,"[1.5000, 2.5000, 1.0000]","[ ' get ' , ' call ' ]"
+[41.8900 - 44.9700],Ses05F_impro02_M005,neg,"[1.5000, 2.5000, 2.0000]","[ ' think ' , ' say ' , ' go ' , ' happen ' , ' least ' , ' year ' ]"
+[50.1000 - 52.3200],Ses05F_impro02_M006,neg,"[1.5000, 3.0000, 1.0000]",[ ' go ' ]
+[60.3500 - 61.9000],Ses05F_impro02_M008,neg,"[1.5000, 3.0000, 1.5000]",[ ' kid ' ]
+[80.4600 - 83.4400],Ses05F_impro02_M010,neg,"[2.0000, 3.5000, 2.5000]","[ ' go ' , ' go ' ]"
+[103.9163 - 108.1300],Ses05F_impro02_M014,neg,"[1.5000, 3.5000, 2.5000]","[ ' understand ' , ' would ' , ' something ' , ' like ' ]"
+[109.4000 - 116.8600],Ses05F_impro02_M015,neg,"[1.5000, 4.0000, 3.5000]","[ ' make ' , ' sense ' , ' stupid ' , ' tell ' , ' go ' , ' army ' ]"
+[120.5800 - 125.5400],Ses05F_impro02_M016,neg,"[1.5000, 2.5000, 2.0000]","[ ' know ' , ' know ' , ' go ' , ' know ' ]"
+[137.6900 - 141.9100],Ses05F_impro02_M019,pos,"[1.5000, 4.0000, 2.5000]","[ ' mom ' , ' want ' , ' move ' , ' mom ' ]"
+[166.0500 - 169.5200],Ses05F_impro02_M024,neg,"[1.5000, 3.5000, 1.5000]","[ ' tell ' , ' sick ' , ' leave ' , ' something ' ]"
+[181.7500 - 183.7300],Ses05F_impro02_M025,neg,"[1.0000, 3.5000, 1.0000]",[ ' fair ' ]
+[189.2800 - 200.1600],Ses05F_impro02_M026,neg,"[1.5000, 3.5000, 1.5000]","[ ' people ' , ' somebody ' , ' else ' , ' go ' , ' instead ' , ' right ' ]"
+[233.4100 - 240.2300],Ses05F_impro02_M029,neg,"[1.5000, 3.0000, 1.0000]","[ ' understand ' , ' worried ' , ' know ' , ' go ' , ' happen ' ]"
+[249.9654 - 252.0563],Ses05F_impro02_M031,neg,"[1.5000, 1.5000, 1.0000]",[ ' jus ' ]
+[262.9800 - 264.8200],Ses05F_impro02_M032,neg,"[1.5000, 3.5000, 1.0000]",[ ' know ' ]
+[269.5200 - 278.8500],Ses05F_impro02_M033,neg,"[1.5000, 3.0000, 1.0000]","[ ' yeah ' , ' guess ' , ' know ' , ' go ' , ' say ' ]"
+[280.4300 - 286.6900],Ses05F_impro02_M034,neg,"[2.0000, 2.5000, 1.5000]","[ ' yeah ' , ' call ' , ' figure ' , ' something ' , ' sorry ' , ' sorry ' , ' sorry ' , ' right ' ]"
+[289.0500 - 291.1800],Ses05F_impro02_M035,neg,"[1.5000, 3.5000, 1.5000]",[ ' know ' ]
+[293.4100 - 299.9900],Ses05F_impro02_M036,neg,"[1.5000, 3.0000, 2.0000]","[ ' time ' , ' every ' , ' day ' , ' every ' , ' day ' , ' e - mail ' , ' stuff ' , ' like ' , ' right ' , ' send ' , ' picture ' ]"
+[315.4100 - 319.4100],Ses05F_impro02_M039,pos,"[1.5000, 4.0000, 1.0000]","[ ' three ' , ' week ' ]"
+[332.8230 - 335.1399],Ses05F_impro02_M041,neg,"[2.0000, 2.5000, 2.0000]",[ ' love ' ]

@@ -1,0 +1,64 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[13.1300 - 15.5200],Ses05M_script03_2_F001,neu,"[2.0000, 3.0000, 3.5000]","[ ' trivial ' , ' little ' , ' broach ' ]"
+[17.7900 - 21.4300],Ses05M_script03_2_F002,neu,"[2.5000, 3.0000, 3.0000]","[ ' quite ' , ' like ' , ' wear ' , ' often ' ]"
+[24.9496 - 30.4600],Ses05M_script03_2_F003,fru,"[2.5000, 2.5000, 3.5000]","[ ' garbage ' , ' work ' , ' whole ' , ' thing ' , ' jealous ' , ' imagination ' ]"
+[32.1200 - 35.5500],Ses05M_script03_2_F004,neu,"[3.5000, 3.0000, 3.0000]","[ ' oh ' , ' maybe ' , ' little ' , ' nothing ' , ' serious ' ]"
+[37.1200 - 38.5800],Ses05M_script03_2_F005,neu,"[2.0000, 2.5000, 3.0000]",[ ' well ' ]
+[39.2300 - 42.4900],Ses05M_script03_2_F006,neu,"[2.0000, 3.5000, 4.0000]","[ ' well ' , ' give ' , ' lot ' , ' pleasure ' , ' hurt ' ]"
+[48.6300 - 51.5000],Ses05M_script03_2_F008,fru,"[2.0000, 2.5000, 3.0000]","[ ' get ' , ' bored ' , ' conversation ' ]"
+[55.6400 - 57.2800],Ses05M_script03_2_F009,neu,"[3.0000, 2.0000, 2.5000]",[ ' thank ' ]
+[77.0000 - 79.5900],Ses05M_script03_2_F012,neu,"[2.5000, 2.0000, 3.0000]","[ ' become ' , ' habit ' ]"
+[82.2600 - 84.4600],Ses05M_script03_2_F013,fru,"[1.5000, 2.5000, 3.5000]",[ ' stupid ' ]
+[92.1900 - 94.9900],Ses05M_script03_2_F015,neu,"[2.5000, 3.0000, 3.0000]","[ ' make ' , ' fascinating ' ]"
+[104.8700 - 107.7200],Ses05M_script03_2_F018,ang,"[1.5000, 3.0000, 4.0000]",[ ' quiet ' ]
+[121.8400 - 123.0985],Ses05M_script03_2_F021,fru,"[2.0000, 3.5000, 4.0000]",[ ' ste ' ]
+[135.4000 - 137.2600],Ses05M_script03_2_F023,neu,"[3.5000, 3.0000, 3.5000]","[ ' yes ' , ' quite ' , ' lot ' ]"
+[147.6300 - 151.3600],Ses05M_script03_2_F025,fru,"[2.0000, 4.0000, 4.0000]","[ ' quite ' , ' insufferable ' , ' imagine ' , ' drunk ' ]"
+[153.0200 - 154.8600],Ses05M_script03_2_F026,neu,"[2.5000, 3.0000, 3.0000]","[ ' always ' , ' weak ' , ' head ' ]"
+[169.4400 - 172.3200],Ses05M_script03_2_F028,ang,"[2.5000, 2.5000, 3.5000]","[ ' would ' , ' shut ' ]"
+[177.1200 - 180.3500],Ses05M_script03_2_F029,fru,"[2.5000, 2.5000, 3.5000]","[ ' funny ' , ' dear ' , ' well ' , ' brandy ' ]"
+[205.1300 - 209.4100],Ses05M_script03_2_F034,ang,"[2.0000, 3.5000, 4.0000]","[ ' well ' , ' boorish ' , ' idiotic ' ]"
+[212.4400 - 215.4500],Ses05M_script03_2_F035,ang,"[1.5000, 3.5000, 3.5000]","[ ' far ' , ' temperamental ' , ' try ' , ' control ' ]"
+[215.7200 - 219.0600],Ses05M_script03_2_F036,ang,"[1.5000, 4.5000, 4.0000]","[ ' go ' , ' away ' , ' go ' , ' away ' , ' hate ' ]"
+[222.6300 - 227.9500],Ses05M_script03_2_F037,ang,"[2.0000, 3.5000, 4.5000]","[ ' know ' , ' sick ' , ' tire ' , ' listen ' , ' total ' , ' sadistic ' , ' bully ' ]"
+[230.2800 - 236.8700],Ses05M_script03_2_F038,ang,"[1.5000, 4.5000, 4.5000]","[ ' stop ' , ' would ' , ' go ' , ' away ' , ' mean ' , ' conceite ' , ' overbear ' , ' utterly ' , ' impossible ' ]"
+[243.0400 - 246.3600],Ses05M_script03_2_F039,ang,"[1.5000, 4.5000, 4.5000]","[ ' end ' , ' understand ' , ' end ' ]"
+[246.3700 - 248.7500],Ses05M_script03_2_F040,ang,"[1.0000, 4.5000, 5.0000]","[ ' yes ' , ' let ' , ' go ' ]"
+[248.7600 - 257.3000],Ses05M_script03_2_F041,ang,"[1.5000, 4.5000, 5.0000]","[ ' cruel ' , ' fiend ' , ' I - I ' , ' loath ' , ' thank ' , ' god ' , ' realize ' , ' decide ' , ' marry ' , ' oh ' , ' god ' , ' never ' ]"
+[259.4500 - 260.4100],Ses05M_script03_2_F042,ang,"[2.0000, 4.5000, 4.5000]",[ ' beast ' ]
+[260.4200 - 261.4300],Ses05M_script03_2_F043,ang,"[1.5000, 4.5000, 5.0000]",[ ' brute ' ]
+[261.9100 - 263.0700],Ses05M_script03_2_F044,ang,"[1.0000, 4.5000, 5.0000]",[ ' pig ' ]
+[29.7800 - 32.9700],Ses05M_script03_2_M004,fru,"[2.5000, 3.5000, 3.5000]","[ ' must ' , ' admit ' , ' love ' ]"
+[34.8500 - 37.6200],Ses05M_script03_2_M005,fru,"[2.0000, 4.0000, 4.0000]","[ ' let ' , ' kiss ' , ' say ' ]"
+[46.3500 - 49.2000],Ses05M_script03_2_M008,ang,"[1.5000, 4.0000, 4.5000]","[ ' well ' , ' nice ' , ' point ' , ' view ' , ' must ' , ' say ' ]"
+[50.7000 - 52.9500],Ses05M_script03_2_M009,ang,"[2.0000, 3.5000, 4.0000]","[ ' bored ' , ' stiff ' ]"
+[54.1500 - 56.0400],Ses05M_script03_2_M010,neu,"[3.0000, 2.5000, 2.0000]","[ ' want ' , ' brandy ' ]"
+[57.2500 - 59.1300],Ses05M_script03_2_M011,neu,"[3.0000, 3.5000, 3.0000]","[ ' think ' , ' little ' ]"
+[84.0600 - 86.0600],Ses05M_script03_2_M015,ang,"[1.5000, 3.0000, 3.5000]","[ ' amanda ' , ' really ' ]"
+[87.0900 - 92.7300],Ses05M_script03_2_M016,fru,"[2.5000, 3.0000, 3.0000]","[ ' nothing ' , ' go ' , ' somewhere ' , ' darling ' ]"
+[94.5500 - 98.9600],Ses05M_script03_2_M017,fru,"[4.0000, 3.0000, 3.0000]","[ ' um ' , ' well ' , ' reply ' , ' break ' , ' heart ' ]"
+[107.9400 - 113.2900],Ses05M_script03_2_M020,ang,"[2.5000, 3.0000, 3.5000]","[ ' pity ' , ' little ' , ' bit ' , ' brandy ' , ' might ' , ' make ' , ' little ' , ' less ' , ' disagreeable ' ]"
+[118.8300 - 122.3300],Ses05M_script03_2_M022,fru,"[1.5000, 3.5000, 4.0000]","[ ' nonsense ' , ' get ' , ' little ' , ' bag ' , ' venom ' , ' behind ' , ' fang ' , ' snap ' ]"
+[122.3400 - 123.5900],Ses05M_script03_2_M023,ang,"[1.5000, 4.0000, 4.5000]",[ ' snap ' ]
+[129.4400 - 136.1000],Ses05M_script03_2_M024,neu,"[2.5000, 3.0000, 4.0000]","[ ' see ' , ' much ' , ' peter ' , ' burden ' , ' divorce ' ]"
+[136.8800 - 141.2000],Ses05M_script03_2_M025,ang,"[3.5000, 3.0000, 3.5000]","[ ' must ' , ' let ' , ' kiss ' , ' quite ' , ' good ' , ' deal ' , ' huh ' ]"
+[141.9200 - 149.3500],Ses05M_script03_2_M026,ang,"[1.5000, 4.0000, 4.5000]","[ ' sure ' , ' riotous ' , ' time ' , ' restrain ' , ' enjoyable ' , ' never ' , ' much ' , ' anyway ' ]"
+[150.7700 - 153.7600],Ses05M_script03_2_M027,ang,"[2.0000, 3.5000, 4.5000]","[ ' slight ' , ' bit ' , ' drunk ' ]"
+[154.3900 - 162.3300],Ses05M_script03_2_M028,ang,"[1.5000, 4.0000, 5.0000]","[ ' believe ' , ' say ' , ' already ' , ' three ' , ' minuet ' , ' liquor ' , ' glass ' , ' brandy ' , ' entire ' , ' evening ' , ' child ' , ' two ' , ' could ' , ' get ' , ' drunk ' ]"
+[165.2600 - 169.8100],Ses05M_script03_2_M029,ang,"[2.0000, 4.5000, 4.5000]","[ ' oh ' , ' really ' , ' child ' , ' three ' , ' child ' , ' six ' , ' child ' , ' nine ' ]"
+[172.0500 - 177.6500],Ses05M_script03_2_M030,ang,"[2.0000, 5.0000, 4.5000]","[ ' know ' , ' could ' , ' get ' , ' really ' , ' good ' , ' debate ' , ' go ' , ' know ' , ' intemperate ' , ' tot ' ]"
+[179.6000 - 183.2400],Ses05M_script03_2_M031,ang,"[1.5000, 4.0000, 4.5000]","[ ' know ' , ' good ' , ' idea ' , ' think ' ]"
+[186.8900 - 188.9900],Ses05M_script03_2_M032,ang,"[2.0000, 3.5000, 3.5000]","[ ' well ' , ' turn ' , ' think ' ]"
+[190.3300 - 193.9600],Ses05M_script03_2_M033,ang,"[2.5000, 3.5000, 3.5000]","[ ' late ' , ' disturb ' , ' people ' , ' upstairs ' ]"
+[196.1700 - 198.6600],Ses05M_script03_2_M034,ang,"[2.5000, 3.5000, 3.5000]","[ ' well ' , ' people ' , ' downstairs ' , ' suppose ' ]"
+[198.8600 - 201.7200],Ses05M_script03_2_M035,ang,"[2.0000, 3.5000, 4.0000]","[ ' time ' , ' year ' , ' tunis ' ]"
+[203.0700 - 205.2300],Ses05M_script03_2_M036,ang,"[2.5000, 3.5000, 3.5000]","[ ' shall ' , ' thing ' ]"
+[210.8600 - 213.3600],Ses05M_script03_2_M037,ang,"[1.0000, 4.0000, 4.5000]","[ ' turn ' , ' drive ' , ' mad ' ]"
+[214.7900 - 216.2300],Ses05M_script03_2_M038,ang,"[1.5000, 4.0000, 4.5000]",[ ' turn ' ]
+[218.8300 - 221.3700],Ses05M_script03_2_M039,ang,"[2.0000, 3.0000, 4.0000]","[ ' amusing ' , ' indeed ' ]"
+[227.4800 - 230.8500],Ses05M_script03_2_M040,ang,"[4.0000, 4.0000, 3.5000]","[ ' ja ' , ' funny ' ]"
+[236.5700 - 244.8300],Ses05M_script03_2_M041,ang,"[1.0000, 4.5000, 5.0000]","[ ' vile ' , ' temper ' , ' wicked ' , ' live ' , ' evil ' , ' little ' , ' beast ' , ' hope ' , ' never ' , ' set ' , ' eye ' , ' ever ' ]"
+[244.8400 - 246.5800],Ses05M_script03_2_M042,ang,"[1.0000, 4.5000, 4.5000]","[ ' oh ' , ' go ' , ' like ' ]"
+[246.5900 - 248.8300],Ses05M_script03_2_M043,ang,"[1.5000, 4.0000, 4.5000]",[ ' garbage ' ]
+[255.8600 - 260.3300],Ses05M_script03_2_M044,ang,"[1.0000, 5.0000, 5.0000]","[ ' oh ' , ' marry ' , ' would ' , ' marry ' , ' come ' , ' crawl ' , ' bend ' , ' knee ' ]"
+[260.3400 - 266.3500],Ses05M_script03_2_M045,ang,"[1.0000, 5.0000, 5.0000]","[ ' wicked ' , ' little ' , ' vampire ' , ' pray ' , ' god ' , ' never ' , ' set ' , ' eye ' , ' long ' , ' live ' ]"

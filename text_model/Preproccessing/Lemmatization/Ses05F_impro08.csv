@@ -1,0 +1,68 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[1.9734 - 3.7200],Ses05F_impro08_F000,neu,"[3.0000, 1.5000, 2.5000]","[ ' hi ' , ' sir ' , ' help ' ]"
+[17.7300 - 18.8800],Ses05F_impro08_F001,neu,"[3.0000, 2.5000, 1.5000]",[ ' okay ' ]
+[27.8600 - 32.3100],Ses05F_impro08_F002,neu,"[4.0000, 2.0000, 2.0000]","[ ' laughter ' , ' right ' , ' sorry ' , ' sir ' , ' hard ' , ' time ' ]"
+[36.6100 - 39.3400],Ses05F_impro08_F003,neu,"[3.5000, 2.5000, 2.5000]","[ ' kwon ' , ' ridiculous ' ]"
+[39.3700 - 41.5700],Ses05F_impro08_F004,neu,"[3.5000, 2.0000, 2.5000]","[ ' yeah ' , ' understand ' ]"
+[42.1200 - 45.6600],Ses05F_impro08_F005,neu,"[3.0000, 2.5000, 2.0000]","[ ' uh ' , "" when be "" ]"
+[47.2000 - 48.4000],Ses05F_impro08_F006,fru,"[3.5000, 3.5000, 2.0000]",[ ' sir ' ]
+[48.7300 - 61.7700],Ses05F_impro08_F007,neu,"[3.5000, 2.0000, 2.5000]","[ ' yeah ' , ' well ' , ' slow ' , ' um ' , ' definitely ' , ' problem ' , ' solve ' , ' problem ' , ' solve ' , ' transfer ' , ' manager ' , ' someone ' , ' know ' , ' voice ' , ' complaint ' , ' able ' , ' something ' ]"
+[66.1500 - 73.3500],Ses05F_impro08_F008,neu,"[3.0000, 2.5000, 2.5000]","[ ' okay ' , ' okay ' , ' right ' , ' uh ' , ' locate ' , ' bill ' ]"
+[74.0800 - 74.8600],Ses05F_impro08_F009,neu,"[3.0000, 2.5000, 2.5000]",[ ' mail ' ]
+[75.3700 - 82.2800],Ses05F_impro08_F010,neu,"[3.0000, 2.5000, 2.5000]","[ ' possible ' , ' maybe ' , ' statement ' , ' old ' , ' transaction ' , ' process ' , ' yet ' ]"
+[85.6300 - 86.7700],Ses05F_impro08_F011,neu,"[3.0000, 2.5000, 2.0000]",[ ' okay ' ]
+[90.8100 - 92.0700],Ses05F_impro08_F012,neu,"[3.0000, 1.5000, 2.0000]",[ ' okay ' ]
+[93.7400 - 95.2500],Ses05F_impro08_F013,xxx,"[3.0000, 2.5000, 2.0000]",[ ' right ' ]
+[95.3500 - 100.5500],Ses05F_impro08_F014,neu,"[3.0000, 2.0000, 2.5000]","[ ' okay ' , ' look ' , ' know ' , ' see ' , ' go ' , ' maybe ' ]"
+[100.6300 - 102.8100],Ses05F_impro08_F015,neu,"[3.0000, 2.0000, 2.5000]","[ ' call ' , ' screen ' ]"
+[103.6200 - 118.6600],Ses05F_impro08_F016,neu,"[3.0000, 2.5000, 2.5000]","[ ' database ' , ' look ' , ' though ' , ' um ' , ' like ' , ' glitch ' , ' transaction ' , ' go ' , ' see ' , ' pay ' , ' tell ' , ' amount ' , ' amount ' ]"
+[120.0700 - 130.0000],Ses05F_impro08_F017,neu,"[3.0000, 2.5000, 2.5000]","[ ' okay ' , ' see ' , ' say ' , ' um ' , ' trouble ' , ' clear ' , ' reason ' , ' think ' , ' problem ' , ' end ' , ' um ' ]"
+[132.9700 - 139.0500],Ses05F_impro08_F018,neu,"[3.0000, 2.0000, 2.5000]","[ ' well ' , ' know ' , ' sometimes ' , ' online ' , ' transaction ' , ' thing ' , ' happen ' , ' um ' ]"
+[139.1400 - 145.4300],Ses05F_impro08_F019,neu,"[3.0000, 2.0000, 2.5000]","[ ' yeah ' , ' somebody ' , ' go ' , ' clear ' , ' problem ' , ' look ' , ' like ' , ' pay ' ]"
+[145.4500 - 150.4800],Ses05F_impro08_F020,neu,"[3.0000, 2.0000, 2.5000]","[ ' direct ' , ' direct ' , ' um ' , ' take ' , ' right ' , ' bank ' , ' account ' , ' correct ' ]"
+[150.5100 - 152.5700],Ses05F_impro08_F021,neu,"[3.0000, 2.5000, 2.5000]","[ ' yeah ' , ' go ' ]"
+[154.4400 - 160.1800],Ses05F_impro08_F022,neu,"[3.0000, 2.5000, 2.5000]","[ ' um ' , ' try ' , ' certainly ' ]"
+[161.2500 - 180.3200],Ses05F_impro08_F023,neu,"[3.0000, 2.0000, 2.5000]","[ ' right ' , ' right ' , ' since ' , ' yeah ' , ' since ' , ' computer ' , ' glitch ' , ' clear ' , ' well ' , ' go ' , ' go ' , ' ahead ' , ' try ' , ' put ' , ' computer ' , ' reason ' , ' notice ' , ' statement ' , ' day ' , ' charge ' , ' overdue ' , ' fee ' , ' call ' , ' back ' ]"
+[182.6200 - 188.2700],Ses05F_impro08_F024,neu,"[3.0000, 3.0000, 2.5000]","[ ' well ' , ' give ' , ' direct ' , ' line ' , ' number ' , ' get ' , ' directly ' ]"
+[188.5000 - 189.5300],Ses05F_impro08_F025,neu,"[3.0000, 2.5000, 2.5000]",[ ' yeah ' ]
+[191.5400 - 192.8900],Ses05F_impro08_F026,neu,"[3.5000, 2.0000, 2.5000]",[ ' problem ' ]
+[193.5800 - 196.7500],Ses05F_impro08_F027,neu,"[3.0000, 2.5000, 2.5000]","[ ' ahh ' , ' one ' , ' eight ' , ' hundred ' , ' three ' , ' two ' , ' three ' ]"
+[197.0600 - 198.8600],Ses05F_impro08_F028,neu,"[3.0000, 2.5000, 2.0000]","[ ' six ' , ' four ' , ' nine ' , ' four ' ]"
+[202.9800 - 204.1900],Ses05F_impro08_F029,neu,"[3.5000, 2.0000, 2.0000]",[ ' welcome ' ]
+[204.4300 - 206.6300],Ses05F_impro08_F030,neu,"[3.0000, 2.0000, 2.5000]","[ ' sorry ' , ' inconvenience ' ]"
+[208.5300 - 209.8300],Ses05F_impro08_F031,xxx,"[3.5000, 2.0000, 2.5000]",[ ' glad ' ]
+[209.8600 - 211.3600],Ses05F_impro08_F032,neu,"[4.0000, 2.5000, 2.5000]","[ ' good ' , ' day ' ]"
+[213.1700 - 214.5500],Ses05F_impro08_F033,neu,"[4.0000, 2.0000, 2.0000]","[ ' bye ' , ' bye ' ]"
+[3.2000 - 10.1300],Ses05F_impro08_M000,fru,"[3.0000, 4.5000, 3.0000]","[ ' oh ' , ' thank ' , ' god ' , ' know ' , ' long ' , ' phone ' , ' half ' , ' hour ' , ' try ' , ' talk ' , ' freak ' , ' human ' ]"
+[10.1400 - 18.0200],Ses05F_impro08_M001,fru,"[2.5000, 4.5000, 2.5000]","[ ' want ' , ' put ' , ' pay ' , ' freak ' , ' credit ' , ' card ' , ' something ' , ' wrong ' , ' bill ' , ' like ' , ' swear ' , ' say ' , ' pay ' , ' last ' , ' month ' , ' know ' , ' pay ' , ' last ' , ' month ' ]"
+[18.0300 - 24.9900],Ses05F_impro08_M002,fru,"[2.5000, 4.0000, 3.5000]","[ ' put ' , ' type ' , ' number ' , ' million ' , ' times ' , ' listen ' , ' work ' , ' get ' , ' single ' , ' human ' , ' finally ' ]"
+[25.0100 - 30.1400],Ses05F_impro08_M003,xxx,"[3.0000, 3.5000, 3.0000]","[ ' real ' , ' human ' , ' thank ' , ' much ' ]"
+[30.7400 - 39.5100],Ses05F_impro08_M004,ang,"[2.0000, 4.0000, 3.5000]","[ ' ridiculous ' , ' seriously ' , ' understand ' , ' think ' , ' automate ' , ' system ' , ' suppose ' , ' like ' , ' work ' , ' anybody ' , ' never ' , ' ever ' , ' work ' ]"
+[39.7600 - 49.1800],Ses05F_impro08_M005,ang,"[2.0000, 4.5000, 3.5000]","[ ' like ' , ' talk ' , ' somebody ' , ' like ' , ' tell ' , ' ridiculous ' , ' change ' , ' phone ' , ' number ' , ' call ' , ' like ' , ' automatically ' , ' talk ' , ' somebody ' , ' human ' ]"
+[59.4000 - 65.8000],Ses05F_impro08_M006,fru,"[2.5000, 3.0000, 2.5000]","[ ' well ' , ' okay ' , ' well ' , ' first ' , ' fine ' , ' fine ' , ' fine ' , ' let ' , ' see ' , ' first ' , ' um ' , ' yeah ' , ' bill ' , ' wrong ' ]"
+[65.8100 - 69.0300],Ses05F_impro08_M007,ang,"[2.5000, 3.5000, 2.5000]","[ ' like ' , ' know ' , ' pay ' , ' last ' , ' month ' , ' pay ' , ' charge ' , ' late ' , ' fee ' ]"
+[72.8700 - 74.3100],Ses05F_impro08_M008,fru,"[2.5000, 3.5000, 2.0000]","[ ' get ' , ' mail ' ]"
+[74.7500 - 75.5300],Ses05F_impro08_M009,fru,"[2.5000, 2.5000, 2.0000]",[ ' yeah ' ]
+[81.6600 - 88.3500],Ses05F_impro08_M010,fru,"[2.5000, 3.5000, 2.0000]","[ ' well ' , ' look ' , ' online ' , ' say ' , ' say ' , ' charge ' , ' late ' , ' fee ' , ' assume ' , ' pay ' , ' web ' , ' site ' ]"
+[88.3900 - 96.1100],Ses05F_impro08_M011,fru,"[2.5000, 3.5000, 2.5000]","[ ' like ' , ' pay ' , ' right ' , ' company ' , ' due ' , ' date ' , ' still ' , ' even ' , ' show ' , ' payment ' , ' charge ' , ' late ' , ' fee ' , ' afterwards ' ]"
+[100.1900 - 101.5200],Ses05F_impro08_M012,fru,"[2.5000, 2.5000, 2.5000]",[ ' okay ' ]
+[102.1800 - 104.1100],Ses05F_impro08_M013,neu,"[2.5000, 2.5000, 2.5000]","[ ' okay ' , ' great ' , ' go ' , ' ahead ' ]"
+[118.4200 - 121.4200],Ses05F_impro08_M014,fru,"[2.5000, 3.0000, 2.0000]","[ ' one ' , ' ninety ' , ' eight ' , ' sixty ' , ' three ' , ' pay ' , ' minimum ' ]"
+[129.7500 - 133.2900],Ses05F_impro08_M015,xxx,"[3.0000, 2.5000, 2.5000]","[ ' wow ' , ' believe ' , ' actually ' , ' admit ' , ' problem ' , ' end ' , ' first ' ]"
+[134.1900 - 135.9200],Ses05F_impro08_M016,neu,"[3.5000, 3.0000, 2.5000]",[ ' grateful ' ]
+[137.0800 - 138.2000],Ses05F_impro08_M017,xxx,"[3.0000, 3.0000, 2.5000]",[ ' absolutely ' ]
+[145.1100 - 146.3600],Ses05F_impro08_M018,neu,"[3.0000, 2.5000, 2.0000]",[ ' take ' ]
+[149.3600 - 150.6100],Ses05F_impro08_M019,neu,"[2.5000, 2.5000, 2.0000]","[ ' yes ' , ' yes ' , ' exactly ' ]"
+[151.8900 - 154.8200],Ses05F_impro08_M020,neu,"[3.0000, 2.0000, 1.5000]","[ ' take ' , ' late ' , ' fee ' , ' account ' ]"
+[159.5400 - 161.7000],Ses05F_impro08_M021,fru,"[2.5000, 2.5000, 3.0000]","[ ' pay ' , ' time ' ]"
+[176.9600 - 178.0500],Ses05F_impro08_M022,neu,"[3.0000, 3.0000, 1.5000]",[ ' right ' ]
+[179.9200 - 184.5900],Ses05F_impro08_M023,fru,"[2.0000, 3.5000, 2.0000]","[ ' yeah ' , ' call ' , ' back ' , ' go ' , ' whole ' , ' rigmarole ' , ' try ' , ' get ' , ' hole ' , ' someone ' ]"
+[187.7100 - 188.8400],Ses05F_impro08_M024,sur,"[3.0000, 3.5000, 2.0000]",[ ' really ' ]
+[188.9900 - 192.4000],Ses05F_impro08_M025,hap,"[4.0000, 3.5000, 2.5000]","[ ' would ' , ' wonderful ' , ' would ' , ' great ' , ' seriously ' ]"
+[192.4325 - 194.1100],Ses05F_impro08_M026,hap,"[3.5000, 3.0000, 2.0000]","[ ' thank ' , ' number ' ]"
+[196.2600 - 197.3600],Ses05F_impro08_M027,neu,"[3.0000, 2.5000, 2.0000]","[ ' three ' , ' two ' , ' three ' ]"
+[198.3300 - 203.8800],Ses05F_impro08_M028,hap,"[4.0000, 3.0000, 2.5000]","[ ' six ' , ' four ' , ' nine ' , ' four ' , ' would ' , ' great ' , ' thank ' , ' much ' ]"
+[203.9200 - 204.8400],Ses05F_impro08_M029,xxx,"[4.0000, 2.5000, 2.5000]",[ ' oh ' ]
+[206.2800 - 211.1000],Ses05F_impro08_M030,hap,"[3.5000, 3.0000, 2.5000]","[ ' horrible ' , ' make ' , ' much ' , ' well ' , ' thank ' , ' much ' , ' absolutely ' ]"
+[211.1200 - 213.4800],Ses05F_impro08_M031,hap,"[4.0000, 2.0000, 2.0000]","[ ' thank ' , ' much ' , ' wonderful ' , ' day ' ]"
+[213.7400 - 214.9400],Ses05F_impro08_M032,xxx,"[4.0000, 2.0000, 2.0000]",[ ' bye ' ]

@@ -1,0 +1,83 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[2.8098 - 4.5479],Ses05F_impro03_F000,pos,"[4.0000, 3.0000, 3.5000]","[ ' okay ' , ' big ' , ' news ' ]"
+[7.9600 - 9.8400],Ses05F_impro03_F001,pos,"[4.5000, 3.0000, 3.5000]","[ ' get ' , ' marry ' ]"
+[10.2000 - 11.3300],Ses05F_impro03_F002,pos,"[4.5000, 3.0000, 4.0000]",[ ' yeah ' ]
+[11.5800 - 12.7187],Ses05F_impro03_F003,pos,"[4.5000, 3.5000, 4.0000]",[ ' yeah ' ]
+[13.4800 - 14.6600],Ses05F_impro03_F004,pos,"[4.5000, 3.5000, 4.0000]",[ ' uh - huh ' ]
+[16.2500 - 18.1600],Ses05F_impro03_F005,pos,"[4.5000, 3.5000, 4.0000]","[ ' couple ' , ' day ' , ' ago ' ]"
+[24.0500 - 25.7600],Ses05F_impro03_F007,pos,"[4.5000, 3.0000, 4.0000]","[ ' know ' , ' neither ' ]"
+[26.0600 - 30.7700],Ses05F_impro03_F008,pos,"[4.5000, 4.0000, 3.5000]","[ ' right ' , ' think ' , ' would ' , ' way ' , ' old ' , ' thought ' , ' would ' , ' least ' , ' thirty ' , ' something ' ]"
+[30.9400 - 32.4700],Ses05F_impro03_F009,pos,"[4.5000, 4.0000, 4.0000]",[ ' yeah ' ]
+[40.1200 - 41.8700],Ses05F_impro03_F011,pos,"[4.5000, 4.5000, 4.0000]",[ ' sorry ' ]
+[89.8800 - 93.0500],Ses05F_impro03_F020,pos,"[4.5000, 3.5000, 4.5000]","[ ' yeah ' , ' yeah ' , ' course ' ]"
+[110.8900 - 117.4400],Ses05F_impro03_F027,pos,"[4.5000, 3.0000, 4.0000]","[ ' weird ' , ' right ' , ' like ' , ' grow ' , ' near ' , ' somebody ' , ' never ' , ' know ' , ' travel ' , ' hundred ' , ' mile ' , ' away ' ]"
+[120.4900 - 121.7500],Ses05F_impro03_F028,pos,"[4.5000, 4.5000, 3.5000]",[ ' know ' ]
+[123.7500 - 129.8600],Ses05F_impro03_F029,pos,"[4.0000, 3.5000, 4.0000]","[ ' right ' , ' like ' , ' oh ' , ' u.s . ' , ' u.s . ' , ' chicago ' , ' chicago ' ]"
+[129.8900 - 132.4500],Ses05F_impro03_F030,pos,"[4.0000, 3.5000, 4.0000]","[ ' know ' , ' neighborhood ' , ' yeah ' , ' pretty ' , ' bizarre ' ]"
+[132.6100 - 133.9100],Ses05F_impro03_F031,pos,"[4.0000, 2.0000, 3.0000]",[ ' yeah ' ]
+[136.4700 - 137.5600],Ses05F_impro03_F032,pos,"[4.0000, 3.0000, 3.0000]",[ ' mm - hmm ' ]
+[138.4400 - 140.4300],Ses05F_impro03_F033,pos,"[4.0000, 3.0000, 4.0000]","[ ' yeah ' , ' love ' ]"
+[147.1100 - 150.0500],Ses05F_impro03_F034,pos,"[4.0000, 3.5000, 3.5000]","[ ' yeah ' , ' she - yeah ' , ' type ' ]"
+[158.0600 - 159.2800],Ses05F_impro03_F035,pos,"[4.5000, 3.0000, 3.0000]",[ ' thank ' ]
+[165.3200 - 167.3600],Ses05F_impro03_F036,pos,"[5.0000, 4.5000, 4.5000]",[ ' laughter ' ]
+[167.6700 - 170.0600],Ses05F_impro03_F037,pos,"[4.5000, 3.5000, 4.5000]","[ ' yeah ' , ' hang ' ]"
+[187.3100 - 189.6400],Ses05F_impro03_F039,pos,"[4.5000, 4.0000, 4.0000]",[ ' sorry ' ]
+[193.1900 - 194.8400],Ses05F_impro03_F040,pos,"[4.0000, 3.5000, 3.0000]","[ ' still ' , ' time ' ]"
+[198.1700 - 199.7300],Ses05F_impro03_F041,pos,"[4.5000, 4.5000, 4.0000]",[ ' breathe ' ]
+[205.5400 - 207.3700],Ses05F_impro03_F042,pos,"[4.5000, 3.0000, 3.5000]","[ ' know ' , ' believe ' ]"
+[207.4600 - 209.7600],Ses05F_impro03_F043,pos,"[4.5000, 3.0000, 3.5000]",[ ' excited ' ]
+[217.4800 - 220.8500],Ses05F_impro03_F046,pos,"[4.0000, 3.5000, 3.5000]","[ ' think ' , ' move ' , ' go ' , ' move ' , ' together ' ]"
+[220.8800 - 223.8100],Ses05F_impro03_F047,pos,"[4.0000, 3.0000, 3.0000]","[ ' think ' , ' good ' , ' idea ' , ' live ' , ' together ' , ' get ' , ' marry ' ]"
+[225.0800 - 227.1600],Ses05F_impro03_F048,pos,"[3.5000, 2.5000, 3.0000]","[ ' want ' , ' house ' , ' mean ' ]"
+[227.1700 - 228.5596],Ses05F_impro03_F049,pos,"[4.0000, 2.5000, 3.0000]","[ ' l.a . ' , ' apartment ' , ' fine ' ]"
+[232.9500 - 237.3100],Ses05F_impro03_F051,pos,"[4.0000, 3.0000, 4.0000]","[ ' two ' , ' artist ' , ' though ' , ' bind ' , ' poor ' , ' forever ' ]"
+[242.1500 - 243.9400],Ses05F_impro03_F053,pos,"[4.0000, 2.5000, 3.0000]",[ ' definitely ' ]
+[244.6800 - 245.7800],Ses05F_impro03_F054,pos,"[4.0000, 2.0000, 2.5000]",[ ' yeah ' ]
+[248.2900 - 252.8000],Ses05F_impro03_F055,pos,"[5.0000, 4.5000, 4.0000]","[ ' laughter ' , ' good ' , ' luck ' ]"
+[253.4051 - 255.5300],Ses05F_impro03_F056,pos,"[4.0000, 2.5000, 3.0000]","[ ' trouble ' , ' trouble ' ]"
+[256.7900 - 260.8800],Ses05F_impro03_F057,pos,"[4.0000, 3.5000, 3.5000]","[ ' approach ' , ' like ' , ' hey ' , ' bear ' , ' child ' ]"
+[263.0500 - 264.4400],Ses05F_impro03_F058,pos,"[4.0000, 3.0000, 3.0000]","[ ' yeah ' , ' totally ' ]"
+[265.6600 - 267.6800],Ses05F_impro03_F059,pos,"[3.5000, 3.0000, 3.5000]","[ ' total ' , ' turn ' ]"
+[267.8200 - 269.7800],Ses05F_impro03_F060,pos,"[4.5000, 4.0000, 4.0000]",[ ' laughter ' ]
+[5.6200 - 9.3800],Ses05F_impro03_M001,pos,"[4.0000, 3.5000, 3.5000]",[ ' come ' ]
+[9.6100 - 10.9700],Ses05F_impro03_M002,pos,"[3.0000, 4.0000, 4.5000]",[ ' shut ' ]
+[11.0100 - 12.6200],Ses05F_impro03_M003,pos,"[3.5000, 3.5000, 4.5000]",[ ' way ' ]
+[14.4300 - 17.6100],Ses05F_impro03_M005,pos,"[4.5000, 4.5000, 4.5000]","[ ' way ' , ' happen ' ]"
+[17.8500 - 19.8800],Ses05F_impro03_M006,pos,"[4.5000, 4.0000, 4.0000]","[ ' oh ' , ' gosh ' ]"
+[19.9900 - 24.6800],Ses05F_impro03_M007,pos,"[3.5000, 4.0000, 4.5000]","[ ' actually ' , ' say ' , ' yes ' , ' believe ' , ' never ' , ' thought ' , ' would ' , ' get ' , ' marry ' ]"
+[25.3500 - 27.2000],Ses05F_impro03_M008,pos,"[4.0000, 3.5000, 4.0000]","[ ' oh ' , ' gosh ' ]"
+[27.3300 - 29.2900],Ses05F_impro03_M009,pos,"[4.0000, 3.0000, 3.5000]","[ ' oh ' , ' absolutely ' ]"
+[29.8300 - 35.5200],Ses05F_impro03_M010,pos,"[3.5000, 3.0000, 4.0000]","[ ' well ' , ' always ' , ' say ' , ' thirtieth ' , ' get ' , ' marry ' , ' go ' , ' get ' , ' marry ' ]"
+[36.2700 - 41.5691],Ses05F_impro03_M011,pos,"[3.0000, 4.0000, 4.5000]","[ ' thirty ' , ' nine ' , ' yeah ' , ' believe ' , ' break ' , ' pact ' , ' thanks ' , ' lot ' ]"
+[41.6005 - 45.9800],Ses05F_impro03_M012,pos,"[4.5000, 4.0000, 4.5000]","[ ' thanks ' , ' lot ' , ' well ' , ' okay ' , ' get ' , ' tell ' , ' detail ' , ' say ' , ' happen ' ]"
+[51.9600 - 56.1400],Ses05F_impro03_M013,pos,"[4.0000, 4.5000, 4.5000]","[ ' okay ' , ' okay ' , ' spontaneous ' , ' great ' , ' spontaneous ' , ' awesome ' ]"
+[107.5100 - 111.5700],Ses05F_impro03_M027,pos,"[4.0000, 4.0000, 4.5000]","[ ' cool ' , ' perfect ' , ' another ' , ' chicagoite ' , ' get ' , ' love ' ]"
+[129.1200 - 131.4200],Ses05F_impro03_M030,pos,"[4.0000, 3.5000, 4.0000]","[ ' laughter ' , ' sil ' ]"
+[131.6500 - 133.3400],Ses05F_impro03_M031,pos,"[3.5000, 3.0000, 3.5000]","[ ' get ' , ' marry ' ]"
+[133.3600 - 136.9500],Ses05F_impro03_M032,pos,"[3.5000, 3.5000, 3.5000]","[ ' amazing ' , ' must ' , ' excited ' , ' tell ' , ' mom ' ]"
+[137.1700 - 138.9600],Ses05F_impro03_M033,pos,"[4.0000, 3.5000, 3.5000]","[ ' oh ' , ' cry ' ]"
+[149.3700 - 151.6200],Ses05F_impro03_M035,pos,"[3.5000, 3.5000, 3.0000]",[ ' breathe ' ]
+[151.6400 - 158.3900],Ses05F_impro03_M036,pos,"[4.0000, 3.0000, 4.5000]","[ ' believe ' , ' happy ' , ' exactly ' , ' want ' , ' dream ' , ' come ' , ' true ' ]"
+[158.4600 - 166.2000],Ses05F_impro03_M037,pos,"[4.0000, 3.5000, 4.5000]","[ ' exact ' , ' right ' , ' guy ' , ' fully ' , ' approve ' , ' wonderful ' , ' guy ' , ' great ' , ' time ' , ' drink ' , ' awesome ' ]"
+[166.3200 - 168.2200],Ses05F_impro03_M038,pos,"[4.5000, 4.0000, 3.5000]",[ ' laughter ' ]
+[169.5200 - 180.6600],Ses05F_impro03_M039,pos,"[4.0000, 4.0000, 4.0000]","[ ' course ' , ' course ' , ' course ' , ' yeah ' , ' go ' , ' disappear ' , ' like ' , ' everyone ' , ' else ' , ' get ' , ' marry ' , ' never ' , ' see ' , ' make ' , ' mad ' , ' want ' , ' make ' , ' mad ' , ' know ' , ' get ' , ' get ' , ' mad ' ]"
+[183.9300 - 185.2800],Ses05F_impro03_M040,pos,"[4.0000, 3.0000, 3.5000]",[ ' exactly ' ]
+[185.3000 - 187.6300],Ses05F_impro03_M041,pos,"[5.0000, 3.5000, 4.0000]","[ ' exactly ' , ' laugh ' ]"
+[194.5000 - 198.6900],Ses05F_impro03_M043,pos,"[4.5000, 4.5000, 4.0000]","[ ' oh ' , ' thanks ' , ' move ' , ' get ' , ' marry ' , ' laughter ' ]"
+[199.1200 - 201.7600],Ses05F_impro03_M044,pos,"[4.5000, 4.0000, 4.0000]","[ ' perfect ' , ' okay ' , ' good ' , ' sigh ' ]"
+[201.7800 - 206.7100],Ses05F_impro03_M045,pos,"[4.0000, 3.0000, 4.0000]","[ ' feel ' , ' bad ' , ' well ' , ' excited ' ]"
+[207.0500 - 208.6600],Ses05F_impro03_M046,pos,"[3.5000, 2.5000, 3.5000]",[ ' believe ' ]
+[213.9600 - 217.8900],Ses05F_impro03_M049,pos,"[4.0000, 2.5000, 3.0000]","[ ' one ' , ' first ' , ' one ' , ' make ' , ' feel ' , ' important ' ]"
+[220.2900 - 222.7500],Ses05F_impro03_M050,pos,"[3.5000, 3.5000, 3.5000]","[ ' oh ' , ' yeah ' , ' course ' ]"
+[222.9400 - 225.5300],Ses05F_impro03_M051,pos,"[3.5000, 3.0000, 3.5000]","[ ' think ' , ' go ' , ' get ' , ' house ' ]"
+[240.8700 - 242.1100],Ses05F_impro03_M057,pos,"[4.5000, 3.0000, 4.0000]",[ ' yeah ' ]
+[242.1900 - 243.4600],Ses05F_impro03_M058,pos,"[4.0000, 3.0000, 3.0000]",[ ' yeah ' ]
+[249.6000 - 251.2000],Ses05F_impro03_M060,pos,"[4.5000, 3.5000, 3.5000]",[ ' laughter ' ]
+[252.4800 - 254.5600],Ses05F_impro03_M061,pos,"[3.5000, 2.5000, 3.5000]","[ ' oh ' , ' thanks ' , ' need ' ]"
+[254.6400 - 256.2500],Ses05F_impro03_M062,pos,"[3.5000, 2.5000, 3.0000]","[ ' oh ' , ' thanks ' , ' nice ' ]"
+[256.3600 - 258.1300],Ses05F_impro03_M063,pos,"[4.0000, 3.5000, 3.5000]",[ ' polite ' ]
+[258.3600 - 260.1200],Ses05F_impro03_M064,pos,"[4.0000, 3.0000, 3.0000]","[ ' get ' , ' marry ' ]"
+[260.1500 - 263.9800],Ses05F_impro03_M065,pos,"[4.5000, 4.5000, 4.5000]","[ ' exactly ' , ' laughter ' , ' think ' , ' go ' , ' great ' ]"
+[264.0000 - 265.5500],Ses05F_impro03_M066,pos,"[4.0000, 3.5000, 3.5000]","[ ' girl ' , ' like ' , ' right ' ]"
+[267.0700 - 269.2300],Ses05F_impro03_M067,pos,"[4.0000, 3.0000, 3.5000]","[ ' would ' , ' mind ' , ' pop ' ]"
+[269.2700 - 271.5900],Ses05F_impro03_M068,pos,"[4.0000, 3.5000, 4.0000]","[ ' great ' , ' thanks ' ]"

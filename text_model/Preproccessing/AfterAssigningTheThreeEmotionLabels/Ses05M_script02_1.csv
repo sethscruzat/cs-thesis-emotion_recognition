@@ -1,0 +1,34 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[24.6765 - 25.8200],Ses05M_script02_1_F000,neg,"[3.0000, 2.0000, 2.5000]",[ ' fine ' ]
+[56.2900 - 58.1700],Ses05M_script02_1_F001,neu,"[3.0000, 3.0000, 2.5000]",[ ' flashlight ' ]
+[172.8200 - 179.4200],Ses05M_script02_1_F013,neg,"[1.0000, 4.0000, 4.5000]","[ ' pass ' , ' little ' , ' fish ' , ' swim ' , ' beach ' , ' flop ' , ' around ' , ' swim ' , ' away ' , ' die ' ]"
+[200.8700 - 207.0300],Ses05M_script02_1_F014,neg,"[1.5000, 4.0000, 4.5000]","[ ' excited ' , ' rocket ' , ' science ' , ' fish ' , ' fish ' , ' nobody ' , ' even ' , ' eat ' ]"
+[207.6300 - 209.3300],Ses05M_script02_1_F015,neg,"[2.0000, 4.0000, 4.0000]",[ ' augie ' ]
+[243.5000 - 253.4100],Ses05M_script02_1_F018,neg,"[1.5000, 4.0000, 4.5000]","[ ' well ' , ' also ' , ' remember ' , ' last ' , ' year ' , ' shoe ' , ' get ' , ' wet ' , ' get ' , ' sand ' , ' pantie ' , ' big ' , ' argument ' , ' sore ' , ' throat ' , ' see ' , ' grunion ' ]"
+[254.6000 - 257.1800],Ses05M_script02_1_F019,neg,"[2.5000, 2.5000, 3.5000]","[ ' see ' , ' first ' , ' time ' , ' either ' ]"
+[3.7900 - 24.8400],Ses05M_script02_1_M000,pos,"[5.0000, 4.5000, 4.0000]","[ ' time ' , ' suppose ' , ' run ' , ' around ' , ' midnight ' , ' oh ' , ' great ' , ' look ' , ' night ' , ' get ' , ' could ' , ' well ' , ' actually ' , ' want ' , ' go ' , ' little ' , ' coast ' , ' know ' , ' get ' , ' away ' , ' light ' , ' people ' , ' afraid ' , ' might ' , ' miss ' , ' though ' ]"
+[25.5200 - 40.6800],Ses05M_script02_1_M001,pos,"[4.0000, 4.0000, 4.0000]","[ ' wait ' , ' foam ' , ' even ' , ' tell ' , ' oh ' , ' actually ' , ' guess ' , ' tell ' , ' probably ' , ' probably ' , ' unmistakable ' , ' think ' ]"
+[40.6900 - 56.7800],Ses05M_script02_1_M002,pos,"[4.0000, 4.5000, 4.5000]","[ ' great ' , ' oh ' , ' oh ' , ' know ' , ' forgot ' , ' flashlight ' , ' could ' , ' stupid ' , ' forgot ' , ' flashlight ' ]"
+[57.5700 - 61.1400],Ses05M_script02_1_M003,pos,"[2.0000, 4.0000, 4.5000]","[ ' flashlight ' , ' silver ' , ' one ' , ' one ' , ' stupid ' ]"
+[70.0300 - 77.2800],Ses05M_script02_1_M005,pos,"[4.0000, 4.0000, 4.0000]","[ ' oh ' , ' course ' , ' flashlight ' , ' flashlight ' , ' flashlight ' , ' naturally ' ]"
+[77.3000 - 89.8100],Ses05M_script02_1_M006,pos,"[4.0000, 4.0000, 4.0000]","[ ' could ' , ' forget ' , ' well ' , ' hope ' , ' moon ' , ' stay ' , ' wonder ' , ' always ' , ' run ' , ' full ' , ' moon ' , ' remember ' , ' moon ' , ' full ' , ' last ' , ' year ' , ' remember ' ]"
+[90.3300 - 105.5200],Ses05M_script02_1_M007,pos,"[3.0000, 4.0000, 4.5000]","[ ' cold ' , ' want ' , ' jacket ' , ' bring ' , ' blanket ' , ' blanket ' , ' oh ' , ' great ' , ' even ' , ' think ' , ' bring ' , ' six ' , ' pack ' , ' oh ' , ' six ' , ' pack ' , ' would ' , ' ticket ' , ' right ' ]"
+[105.5600 - 116.0900],Ses05M_script02_1_M008,pos,"[3.0000, 4.0000, 4.0000]","[ ' believe ' , ' forgot.i ' , ' like ' , ' little ' , ' kid ' , ' surprised ' , ' make ' , ' house ' , ' fly ' , ' zip ' , ' oh ' , ' laughter ' ]"
+[116.1000 - 122.9000],Ses05M_script02_1_M009,pos,"[3.5000, 4.0000, 4.5000]","[ ' oh ' , ' wonder ' , ' hear ' , ' feel ' , ' vibration ' , ' move ' , ' around ' , ' sand ' , ' something ' ]"
+[122.9100 - 124.3900],Ses05M_script02_1_M010,pos,"[2.5000, 4.0000, 3.5000]","[ ' want ' , ' jacket ' ]"
+[149.1200 - 150.6700],Ses05M_script02_1_M016,neg,"[1.5000, 3.5000, 3.5000]",[ ' oh ' ]
+[154.6200 - 164.0679],Ses05M_script02_1_M017,pos,"[3.0000, 4.0000, 4.5000]","[ ' honey ' , ' natural ' , ' phenomenon ' , ' mean ' , ' kind ' , ' thing ' , ' happen ' , ' year ' , ' great ' , ' opportunity ' ]"
+[164.0779 - 173.3600],Ses05M_script02_1_M018,pos,"[2.5000, 4.0000, 4.5000]","[ ' mean ' , ' think ' , ' people ' , ' kansas ' , ' get ' , ' get ' , ' like ' , ' know ' , ' plane ' , ' ticket ' , ' hotel ' , ' reservation ' , ' see ' , ' forty ' , ' minute ' , ' away ' , ' good ' , ' opportunity ' , ' pass ' ]"
+[179.1600 - 185.5500],Ses05M_script02_1_M019,pos,"[3.0000, 4.0000, 4.5000]","[ ' yeah ' , ' time ' , ' beach ' , ' highlight ' , ' little ' , ' life ' , ' know ' ]"
+[185.5600 - 194.6549],Ses05M_script02_1_M020,pos,"[2.0000, 4.0000, 4.5000]","[ ' flop ' , ' around ' , ' like ' , ' lay ' , ' egg ' , ' spawn ' , ' mate ' , ' something ' , ' like ' ]"
+[194.6649 - 201.6300],Ses05M_script02_1_M021,pos,"[5.0000, 4.5000, 4.5000]","[ ' mean ' , ' big ' , ' night ' , ' guy ' , ' know ' , ' life ' , ' last ' , ' orgy ' ]"
+[206.5600 - 208.2700],Ses05M_script02_1_M022,neg,"[2.0000, 3.5000, 3.5000]",[ ' yeah ' ]
+[208.8900 - 227.0400],Ses05M_script02_1_M023,pos,"[3.5000, 4.0000, 4.5000]","[ ' right ' , ' fish ' , ' something ' , ' fish ' , ' like ' , ' swallow ' , ' turn ' , ' capistrano ' , ' lemming ' , ' jump ' , ' cliff ' , ' know ' , ' like ' , "" there be "" , ' magic ' , ' mystery ' , ' little ' , ' bit ' , ' unexplainable ' , ' know ' , ' see ' , ' could ' , ' interested ' ]"
+[228.5500 - 230.1800],Ses05M_script02_1_M024,neg,"[2.5000, 2.5000, 3.5000]",[ ' real ' ]
+[230.6100 - 245.0700],Ses05M_script02_1_M025,neg,"[2.0000, 4.5000, 4.5000]","[ ' get ' , ' mean ' , ' first ' , ' time ' , ' come ' , ' say ' , ' good ' , ' night ' , ' life ' , ' last ' , ' year ' , ' remember ' , ' distinctly ' , ' excited ' , ' come ' , ' stub ' , ' toe ' , ' toe ' , ' push ' , ' door ' , ' even ' , ' notice ' , ' get ' , ' car ' ]"
+[270.5500 - 276.6800],Ses05M_script02_1_M028,pos,"[3.0000, 4.0000, 4.5000]","[ ' look ' , ' oh ' , ' seaweed ' ]"
+[276.8500 - 285.1000],Ses05M_script02_1_M029,pos,"[4.5000, 4.0000, 4.5000]","[ ' oh ' , ' great ' , ' would ' , ' miss ' , ' world ' , ' mean ' , ' think ' , ' know ' , ' interested ' , ' think ' , ' second ' ]"
+[285.1312 - 319.2700],Ses05M_script02_1_M030,pos,"[4.5000, 5.0000, 5.0000]","[ ' somewhere ' , ' giant ' , ' mass ' , ' silver ' , ' fish ' , ' swim ' , ' direction ' , ' know ' , ' know ' , ' decision ' , ' one ' , ' take ' , ' vote ' , ' nobody ' , ' send ' , ' invitation ' , ' map ' , ' anything ' , ' like ' , ' internal ' , ' time ' , ' release ' , ' fire ' , ' cracker ' , ' go ' , ' one ' , ' turn ' , ' around ' , ' form ' , ' giant ' , ' line ' , ' long ' , ' california ' , ' coastline ' , ' start ' , ' swim ' , ' swim ' , ' right ' , ' moment ' ]"
+[321.5400 - 333.1800],Ses05M_script02_1_M031,pos,"[4.0000, 5.0000, 4.5000]","[ ' single ' , ' mindedness ' , ' mind ' , ' urgency ' , ' pure ' , ' urge ' , ' mean ' , ' make ' , ' decision ' , ' ask ' , ' question ' , ' give ' , ' name ' ]"
+[333.1900 - 348.2400],Ses05M_script02_1_M032,pos,"[5.0000, 5.0000, 5.0000]","[ ' one ' , ' turn ' , ' around ' , ' start ' , ' swim ' , ' point ' , ' stand ' , ' one ' , ' last ' , ' celebration ' , ' sex ' , ' death ' , ' god ' , ' give ' , ' goosebump ' , ' look ' , ' hair ' , ' stand ' ]"
+[348.4000 - 353.2800],Ses05M_script02_1_M033,pos,"[4.0000, 4.0000, 4.5000]","[ ' well ' , ' think ' ]"

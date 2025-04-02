@@ -1,0 +1,28 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[25.3800 - 28.0200],Ses05M_impro06_F002,neg,"[2.0000, 2.5000, 1.5000]","[ ' oh ' , ' sorry ' ]"
+[33.1700 - 34.8800],Ses05M_impro06_F003,neg,"[2.0000, 3.0000, 1.5000]","[ ' oh ' , ' gosh ' ]"
+[89.5600 - 91.5800],Ses05M_impro06_F005,neg,"[2.0000, 2.0000, 2.0000]","[ ' yeah ' , ' sorry ' ]"
+[116.6200 - 118.7400],Ses05M_impro06_F006,neg,"[2.0000, 2.5000, 1.5000]",[ ' guy ' ]
+[147.8100 - 149.7900],Ses05M_impro06_F007,neg,"[2.0000, 2.5000, 1.5000]",[ ' sorry ' ]
+[169.9892 - 177.1000],Ses05M_impro06_F008,neg,"[2.0000, 3.0000, 2.5000]","[ ' wow ' , ' ryan ' , ' know ' , ' hurting ' , ' right ' , ' think ' , ' always ' , ' feel ' , ' like ' ]"
+[188.8700 - 193.3500],Ses05M_impro06_F009,neg,"[2.0000, 2.0000, 2.5000]","[ ' yeah ' , ' understand ' , ' think ' , ' really ' , ' healthy ' , ' grieve ' ]"
+[197.8800 - 201.0100],Ses05M_impro06_F010,neg,"[2.0000, 3.0000, 2.5000]",[ ' anything ' ]
+[10.9000 - 14.8600],Ses05M_impro06_M000,neg,"[2.0000, 2.0000, 2.0000]","[ ' get ' , ' bad ' , ' news ' ]"
+[19.9600 - 25.5800],Ses05M_impro06_M001,neg,"[2.0000, 2.0000, 2.0000]","[ ' friend ' , ' shotty ' , ' pass ' , ' away ' ]"
+[27.4600 - 33.6700],Ses05M_impro06_M002,neg,"[1.5000, 2.0000, 2.0000]","[ ' end ' , ' sick ' , ' awhile ' , ' cancer ' ]"
+[34.3600 - 45.1000],Ses05M_impro06_M003,neg,"[1.5000, 2.0000, 2.0000]","[ ' yeah ' , ' never ' , ' thought ' , ' would ' , ' actually ' , ' happen ' , ' know ' , ' mean ' , ' fighter ' , ' always ' , ' positive ' , ' everything ' ]"
+[45.1100 - 58.4800],Ses05M_impro06_M004,neg,"[1.5000, 2.5000, 2.5000]","[ ' know ' , ' gon ' , ' na ' , ' way ' , ' end ' , ' talk ' , ' know ' , ' stuff ' , ' gon ' , ' na ' , ' know ' , ' finally ' , ' kick ' , ' stupid ' , ' cancer ' , ' know ' , ' gon ' , ' na ' ]"
+[58.6900 - 65.6800],Ses05M_impro06_M005,neg,"[1.5000, 3.0000, 2.5000]","[ ' want ' , ' travel ' , ' know ' , ' talente ' , ' probably ' , ' talente ' , ' person ' , ' ever ' , ' meet ' , ' entire ' , ' life ' ]"
+[65.7000 - 75.5700],Ses05M_impro06_M006,neg,"[2.0000, 3.5000, 2.5000]","[ ' designer ' , ' know ' , ' everything ' , ' know ' , ' paint ' , ' costume ' , ' design ' , ' set ' , ' design ' , ' light ' ]"
+[75.5800 - 81.5100],Ses05M_impro06_M007,neg,"[2.0000, 3.0000, 2.5000]","[ ' everything ' , ' literally ' , ' literally ' , ' talente ' , ' guy ' , ' ever ' , ' meet ' , ' entire ' , ' life ' ]"
+[81.5200 - 89.9600],Ses05M_impro06_M008,neg,"[1.5000, 3.0000, 2.0000]","[ ' go ' , ' believe ' ]"
+[91.9800 - 99.6100],Ses05M_impro06_M009,neg,"[1.5000, 3.0000, 2.0000]","[ ' mean ' , ' one ' , ' second ' , ' think ' , ' know ' , ' conversation ' ]"
+[101.0100 - 114.7500],Ses05M_impro06_M010,neg,"[1.5000, 3.0000, 2.5000]","[ ' know ' , ' sometimes ' , ' think ' , ' want ' , ' make ' , ' phone ' , ' call ' , ' think ' , ' want ' , ' tell ' , ' somebody ' , ' something ' , ' something ' , ' like ' , ' know ' , ' mean ' , ' like ' , ' person ' , ' know ' , ' like ' , ' person ' , ' need ' , ' call ' , ' tell ' , ' thing ' , ' time ' ]"
+[116.5400 - 128.9700],Ses05M_impro06_M011,neg,"[1.5000, 3.0000, 2.0000]","[ ' person ' , ' anymore ' , ' know ' ]"
+[129.1900 - 136.1500],Ses05M_impro06_M012,neg,"[1.5000, 3.0000, 2.0000]","[ ' think ' , ' thing ' , ' get ' , ' easy ' , ' know ' , ' get ' , ' old ' ]"
+[137.1500 - 147.2300],Ses05M_impro06_M013,neg,"[1.0000, 3.5000, 2.5000]","[ ' get ' , ' bad ' , ' get ' , ' bad ' , ' everything ' , ' bad ' , ' time ' , ' people ' , ' die ' , ' friend ' , ' die ' , ' family ' , ' die ' , ' good ' , ' friend ' , ' die ' ]"
+[148.2300 - 155.7751],Ses05M_impro06_M014,neg,"[1.5000, 3.0000, 2.5000]","[ ' always ' , ' think ' , ' know ' , ' know ' , ' little ' , ' kid ' , ' think ' , ' something ' , ' gon ' , ' na ' , ' happen ' , ' like ' , ' well ' , ' old ' , ' know ' ]"
+[176.5500 - 179.9800],Ses05M_impro06_M017,neg,"[2.0000, 2.5000, 2.0000]","[ ' right ' , ' right ' ]"
+[180.7300 - 191.4300],Ses05M_impro06_M018,neg,"[2.0000, 3.0000, 2.5000]","[ ' even ' , ' yeah ' , ' would ' , ' never ' , ' feel ' , ' way ' , ' would ' , ' never ' , ' want ' , ' feel ' , ' way ' , ' course ' , ' right ' , ' know ' , ' else ' ]"
+[194.8000 - 197.3500],Ses05M_impro06_M019,neg,"[1.5000, 2.0000, 2.0000]",[ ' miss ' ]
+[200.9700 - 203.1100],Ses05M_impro06_M020,neg,"[1.5000, 2.5000, 1.5000]",[ ' thank ' ]

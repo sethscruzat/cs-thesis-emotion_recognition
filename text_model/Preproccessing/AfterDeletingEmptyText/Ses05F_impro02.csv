@@ -1,0 +1,79 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[5.1700 - 7.6605],Ses05F_impro02_F000,xxx,"[2.0000, 2.0000, 2.0000]","['baby', 'need', 'sit']"
+[12.3000 - 14.4800],Ses05F_impro02_F001,sad,"[2.0000, 1.5000, 1.5000]",['um']
+[19.0000 - 24.6600],Ses05F_impro02_F002,sad,"[2.0000, 2.5000, 1.5000]","['sorry', 'lot', 'ahh', 'explain', 'ahh', 'got', 'call']"
+[24.7000 - 28.4600],Ses05F_impro02_F003,xxx,"[1.5000, 2.5000, 2.0000]","['yeah', 'um', 'everything', 'fine', 'far', 'um']"
+[28.8000 - 31.1014],Ses05F_impro02_F004,sad,"[1.5000, 2.0000, 1.5000]","['got', 'call', 'today']"
+[33.6400 - 37.1300],Ses05F_impro02_F005,sad,"[1.5000, 2.0000, 2.0000]","['going', 'need', 'go', 'overseas']"
+[40.9200 - 42.2900],Ses05F_impro02_F006,fea,"[1.5000, 1.5000, 2.5000]",['iraq']
+[44.4900 - 47.6500],Ses05F_impro02_F007,xxx,"[1.5000, 2.5000, 1.5000]","['sorry', 'thought', 'sigh']"
+[51.7400 - 54.4200],Ses05F_impro02_F008,sad,"[1.5000, 3.5000, 1.5000]","['know', 'sigh']"
+[61.5700 - 65.7300],Ses05F_impro02_F009,sad,"[1.0000, 3.0000, 1.5000]","['know', 'know']"
+[68.8300 - 79.7900],Ses05F_impro02_F010,sad,"[2.0000, 2.5000, 2.0000]","['know', 'well', 'figure', 'mean', 'think', 'army', 'going', 'provide', 'childcare', 'help', 'us', 'um']"
+[83.0500 - 85.3000],Ses05F_impro02_F011,sad,"[2.0000, 2.5000, 1.5000]",['iraq']
+[88.3300 - 93.3000],Ses05F_impro02_F012,sad,"[1.5000, 2.5000, 2.0000]","['think', 'infantry', 'sure']"
+[97.7400 - 103.8500],Ses05F_impro02_F013,fru,"[2.0000, 2.5000, 1.5000]","['going', 'least', 'six', 'months', 'probably', 'year', 'tried']"
+[106.6800 - 109.9800],Ses05F_impro02_F014,fru,"[1.5000, 3.0000, 2.5000]","['know', 'know', 'really', 'really', 'messed']"
+[117.3600 - 121.0200],Ses05F_impro02_F015,xxx,"[1.5000, 3.5000, 1.5000]","['believe', 'choice', 'would', 'chosen']"
+[125.2100 - 130.2600],Ses05F_impro02_F016,xxx,"[1.5000, 3.0000, 1.5000]","['know', 'fine', 'mean', 'great', 'parent', 'know']"
+[133.5800 - 138.1400],Ses05F_impro02_F017,fru,"[1.5000, 2.5000, 2.0000]","['well', 'maybe', 'move', 'mom', 'help']"
+[140.6200 - 144.2000],Ses05F_impro02_F018,fru,"[2.0000, 3.5000, 2.5000]","['know', 'trying', 'think', 'something']"
+[145.0128 - 148.8000],Ses05F_impro02_F019,xxx,"[2.5000, 2.0000, 2.5000]","['likes', 'course', 'likes']"
+[164.2500 - 167.3900],Ses05F_impro02_F021,sad,"[1.5000, 3.5000, 1.5000]","['think', 'anything']"
+[169.1700 - 182.0200],Ses05F_impro02_F022,xxx,"[1.5000, 3.5000, 2.5000]","['well', 'try', 'baby', 'beg', 'mean', 'anything', 'could', 'would', 'believe', 'want']"
+[183.0200 - 188.9000],Ses05F_impro02_F023,sad,"[1.0000, 3.5000, 2.0000]","['know', 'know', 'fair']"
+[199.5600 - 202.7800],Ses05F_impro02_F024,sad,"[1.5000, 1.5000, 1.5000]","['well', 'apparently', 'nobody', 'else', 'go']"
+[205.9800 - 213.1700],Ses05F_impro02_F025,fru,"[1.5000, 3.5000, 3.0000]","['know', 'baby', 'asking', 'hard', 'please', 'try', 'understand']"
+[223.6300 - 233.5000],Ses05F_impro02_F026,fru,"[2.0000, 3.0000, 3.5000]","['understand', 'baby', 'sorry', 'mean', 'try', 'understand', 'scared']"
+[238.6500 - 240.4100],Ses05F_impro02_F027,sad,"[1.5000, 3.0000, 2.0000]",['know']
+[246.3500 - 248.2000],Ses05F_impro02_F028,sad,"[1.5000, 3.5000, 2.0000]",['know']
+[252.2100 - 262.6900],Ses05F_impro02_F029,sad,"[2.0000, 2.5000, 2.5000]","['figure', 'something', 'think', 'could', 'family', 'help', 'us']"
+[265.5084 - 269.0981],Ses05F_impro02_F030,xxx,"[2.0000, 2.5000, 2.0000]","['maybe', 'call', 'parents']"
+[285.7900 - 289.1700],Ses05F_impro02_F031,sad,"[1.0000, 4.0000, 1.5000]","['going', 'miss', 'first', 'words']"
+[291.0500 - 294.9200],Ses05F_impro02_F032,sad,"[1.0000, 3.0000, 2.0000]","['send', 'pictures', 'letters', 'everyday']"
+[298.0200 - 301.2800],Ses05F_impro02_F033,xxx,"[1.5000, 2.5000, 2.5000]","['know', 'hope']"
+[307.5400 - 310.2100],Ses05F_impro02_F034,sad,"[2.5000, 2.0000, 2.0000]","['yeah', 'much']"
+[311.9000 - 316.1000],Ses05F_impro02_F035,sad,"[2.0000, 2.0000, 1.5000]","['sigh', 'three', 'weeks']"
+[318.9700 - 320.7100],Ses05F_impro02_F036,sad,"[2.0000, 1.0000, 1.0000]",['yeah']
+[328.2000 - 329.4000],Ses05F_impro02_F037,sad,"[2.0000, 1.0000, 1.0000]",['yeah']
+[335.2658 - 343.4000],Ses05F_impro02_F038,sad,"[1.5000, 3.5000, 1.5000]","['love', 'going', 'miss', 'much', 'sigh']"
+[15.5400 - 18.2200],Ses05F_impro02_M001,xxx,"[2.5000, 2.5000, 1.5000]",['say']
+[23.2800 - 24.8100],Ses05F_impro02_M002,xxx,"[2.5000, 3.0000, 1.5000]",['right']
+[31.5600 - 33.2600],Ses05F_impro02_M003,xxx,"[2.5000, 3.0000, 1.5000]",['okay']
+[38.4900 - 40.6800],Ses05F_impro02_M004,ang,"[1.5000, 2.5000, 1.0000]","['got', 'called']"
+[41.8900 - 44.9700],Ses05F_impro02_M005,ang,"[1.5000, 2.5000, 2.0000]","['thought', 'said', 'going', 'happen', 'least', 'year']"
+[50.1000 - 52.3200],Ses05F_impro02_M006,fru,"[1.5000, 3.0000, 1.0000]",['going']
+[54.1800 - 59.5700],Ses05F_impro02_M007,xxx,"[1.5000, 3.5000, 2.0000]","['know', 'know']"
+[60.3500 - 61.9000],Ses05F_impro02_M008,fru,"[1.5000, 3.0000, 1.5000]",['kids']
+[65.1400 - 69.6600],Ses05F_impro02_M009,xxx,"[1.5000, 3.0000, 1.5000]","['nobody', 'even', 'parents', 'live', 'side', 'country']"
+[80.4600 - 83.4400],Ses05F_impro02_M010,ang,"[2.0000, 3.5000, 2.5000]","['go', 'going']"
+[85.6700 - 90.1700],Ses05F_impro02_M011,xxx,"[1.5000, 3.5000, 2.0000]","['going', 'going', 'dangerous']"
+[99.3300 - 103.4000],Ses05F_impro02_M013,xxx,"[1.5000, 3.5000, 3.0000]","['something', 'else', 'tell', 'two', 'kids']"
+[103.9163 - 108.1300],Ses05F_impro02_M014,ang,"[1.5000, 3.5000, 2.5000]","['understand', 'would', 'something', 'like']"
+[109.4000 - 116.8600],Ses05F_impro02_M015,ang,"[1.5000, 4.0000, 3.5000]","['make', 'sense', 'stupid', 'told', 'go', 'army']"
+[120.5800 - 125.5400],Ses05F_impro02_M016,fru,"[1.5000, 2.5000, 2.0000]","['know', 'know', 'going', 'know']"
+[127.3700 - 131.8400],Ses05F_impro02_M017,xxx,"[1.5000, 4.0000, 3.0000]","['six', 'months', 'old', 'six', 'months', 'old', 'tiny']"
+[131.9300 - 136.2100],Ses05F_impro02_M018,xxx,"[1.5000, 3.5000, 2.5000]","['never', 'done', 'know', 'anything']"
+[137.6900 - 141.9100],Ses05F_impro02_M019,sur,"[1.5000, 4.0000, 2.5000]","['mom', 'want', 'move', 'mom']"
+[142.8000 - 146.9500],Ses05F_impro02_M020,xxx,"[1.5000, 3.0000, 2.0000]","['even', 'like', 'never', 'liked']"
+[147.8300 - 150.6600],Ses05F_impro02_M021,xxx,"[1.5000, 2.5000, 2.0000]","['likes', 'likes', 'kids']"
+[151.6700 - 156.6800],Ses05F_impro02_M022,xxx,"[1.5000, 3.5000, 1.0000]",['sigh']
+[159.1700 - 166.0100],Ses05F_impro02_M023,xxx,"[1.5000, 3.5000, 2.0000]","['let', 'go', 'let', 'go', 'call', 'say', 'something', 'anything', 'tell', 'something', 'different']"
+[166.0500 - 169.5200],Ses05F_impro02_M024,sad,"[1.5000, 3.5000, 1.5000]","['tell', 'sick', 'leave', 'something']"
+[181.7500 - 183.7300],Ses05F_impro02_M025,sad,"[1.0000, 3.5000, 1.0000]",['fair']
+[189.2800 - 200.1600],Ses05F_impro02_M026,sad,"[1.5000, 3.5000, 1.5000]","['people', 'somebody', 'else', 'go', 'instead', 'right']"
+[203.4300 - 207.0000],Ses05F_impro02_M027,xxx,"[1.5000, 3.5000, 3.0000]","['going', 'different', 'anybody', 'else']"
+[212.6000 - 224.5500],Ses05F_impro02_M028,xxx,"[1.5000, 4.0000, 1.5000]","['know', 'one', 'stay', 'one', 'take', 'care', 'have-i', 'anybody', 'else']"
+[233.4100 - 240.2300],Ses05F_impro02_M029,sad,"[1.5000, 3.0000, 1.0000]","['understand', 'worried', 'know', 'going', 'happen']"
+[240.5300 - 247.4700],Ses05F_impro02_M030,xxx,"[1.5000, 3.5000, 1.5000]","['iraq', 'all-come', 'people', 'die', 'every', 'day']"
+[249.9654 - 252.0563],Ses05F_impro02_M031,sad,"[1.5000, 1.5000, 1.0000]",['jus']
+[262.9800 - 264.8200],Ses05F_impro02_M032,sad,"[1.5000, 3.5000, 1.0000]",['know']
+[269.5200 - 278.8500],Ses05F_impro02_M033,sad,"[1.5000, 3.0000, 1.0000]","['yeah', 'guess', 'know', 'going', 'say']"
+[280.4300 - 286.6900],Ses05F_impro02_M034,sad,"[2.0000, 2.5000, 1.5000]","['yeah', 'call', 'figure', 'something', 'sorry', 'sorry', 'sorry', 'right']"
+[289.0500 - 291.1800],Ses05F_impro02_M035,sad,"[1.5000, 3.5000, 1.5000]",['know']
+[293.4100 - 299.9900],Ses05F_impro02_M036,sad,"[1.5000, 3.0000, 2.0000]","['time', 'every', 'day', 'every', 'day', 'e-mail', 'stuff', 'like', 'right', 'send', 'pictures']"
+[301.1900 - 307.9200],Ses05F_impro02_M037,xxx,"[2.0000, 3.0000, 2.5000]","['call', 'time', 'whenever', 'tell', 'okay']"
+[309.8100 - 312.1800],Ses05F_impro02_M038,xxx,"[1.5000, 3.0000, 1.5000]","['long', 'leave']"
+[315.4100 - 319.4100],Ses05F_impro02_M039,sur,"[1.5000, 4.0000, 1.0000]","['three', 'weeks']"
+[320.3500 - 328.8200],Ses05F_impro02_M040,xxx,"[1.5000, 2.0000, 2.5000]","['okay', 'okay', 'okay', 'make', 'work']"
+[332.8230 - 335.1399],Ses05F_impro02_M041,sad,"[2.0000, 2.5000, 2.0000]",['love']

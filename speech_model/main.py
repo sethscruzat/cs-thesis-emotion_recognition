@@ -34,7 +34,7 @@ model.add(TimeDistributed(BatchNormalization()))
 
 model.add(TimeDistributed(GlobalAveragePooling2D()))  # Keeps time steps intact
 
-model.add(Bidirectional(LSTM(64, return_sequences=False)))  # Change to False if this is last LSTM layer
+model.add(Bidirectional(LSTM(128, return_sequences=False)))
 
 # Fully connected layers
 model.add(Dense(1024, activation='relu'))
@@ -125,4 +125,4 @@ def model_testing():
 
 model_testing()
 
-model.save("cnn_six_seconds.keras")  
+model.save("cnn_six_seconds.keras")

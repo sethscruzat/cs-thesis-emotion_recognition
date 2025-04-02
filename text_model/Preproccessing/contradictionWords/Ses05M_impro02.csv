@@ -1,0 +1,59 @@
+% [START_TIME - END_TIME],TURN_NAME,EMOTION,"[V, A, D]",TEXT
+[3.0334 - 5.3000],Ses05M_impro02_F000,xxx,"[2.3333, 1.6667, 1.6667]",What is it?
+[16.3100 - 18.1100],Ses05M_impro02_F001,sur,"[2.0000, 2.6667, 2.0000]",What?
+[22.2500 - 24.1900],Ses05M_impro02_F002,fea,"[2.0000, 3.3333, 3.0000]","What?  No, you cannot!"
+[24.9600 - 28.9100],Ses05M_impro02_F003,fea,"[1.6667, 3.0000, 3.0000]",You did not- Did you tell them you have two young children at home?
+[33.1700 - 35.7900],Ses05M_impro02_F004,xxx,"[2.0000, 3.3333, 3.0000]",And they did not care?
+[40.0700 - 42.4000],Ses05M_impro02_F005,xxx,"[2.0000, 3.3333, 2.6667]",They cannot do that to you.
+[45.3500 - 49.5100],Ses05M_impro02_F006,fru,"[2.0000, 3.6667, 3.6667]","No, we have- There's got to be something you can do.  You cannot go."
+[55.5700 - 58.1400],Ses05M_impro02_F007,xxx,"[2.0000, 2.6667, 2.0000]",How long do you have to go for?
+[59.8200 - 60.8100],Ses05M_impro02_F008,sur,"[1.3333, 3.3333, 1.6667]",What?
+[79.2800 - 83.5900],Ses05M_impro02_F009,fru,"[1.6667, 3.6667, 3.3333]",There's got to be something we can do.  You cannot just go.
+[90.6700 - 94.5100],Ses05M_impro02_F010,fru,"[2.0000, 3.0000, 2.6667]",Why do not we do that- Can we- Can we just leave the country?
+[94.7500 - 96.1700],Ses05M_impro02_F011,xxx,"[2.0000, 3.3333, 2.3333]",I do not know.
+[99.9200 - 103.1800],Ses05M_impro02_F012,neu,"[2.6667, 2.6667, 2.0000]",What would be the worst that would happen if they found you somewhere else?
+[109.7200 - 112.0200],Ses05M_impro02_F013,sad,"[1.6667, 3.0000, 2.6667]","Well, they are so young."
+[118.5000 - 122.8900],Ses05M_impro02_F014,xxx,"[2.0000, 3.3333, 2.3333]",Where are you gonna be stationed?  What are you gonna be doing?
+[127.2400 - 132.2700],Ses05M_impro02_F015,fea,"[2.3333, 3.0000, 2.6667]","Are you gonna be like in tanks running around?  What- I mean, what does that mean?"
+[138.5900 - 140.6700],Ses05M_impro02_F016,fea,"[1.3333, 2.6667, 1.6667]","Oh, my God."
+[152.3900 - 154.9900],Ses05M_impro02_F017,fea,"[1.0000, 3.3333, 2.3333]",But so many people have died.
+[158.9700 - 165.4400],Ses05M_impro02_F018,xxx,"[1.0000, 3.6667, 2.0000]","I know.  I know.  I know I know. You're good You're good at what you do, but there's just so much chance involved."
+[165.4700 - 170.6700],Ses05M_impro02_F019,fea,"[1.3333, 3.0000, 2.6667]","I mean, I-I know that you're a good soldier, but not everybody else is. and what if"
+[182.4800 - 185.3400],Ses05M_impro02_F020,sad,"[1.0000, 3.6667, 2.0000]",It is just so much.
+[185.5400 - 189.8500],Ses05M_impro02_F021,sad,"[2.0000, 3.0000, 3.0000]",[GARBAGE] You have to write me everyday.
+[198.8500 - 203.1300],Ses05M_impro02_F022,xxx,"[2.6667, 2.6667, 2.0000]","Can I send you, like videos and stuff? What about when they start walking."
+[211.6200 - 212.8800],Ses05M_impro02_F023,sad,"[1.6667, 3.3333, 1.3333]",okay.
+[214.7700 - 216.1900],Ses05M_impro02_F024,sad,"[1.3333, 3.0000, 1.3333]",[GARBAGE]
+[6.9200 - 16.3900],Ses05M_impro02_M000,sad,"[2.0000, 2.0000, 2.6667]","Sweetheart, I've got to tell you something.  I just got a call.  I'm going to Iraq."
+[17.8700 - 23.5700],Ses05M_impro02_M001,sad,"[2.3333, 3.0000, 2.3333]","I know it is really crappy timing, but I do not have a choice."
+[23.8500 - 26.6800],Ses05M_impro02_M002,xxx,"[2.0000, 2.3333, 2.0000]",I know. I have to go-
+[28.3900 - 33.1100],Ses05M_impro02_M003,xxx,"[1.6667, 3.0000, 3.0000]","You think they'd listen to me?  No.  Of course, I told them that."
+[35.2500 - 37.4400],Ses05M_impro02_M004,xxx,"[2.0000, 2.6667, 2.0000]",No.
+[39.1795 - 41.4200],Ses05M_impro02_M005,xxx,"[2.0000, 3.6667, 1.6667]",I do not know what to do.  I'm - Sorry
+[41.4300 - 42.6900],Ses05M_impro02_M006,xxx,"[2.0000, 3.0000, 2.0000]",I know.
+[42.9100 - 47.7800],Ses05M_impro02_M007,sad,"[2.0000, 3.6667, 2.3333]","I do not have a choice.  I have to go.  If I do not go, they'll come and take me."
+[48.5900 - 57.0100],Ses05M_impro02_M008,fru,"[1.6667, 3.6667, 3.0000]",I've tried everything.  I've called everyone I know.  I've tried everything. No one can do anything for me or they will not do anything for me.
+[58.0400 - 60.2300],Ses05M_impro02_M009,xxx,"[1.6667, 3.0000, 2.3333]",At least a year.
+[60.3000 - 62.3900],Ses05M_impro02_M010,sad,"[1.6667, 2.3333, 1.6667]",I know.
+[62.7000 - 70.7200],Ses05M_impro02_M011,sad,"[2.0000, 3.0000, 2.0000]",I do not want to -- the kids.  You have got to take care of them.  You have got- you have got to-
+[70.7500 - 79.4200],Ses05M_impro02_M012,sad,"[1.3333, 4.0000, 3.0000]","tell them about me and show them pictures of me and everything like that, because they are not going to see me for such a long time.  And it is such an important time and I just do not want to miss it."
+[83.8300 - 92.7000],Ses05M_impro02_M013,sad,"[1.6667, 3.6667, 2.3333]",I do not have -- I know.  What are we gonna- What are we- just run away?  What can I do?  Where can we go?
+[93.0200 - 94.3600],Ses05M_impro02_M014,xxx,"[1.6667, 3.6667, 3.6667]",Where are we gonna go?
+[94.3700 - 95.8400],Ses05M_impro02_M015,xxx,"[2.0000, 3.0000, 2.6667]",Where are we gonna go?
+[96.2767 - 100.3400],Ses05M_impro02_M016,xxx,"[2.3333, 3.0000, 2.6667]",They'll find me anyway.  You know they will.
+[102.2400 - 109.8300],Ses05M_impro02_M017,fru,"[2.0000, 3.6667, 3.0000]","They'd put me in jail and then how long- when will I get to see the kids?  What, ten years?  I do not know."
+[111.6500 - 119.9500],Ses05M_impro02_M018,sad,"[2.0000, 3.3333, 2.3333]",I know.  But I'll-I'll send the pictures all the time and I'll write them emails and you can read them the emails that I send them.
+[122.6000 - 127.0100],Ses05M_impro02_M019,sad,"[2.0000, 3.0000, 2.3333]","I'm gonna be in Bagdad, just doing security."
+[131.8700 - 139.8500],Ses05M_impro02_M020,xxx,"[2.0000, 2.6667, 2.3333]","Yeah, it is gonna be everything.  I'm gonna be in the front.  I'll be -- it is not gonna be safe."
+[140.1500 - 143.7200],Ses05M_impro02_M021,sad,"[2.0000, 3.0000, 2.3333]",I just want to be honest with you.  I do not want you to .
+[144.2900 - 153.8400],Ses05M_impro02_M022,sad,"[2.0000, 3.6667, 3.0000]","but, it is gonna be fine.  I'm gonna be fine.  You know I'm good at this.  I can do this.  That is why I trained all this time.  I'm good at this.  Okay?"
+[154.4800 - 159.3900],Ses05M_impro02_M023,sad,"[2.3333, 3.3333, 2.6667]","I know.  I know.  I know.  But, you know what?  That does not mean it is gonna be me; does it?"
+[159.4100 - 162.6000],Ses05M_impro02_M024,sad,"[2.6667, 3.3333, 3.3333]",No.  It does not.  And you cannot think like that.
+[169.3000 - 178.6800],Ses05M_impro02_M025,sad,"[2.3333, 3.0000, 3.6667]",I do not want you to -- I know.  I know. You cannot worry about me.  You have got to worry about the kids.  And you have got to take care of the kids for me.  Okay?  Take care of the kids for me; all right?
+[178.7600 - 184.0100],Ses05M_impro02_M026,xxx,"[2.3333, 3.3333, 3.0000]","And you know my mom's here.  She'll come over and she'll be with you all the time, whenever you need her."
+[184.0700 - 185.9900],Ses05M_impro02_M027,sad,"[2.0000, 3.0000, 2.0000]","I'll miss you, baby."
+[188.6500 - 199.4600],Ses05M_impro02_M028,sad,"[2.3333, 4.0000, 2.6667]","All- I'll write you everyday, all the time.  And I'll send you pictures and you send me pictures. I know We have got email out there.  We have got email and I can see stuff and you can send me stuff all the time.  Okay?"
+[200.1000 - 202.3900],Ses05M_impro02_M029,sad,"[3.6667, 4.0000, 2.3333]",yeah yeah yeah.
+[202.4500 - 207.4200],Ses05M_impro02_M030,exc,"[2.6667, 3.3333, 3.3333]",You you record every second.  You record every second because I want to see it all.  Okay?
+[207.4300 - 212.1200],Ses05M_impro02_M031,xxx,"[3.0000, 3.3333, 3.3333]","If I do not get to see it now, I get to see it later at least, you know?  You have got to keep it all for me; all right?"
+[213.4500 - 217.5800],Ses05M_impro02_M032,xxx,"[3.3333, 2.6667, 2.3333]",I love you.  Okay?
