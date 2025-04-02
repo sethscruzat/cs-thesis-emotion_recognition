@@ -4,9 +4,14 @@ from pydub import AudioSegment
 import librosa
 import joblib
 import cv2
+import psutil
+import tracemalloc  # Memory tracking
+import os
+import time
 from sklearn.preprocessing import StandardScaler
 import assemblyai as aai
 from tensorflow.keras.models import load_model
+from sklearn.metrics import confusion_matrix, classification_report
 
 # Load Models
 cnn_model = load_model("./combined_model/models/cnn_six_seconds.keras")  # Load trained CNN model
@@ -24,6 +29,10 @@ nb_weight /= total_weight
 
 class_labels = {2:"Positive", 1: "Neutral", 0: "Negative"}
 
+# Function to measure memory usage
+def get_memory_usage():
+    return psutil.Process(os.getpid()).memory_info().rss  # Memory in bytes
+
 # SPEECH MODEL
 def reduce_noise(y, sr):
     """Apply noise reduction using noisereduce."""
@@ -33,6 +42,10 @@ def reduce_noise(y, sr):
     return reduced_y
 
 def predict_audio(audio_file, target_size=(128, 256)):
+    tracemalloc.start()
+    start_mem = get_memory_usage()
+    start_time = time.time()
+
     y, sr = librosa.load(audio_file, sr=22050)
 
     mel_spec = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128)
@@ -53,10 +66,16 @@ def predict_audio(audio_file, target_size=(128, 256)):
     cnn_probabilities = cnn_model.predict(audio_input)[0]
 
     predicted_class = np.argmax(cnn_probabilities)  # Get index of highest probability
+
+    end_time = time.time()
+    end_mem = get_memory_usage()
+    _, peak_mem = tracemalloc.get_traced_memory()
+    tracemalloc.stop()
+
     predicted_emotion = class_labels[predicted_class]  # Convert index to label
     print(f"Speech Model Prediction: {predicted_emotion}")
 
-    return cnn_probabilities
+    return cnn_probabilities, end_time - start_time, end_mem - start_mem, peak_mem
 
 
 # TEXT MODEL
@@ -69,8 +88,7 @@ def speech_to_text(audio_file):
     if transcript.status == aai.TranscriptStatus.error:
         print(f"Transcription failed")
     
-    print(transcript.text)
-    
+    print(f"Transcribed Text: {transcript.text}")
     return [transcript.text]
 
 def preprocess_text(text):
@@ -82,25 +100,38 @@ def preprocess_text(text):
     return text
 
 def predict_text(text):
+    tracemalloc.start()
+    start_mem = get_memory_usage()
+    start_time = time.time()
+
     processed_data = [preprocess_text(text) for text in text]
     # Convert text to feature vector
     text_vector = vectorizer.transform(processed_data)  # Convert to TF-IDF features
+
+    # Get Naïve Bayes probabilities
+    nb_probabilities = nb_model.predict_proba(text_vector)[0]  # (num_classes,)
+    
+    end_time = time.time()
+    end_mem = get_memory_usage()
+    _, peak_mem = tracemalloc.get_traced_memory()
+    tracemalloc.stop()
 
     # Make predictions using the loaded model
     prediction = nb_model.predict(text_vector)
     print(f"Text Model Prediction: {prediction}")
 
-    # Get Naïve Bayes probabilities
-    nb_probabilities = nb_model.predict_proba(text_vector)[0]  # (num_classes,)
-
-    return nb_probabilities
+    return nb_probabilities, end_time - start_time, end_mem - start_mem, peak_mem
 
 
 # Fusion Function (Weighted Confidence Score)
 def fusion_prediction(audio_file, text):
+    tracemalloc.start()
+    start_mem = get_memory_usage()
+    start_time = time.time()
+
     # Get probabilities from both models
-    cnn_probs = predict_audio(audio_file)
-    nb_probs = predict_text(text)
+    cnn_probs, cnn_time, cnn_mem, cnn_peak = predict_audio(audio_file)
+    nb_probs, nb_time, nb_mem, nb_peak = predict_text(text)
 
     # Compute final weighted score
     final_scores = (cnn_weight * cnn_probs) + (nb_weight * nb_probs)
@@ -108,14 +139,40 @@ def fusion_prediction(audio_file, text):
     # Get final prediction (emotion with highest score)
     final_prediction = np.argmax(final_scores)
 
-    return final_prediction, final_scores
+    end_time = time.time()
+    end_mem = get_memory_usage()
+    _, peak_mem = tracemalloc.get_traced_memory()
+    tracemalloc.stop()
+
+    return (
+        final_prediction, final_scores, 
+        cnn_time, nb_time, end_time - start_time,
+        cnn_mem, nb_mem, end_mem - start_mem,
+        cnn_peak, nb_peak, peak_mem
+    )
 
 
 # Example Usage
 audio_file = "./combined_model/test_prediction.wav"  # Input audio file
 text = speech_to_text(audio_file)
 
-predicted_emotion, confidence_scores = fusion_prediction(audio_file, text)
+(
+    predicted_emotion, confidence_scores, 
+    cnn_time, nb_time, fusion_time, 
+    cnn_mem, nb_mem, fusion_mem, 
+    cnn_peak, nb_peak, fusion_peak
+) = fusion_prediction(audio_file, text)
 
 print(f"Final Predicted Emotion: {predicted_emotion}: {class_labels[predicted_emotion]}")
 print("Confidence Scores:", confidence_scores)
+
+# Print Results
+print("\n===== TIME COMPLEXITY (Seconds) =====")
+print(f"Speech Model: {cnn_time:.4f} sec")
+print(f"Text Model: {nb_time:.4f} sec")
+print(f"Fusion Model: {fusion_time:.4f} sec")
+
+print("\n===== SPACE COMPLEXITY (Memory Usage in Bytes) =====")
+print(f"Speech Model: {cnn_mem} bytes | Peak: {cnn_peak} bytes")
+print(f"Text Model: {nb_mem} bytes | Peak: {nb_peak} bytes")
+print(f"Fusion Model: {fusion_mem} bytes | Peak: {fusion_peak} bytes")
