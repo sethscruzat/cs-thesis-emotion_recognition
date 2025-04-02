@@ -2,15 +2,16 @@ import numpy as np
 import tensorflow as tf
 from pydub import AudioSegment
 import librosa
-import pickle
+import joblib
+import cv2
 from sklearn.preprocessing import StandardScaler
 import assemblyai as aai
 from tensorflow.keras.models import load_model
 
 # Load Models
-cnn_model = load_model("cnn_six_seconds.keras")  # Load trained CNN model
-with open("best_model.pkl", "rb") as f:
-    nb_model = pickle.load(f)  # Load trained Naïve Bayes model
+cnn_model = load_model("./combined_model/cnn_six_seconds.keras")  # Load trained CNN model
+nb_model = joblib.load("./combined_model/best_model.pkl")# Load trained Naïve Bayes model
+vectorizer = joblib.load("./combined_model/tfidf_vectorizer.pkl")
 
 # Define Weights (Based on Validation Accuracy)
 cnn_weight = 0.52 
@@ -31,22 +32,23 @@ def reduce_noise(y, sr):
     reduced_y = nr.reduce_noise(y=y, sr=sr, y_noise=noise_sample)
     return reduced_y
 
-def process_audio_segment(audio_file, sr=22050, n_mels=128, target_size=(128, 256)):
-    audio = AudioSegment.from_file(audio_file)
-    sample = librosa.util.normalize(audio)  # Normalize
+def predict_audio(audio_file, target_size=(128, 256)):
+    y, sr = librosa.load(audio_file, sr=22050)
+    # audio = AudioSegment.from_file(audio_file)
 
-    y = librosa.resample(sample, orig_sr=audio.frame_rate, target_sr=sr)
-    y = reduce_noise(y, sr)
+    # y = librosa.resample(sample, orig_sr=audio.frame_rate, target_sr=sr)
+    # y = reduce_noise(y, sr)
 
-    # STFT parameters
-    segment_duration = len(y) / sr  # Get actual segment duration in seconds
-    n_fft = min(int(segment_duration * sr * 0.025), 2048)  # 25ms window, cap at 2048
-    hop_length = max(1, int(n_fft / 2))  # Ensure meaningful stride
+    # # STFT parameters
+    # segment_duration = len(y) / sr  # Get actual segment duration in seconds
+    # n_fft = min(int(segment_duration * sr * 0.025), 2048)  # 25ms window, cap at 2048
+    # hop_length = max(1, int(n_fft / 2))  # Ensure meaningful stride
     
-    # Compute STFT and Mel spectrogram
-    stft = librosa.stft(y, n_fft=n_fft, hop_length=hop_length, window='hann')
+    # # Compute STFT and Mel spectrogram
+    # stft = librosa.stft(y, n_fft=n_fft, hop_length=hop_length, window='hann')
 
-    mel_spec = librosa.feature.melspectrogram(S=np.abs(stft)**2, sr=sr, n_mels=n_mels)
+    # mel_spec = librosa.feature.melspectrogram(S=np.abs(stft)**2, sr=sr, n_mels=n_mels)
+    mel_spec = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128)
     mel_spec_db = librosa.power_to_db(mel_spec, ref=np.max)
 
     # Normalize spectrogram values to 0-255 (image-like format)
@@ -61,7 +63,11 @@ def process_audio_segment(audio_file, sr=22050, n_mels=128, target_size=(128, 25
     audio_input = np.expand_dims(spectogram, axis=1) 
 
     # Get CNN probabilities
-    cnn_probabilities = cnn_model.predict(audio_input)[0] 
+    cnn_probabilities = cnn_model.predict(audio_input)[0]
+
+    predicted_class = np.argmax(cnn_probabilities)  # Get index of highest probability
+    predicted_emotion = class_labels[predicted_class]  # Convert index to label
+    print(f"Speech Model Prediction: {predicted_emotion}")
 
     return cnn_probabilities
 
@@ -76,7 +82,9 @@ def speech_to_text(audio_file):
     if transcript.status == aai.TranscriptStatus.error:
         print(f"Transcription failed")
     
-    return transcript
+    print(transcript.text)
+    
+    return [transcript.text]
 
 def preprocess_text(text):
     # Lowercase text
@@ -86,14 +94,14 @@ def preprocess_text(text):
 
     return text
 
-def predict_text(text_for_model):
-    # Load the same text vectorizer used in training
-    with open("tfidf_vectorizer.pkl", "rb") as f:
-        vectorizer = pickle.load(f)
-    
-    text = preprocess_text(text_for_model)
+def predict_text(text):
+    processed_data = [preprocess_text(text) for text in text]
     # Convert text to feature vector
-    text_vector = vectorizer.transform(text)  # Convert to TF-IDF features
+    text_vector = vectorizer.transform(processed_data)  # Convert to TF-IDF features
+
+    # Make predictions using the loaded model
+    prediction = nb_model.predict(text_vector)
+    print(f"Text Model Prediction: {prediction}")
 
     # Get Naïve Bayes probabilities
     nb_probabilities = nb_model.predict_proba(text_vector)[0]  # (num_classes,)
@@ -117,9 +125,10 @@ def fusion_prediction(audio_file, text):
 
 
 # Example Usage
-audio_file = "example.wav"  # Input audio file
-text_for_model = speech_to_text(audio_file)
+audio_file = "./combined_model/test_prediction.wav"  # Input audio file
+text = speech_to_text(audio_file)
 
-predicted_emotion, confidence_scores = fusion_prediction(audio_file, text_for_model)
-print("Final Predicted Emotion:", predicted_emotion)
+predicted_emotion, confidence_scores = fusion_prediction(audio_file, text)
+
+print(f"Final Predicted Emotion: {predicted_emotion}: {class_labels[predicted_emotion]}")
 print("Confidence Scores:", confidence_scores)
