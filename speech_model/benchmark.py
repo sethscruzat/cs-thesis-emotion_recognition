@@ -111,7 +111,9 @@ def model_testing():
     plt.xlabel('Predicted Label')
     plt.ylabel('True Label')
     plt.title('Confusion Matrix')
-    plt.show()
+    
+    plt.savefig("confusion_matrix.png")  # Save figure
+    plt.close()
 
     # 5. Print classification report
     print(classification_report(y_true, y_pred, target_names=label_encoder.classes_))
