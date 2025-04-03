@@ -35,11 +35,11 @@ model.add(TimeDistributed(GlobalAveragePooling2D()))  # Keeps time steps intact
 model.add(Bidirectional(LSTM(256, return_sequences=False)))
 
 # Fully connected layers
-model.add(Dense(1024, activation='relu', kernel_regularizer=l2(0.001)))
+model.add(Dense(512, activation='relu', kernel_regularizer=l2(0.001)))
 model.add(Dropout(0.45))
 model.add(Dense(3, activation='softmax'))
 
-model.compile(optimizer=Adam(learning_rate=0.0005), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.25), metrics=['accuracy'])
+model.compile(optimizer=Adam(learning_rate=0.0005), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.2), metrics=['accuracy'])
 
 model.summary()
 
