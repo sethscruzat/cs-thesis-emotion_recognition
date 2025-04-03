@@ -41,7 +41,7 @@ model.add(Dense(1024, activation='relu'))
 model.add(Dropout(0.25))
 model.add(Dense(3, activation='softmax'))
 
-model.compile(optimizer=Adam(learning_rate=0.001), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1), metrics=['accuracy'])
+model.compile(optimizer=Adam(learning_rate=0.001), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.25), metrics=['accuracy'])
 
 model.summary()
 
@@ -99,7 +99,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_s
 X_train = np.expand_dims(X_train, axis=1)  # Adds a time dimension
 X_test = np.expand_dims(X_test, axis=1)  # Adds a time dimension
 
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=20, batch_size=32, verbose=1)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=30, batch_size=16, verbose=1)
 
 def model_testing():
     # 1. Get predictions (probabilities)
