@@ -12,7 +12,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, classification_report
 from tensorflow.keras.callbacks import EarlyStopping
-from sklearn.utils.class_weight import compute_class_weight
+from tensorflow.keras.regularizers import l2
 from tensorflow.keras.utils import Sequence
 from tensorflow.keras.optimizers import Adam,RMSprop,SGD,Adamax
 
@@ -21,27 +21,25 @@ model = Sequential()
 model.add(TimeDistributed(Conv2D(64, (3, 3), activation='relu'), input_shape=(1, 128, 256, 1)))
 
 model.add(TimeDistributed(Conv2D(128, (3, 3), activation='relu')))
-model.add(TimeDistributed(MaxPooling2D((2, 2))))
+model.add(TimeDistributed(MaxPooling2D((3, 3))))
 
 model.add(TimeDistributed(Conv2D(256, (3, 3), activation='relu')))
-model.add(TimeDistributed(MaxPooling2D((2, 2))))
+model.add(TimeDistributed(MaxPooling2D((3, 3))))
 
 model.add(TimeDistributed(Conv2D(256, (3, 3), activation='relu')))
-model.add(TimeDistributed(MaxPooling2D((2, 2))))
+model.add(TimeDistributed(MaxPooling2D((3, 3))))
 model.add(TimeDistributed(BatchNormalization()))
-
-# model.add(Flatten())  # Convert CNN output to 1D vector
 
 model.add(TimeDistributed(GlobalAveragePooling2D()))  # Keeps time steps intact
 
 model.add(Bidirectional(LSTM(256, return_sequences=False)))
 
 # Fully connected layers
-model.add(Dense(1024, activation='relu'))
-model.add(Dropout(0.25))
+model.add(Dense(1024, activation='relu', kernel_regularizer=l2(0.001)))
+model.add(Dropout(0.3))
 model.add(Dense(3, activation='softmax'))
 
-model.compile(optimizer=Adam(learning_rate=0.001), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.25), metrics=['accuracy'])
+model.compile(optimizer=Adam(learning_rate=0.003), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.25), metrics=['accuracy'])
 
 model.summary()
 
@@ -94,12 +92,14 @@ y_onehot = to_categorical(y_balanced)  # Convert to one-hot encoding
 X_balanced = np.array(X_balanced).reshape(-1, 128, 256, 1)  # Reshape for CNN (assuming grayscale images)
 X_balanced = X_balanced / 255.0  # Normalize pixel values (for image-based spectrograms)
 
-X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.2, random_state=13, shuffle=True)
+X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.2, random_state=42, shuffle=True)
 
 X_train = np.expand_dims(X_train, axis=1)  # Adds a time dimension
 X_test = np.expand_dims(X_test, axis=1)  # Adds a time dimension
 
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=30, batch_size=16, verbose=1)
+early_stopping = EarlyStopping(monitor='val_accuracy', patience=14, restore_best_weights=True)
+
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=30, batch_size=16, verbose=1, callbacks=[early_stopping])
 
 def model_testing():
     # 1. Get predictions (probabilities)
@@ -119,7 +119,7 @@ def model_testing():
     plt.ylabel('True Label')
     plt.title('Confusion Matrix')
 
-    plt.savefig("confusion_matrix.png")  # Save figure
+    plt.savefig("cnn_confusion_matrix.png")  # Save figure
     plt.close()
 
     # 5. Print classification report
