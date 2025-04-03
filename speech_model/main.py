@@ -36,10 +36,10 @@ model.add(Bidirectional(LSTM(256, return_sequences=False)))
 
 # Fully connected layers
 model.add(Dense(1024, activation='relu', kernel_regularizer=l2(0.001)))
-model.add(Dropout(0.3))
+model.add(Dropout(0.45))
 model.add(Dense(3, activation='softmax'))
 
-model.compile(optimizer=Adam(learning_rate=0.003), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.25), metrics=['accuracy'])
+model.compile(optimizer=Adam(learning_rate=0.0005), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.25), metrics=['accuracy'])
 
 model.summary()
 
@@ -92,14 +92,14 @@ y_onehot = to_categorical(y_balanced)  # Convert to one-hot encoding
 X_balanced = np.array(X_balanced).reshape(-1, 128, 256, 1)  # Reshape for CNN (assuming grayscale images)
 X_balanced = X_balanced / 255.0  # Normalize pixel values (for image-based spectrograms)
 
-X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.2, random_state=42, shuffle=True)
+X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.25, random_state=42, shuffle=True)
 
 X_train = np.expand_dims(X_train, axis=1)  # Adds a time dimension
 X_test = np.expand_dims(X_test, axis=1)  # Adds a time dimension
 
-early_stopping = EarlyStopping(monitor='val_accuracy', patience=14, restore_best_weights=True)
+early_stopping = EarlyStopping(monitor='val_accuracy', patience=12, restore_best_weights=True)
 
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=30, batch_size=16, verbose=1, callbacks=[early_stopping])
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=30, batch_size=32, verbose=1, callbacks=[early_stopping])
 
 def model_testing():
     # 1. Get predictions (probabilities)

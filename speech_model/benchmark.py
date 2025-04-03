@@ -34,10 +34,10 @@ model.add(GlobalAveragePooling2D())
 
 # Fully connected layers
 model.add(Dense(512, activation='relu', kernel_regularizer=l2(0.001)))
-model.add(Dropout(0.35))
+model.add(Dropout(0.45)) # keep to around .35-.5
 model.add(Dense(3, activation='softmax'))
 
-model.compile(optimizer=Adam(learning_rate=0.0005), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.3), metrics=['accuracy'])
+model.compile(optimizer=Adam(learning_rate=0.0005), loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.25), metrics=['accuracy']) #keep label smoothing from .15-.35
 
 model.summary()
 
@@ -92,9 +92,9 @@ X_balanced = X_balanced / 255.0  # Normalize pixel values (for image-based spect
 
 early_stopping = EarlyStopping(monitor='val_accuracy', patience=14, restore_best_weights=True)
 
-X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.2, random_state=42, shuffle=True)
+X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_onehot, test_size=0.25, random_state=42, shuffle=True)
 
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=30, batch_size=16, verbose=1, callbacks=[early_stopping])
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=30, batch_size=32, verbose=1, callbacks=[early_stopping])
 
 def model_testing():
     # 1. Get predictions (probabilities)
