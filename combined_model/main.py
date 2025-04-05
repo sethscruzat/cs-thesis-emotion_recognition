@@ -14,13 +14,13 @@ from tensorflow.keras.models import load_model
 from sklearn.metrics import confusion_matrix, classification_report
 
 # Load Models
-cnn_model = load_model("./combined_model/models/cnn_six_seconds.keras")  # Load trained CNN model
+cnn_model = load_model("./combined_model/models/cnn_six_seconds_ver2.keras")  # Load trained CNN model
 nb_model = joblib.load("./combined_model/models/best_model.pkl")# Load trained Naïve Bayes model
 vectorizer = joblib.load("./combined_model/models/tfidf_vectorizer.pkl")
 
 # Define Weights (Based on Validation Accuracy)
-cnn_weight = 0.52 
-nb_weight = 0.86 
+cnn_weight = 0.50 
+nb_weight = 0.88 
 
 # Normalize weights so they sum to 1
 total_weight = cnn_weight + nb_weight
@@ -51,7 +51,7 @@ def preprocess_audio(audio_file, target_size=(128, 256)):
     mel_spec_normalized = cv2.normalize(mel_spec_db, None, 0, 255, cv2.NORM_MINMAX)
 
     # Resize to match CNN input
-    mel_spec_resized = cv2.resize(mel_spec_normalized, target_size)
+    mel_spec_resized = cv2.resize(mel_spec_normalized, target_size, interpolation=cv2.INTER_AREA)
 
     spectogram = np.array(mel_spec_resized).reshape(-1, 128, 256, 1)
     spectogram = spectogram / 255.0
@@ -146,7 +146,7 @@ def fusion_prediction(audio_input, text):
 
 # ============================================================== PREDICTION =======================================================
 
-audio_file = "./combined_model/test_prediction.wav"  # audio file
+audio_file = "./combined_model/neutral_test_8_seconds.wav"  # audio file
 text = speech_to_text(audio_file)
 audio_input = preprocess_audio(audio_file)
 
