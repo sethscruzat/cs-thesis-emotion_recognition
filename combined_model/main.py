@@ -33,7 +33,7 @@ class_labels = {2:"Positive", 1: "Neutral", 0: "Negative"}
 def get_memory_usage():
     return psutil.Process(os.getpid()).memory_info().rss  # Memory in bytes
 
-# SPEECH MODEL
+# ============================================================== SPEECH MODEL =======================================================
 def reduce_noise(y, sr):
     """Apply noise reduction using noisereduce."""
     # Estimate noise profile from the first 0.5 seconds
@@ -41,11 +41,7 @@ def reduce_noise(y, sr):
     reduced_y = nr.reduce_noise(y=y, sr=sr, y_noise=noise_sample)
     return reduced_y
 
-def predict_audio(audio_file, target_size=(128, 256)):
-    tracemalloc.start()
-    start_mem = get_memory_usage()
-    start_time = time.time()
-
+def preprocess_audio(audio_file, target_size=(128, 256)):
     y, sr = librosa.load(audio_file, sr=22050)
 
     mel_spec = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128)
@@ -60,7 +56,14 @@ def predict_audio(audio_file, target_size=(128, 256)):
     spectogram = np.array(mel_spec_resized).reshape(-1, 128, 256, 1)
     spectogram = spectogram / 255.0
 
-    audio_input = np.expand_dims(spectogram, axis=1) 
+    audio_input = np.expand_dims(spectogram, axis=1)
+
+    return audio_input
+
+def predict_audio(audio_input):
+    tracemalloc.start()
+    start_mem = get_memory_usage()
+    start_time = time.time()
 
     # Get CNN probabilities
     cnn_probabilities = cnn_model.predict(audio_input)[0]
@@ -77,8 +80,7 @@ def predict_audio(audio_file, target_size=(128, 256)):
 
     return cnn_probabilities, end_time - start_time, end_mem - start_mem, peak_mem
 
-
-# TEXT MODEL
+# ============================================================== TEXT MODEL =======================================================
 def speech_to_text(audio_file):
     aai.settings.api_key = "c45ab6cc228640d58dfe8b8b43b712df"
 
@@ -122,15 +124,11 @@ def predict_text(text):
 
     return nb_probabilities, end_time - start_time, end_mem - start_mem, peak_mem
 
+# ============================================================== FUSION MODEL =======================================================
 
-# Fusion Function (Weighted Confidence Score)
-def fusion_prediction(audio_file, text):
-    tracemalloc.start()
-    start_mem = get_memory_usage()
-    start_time = time.time()
-
+def fusion_prediction(audio_input, text):
     # Get probabilities from both models
-    cnn_probs, cnn_time, cnn_mem, cnn_peak = predict_audio(audio_file)
+    cnn_probs, cnn_time, cnn_mem, cnn_peak = predict_audio(audio_input)
     nb_probs, nb_time, nb_mem, nb_peak = predict_text(text)
 
     # Compute final weighted score
@@ -139,40 +137,34 @@ def fusion_prediction(audio_file, text):
     # Get final prediction (emotion with highest score)
     final_prediction = np.argmax(final_scores)
 
-    end_time = time.time()
-    end_mem = get_memory_usage()
-    _, peak_mem = tracemalloc.get_traced_memory()
-    tracemalloc.stop()
-
     return (
         final_prediction, final_scores, 
-        cnn_time, nb_time, end_time - start_time,
-        cnn_mem, nb_mem, end_mem - start_mem,
-        cnn_peak, nb_peak, peak_mem
+        cnn_time, nb_time,
+        cnn_mem, nb_mem,
+        cnn_peak, nb_peak
     )
 
+# ============================================================== PREDICTION =======================================================
 
-# Example Usage
-audio_file = "./combined_model/test_prediction.wav"  # Input audio file
+audio_file = "./combined_model/test_prediction.wav"  # audio file
 text = speech_to_text(audio_file)
+audio_input = preprocess_audio(audio_file)
 
 (
     predicted_emotion, confidence_scores, 
-    cnn_time, nb_time, fusion_time, 
-    cnn_mem, nb_mem, fusion_mem, 
-    cnn_peak, nb_peak, fusion_peak
-) = fusion_prediction(audio_file, text)
+    cnn_time, nb_time, 
+    cnn_mem, nb_mem, 
+    cnn_peak, nb_peak
+) = fusion_prediction(audio_input, text)
 
+# ============================================================== RESULTS =======================================================
 print(f"Final Predicted Emotion: {predicted_emotion}: {class_labels[predicted_emotion]}")
 print("Confidence Scores:", confidence_scores)
 
-# Print Results
 print("\n===== TIME COMPLEXITY (Seconds) =====")
 print(f"Speech Model: {cnn_time:.4f} sec")
 print(f"Text Model: {nb_time:.4f} sec")
-print(f"Fusion Model: {fusion_time:.4f} sec")
 
 print("\n===== SPACE COMPLEXITY (Memory Usage in Bytes) =====")
 print(f"Speech Model: {cnn_mem} bytes | Peak: {cnn_peak} bytes")
 print(f"Text Model: {nb_mem} bytes | Peak: {nb_peak} bytes")
-print(f"Fusion Model: {fusion_mem} bytes | Peak: {fusion_peak} bytes")
