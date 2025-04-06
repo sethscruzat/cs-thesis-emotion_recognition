@@ -19,12 +19,11 @@ cnn_model = load_model("./combined_model/models/cnn_six_seconds.keras")  # Load 
 nb_model = joblib.load("./combined_model/models/best_model.pkl")# Load trained Naïve Bayes model
 vectorizer = joblib.load("./combined_model/models/tfidf_vectorizer.pkl")
 
-audio_folder_path = "./dataset/3/wav"
-csv_folder_path = "./speech_model/labels/by_utterance/3"
+sterm_model = load_model("./combined_model/models/sterm.keras")
 
-# batch test
-# csv_path = "./combined_model/validation_test/Ses01M_script03_1.csv"
-# df = pd.read_csv(csv_path)
+audio_folder_path = "./speech_model/audio_3/wav"
+csv_folder_path = "./speech_model/labels_3"
+
 
 output_dir = "./combined_model/validation_test/extracted_audio"
 
@@ -32,10 +31,17 @@ output_dir = "./combined_model/validation_test/extracted_audio"
 cnn_weight = 0.50 
 nb_weight = 0.86 
 
+sterm_weight = 0.39
+sterm_nb_weight = 0.56
+
 # Normalize weights so they sum to 1
 total_weight = cnn_weight + nb_weight
 cnn_weight /= total_weight
 nb_weight /= total_weight
+
+total_sterm = sterm_weight + sterm_nb_weight
+sterm_weight /= total_sterm
+sterm_nb_weight /= total_sterm
 
 class_labels = {2:"positive", 1: "neutral", 0: "negative"}
 class_labels_reversed = {"positive": 2, "neutral": 1, "negative": 0}
@@ -179,13 +185,6 @@ def batch_process_all_files(audio_folder_path, csv_folder_path):
 
     return all_y_true, all_y_pred
 
-
-# long_audio_file = "./combined_model/validation_test/Ses01M_script03_1.wav"  # Input audio file
-# audio_files, y_true = split_audio(long_audio_file, df)
-
-# # Get fused predictions
-# y_pred = batch_fusion_predictions(audio_files, y_true)
-
 # Run batch processing
 all_y_true, all_y_pred = batch_process_all_files(audio_folder_path, csv_folder_path)
 
@@ -199,8 +198,8 @@ plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.title('Confusion Matrix')
 
-# Save confusion matrix as an image
-plt.show()
+plt.savefig("batchtest_confusion_matrix.png")  # Save figure
+plt.close()
 
 # Print classification report
 report = classification_report(all_y_true, all_y_pred, target_names=class_labels.values())

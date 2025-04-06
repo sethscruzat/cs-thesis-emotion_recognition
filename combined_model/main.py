@@ -5,7 +5,7 @@ import librosa
 import joblib
 import cv2
 import psutil
-import tracemalloc  # Memory tracking
+import tracemalloc
 import os
 import time
 from sklearn.preprocessing import StandardScaler
@@ -18,14 +18,23 @@ cnn_model = load_model("./combined_model/models/cnn_six_seconds_ver2.keras")  # 
 nb_model = joblib.load("./combined_model/models/best_model.pkl")# Load trained Naïve Bayes model
 vectorizer = joblib.load("./combined_model/models/tfidf_vectorizer.pkl")
 
+sterm_model = load_model("./combined_model/models/sterm.keras")
+
 # Define Weights (Based on Validation Accuracy)
-cnn_weight = 0.50 
+cnn_weight = 0.50
 nb_weight = 0.88 
+
+sterm_weight = 0.39
+sterm_nb_weight = 0.56
 
 # Normalize weights so they sum to 1
 total_weight = cnn_weight + nb_weight
 cnn_weight /= total_weight
 nb_weight /= total_weight
+
+total_sterm = sterm_weight + sterm_nb_weight
+sterm_weight /= total_sterm
+sterm_nb_weight /= total_sterm
 
 class_labels = {2:"Positive", 1: "Neutral", 0: "Negative"}
 
@@ -35,7 +44,6 @@ def get_memory_usage():
 
 # ============================================================== SPEECH MODEL =======================================================
 def reduce_noise(y, sr):
-    """Apply noise reduction using noisereduce."""
     # Estimate noise profile from the first 0.5 seconds
     noise_sample = y[:int(sr * 0.5)]
     reduced_y = nr.reduce_noise(y=y, sr=sr, y_noise=noise_sample)
@@ -146,7 +154,7 @@ def fusion_prediction(audio_input, text):
 
 # ============================================================== PREDICTION =======================================================
 
-audio_file = "./combined_model/neutral_test_8_seconds.wav"  # audio file
+audio_file = "./combined_model/prediction_test/neutral_test_8_seconds.wav"  # audio file
 text = speech_to_text(audio_file)
 audio_input = preprocess_audio(audio_file)
 

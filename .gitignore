@@ -1,4 +1,6 @@
 dataset/
 labels/
 output_spectrograms/
-combined_model/validation_test
+all_spectrograms/
+label/
+prediction_test/
