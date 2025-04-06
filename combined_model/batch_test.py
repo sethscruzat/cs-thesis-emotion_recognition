@@ -7,6 +7,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import joblib
 import cv2
+import os
+import shutil
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix, classification_report
 import assemblyai as aai
@@ -17,14 +19,17 @@ cnn_model = load_model("./combined_model/models/cnn_six_seconds.keras")  # Load 
 nb_model = joblib.load("./combined_model/models/best_model.pkl")# Load trained Naïve Bayes model
 vectorizer = joblib.load("./combined_model/models/tfidf_vectorizer.pkl")
 
+audio_folder_path = "./dataset/3/wav"
+csv_folder_path = "./speech_model/labels/by_utterance/3"
+
 # batch test
-csv_path = "./combined_model/validation_test/Ses03F_script01_3.csv"
-df = pd.read_csv(csv_path)
+# csv_path = "./combined_model/validation_test/Ses01M_script03_1.csv"
+# df = pd.read_csv(csv_path)
 
 output_dir = "./combined_model/validation_test/extracted_audio"
 
 # Define Weights (Based on Validation Accuracy)
-cnn_weight = 0.52 
+cnn_weight = 0.50 
 nb_weight = 0.86 
 
 # Normalize weights so they sum to 1
@@ -34,6 +39,12 @@ nb_weight /= total_weight
 
 class_labels = {2:"positive", 1: "neutral", 0: "negative"}
 class_labels_reversed = {"positive": 2, "neutral": 1, "negative": 0}
+
+def clean_output_dir():
+    for file in os.listdir(output_dir):
+        if file.endswith(".wav"):
+            os.remove(os.path.join(output_dir, file))
+
 
 def split_audio(long_audio_path, df):
     audio = AudioSegment.from_wav(long_audio_path)
@@ -58,7 +69,6 @@ def split_audio(long_audio_path, df):
 
 # SPEECH MODEL
 def reduce_noise(y, sr):
-    """Apply noise reduction using noisereduce."""
     # Estimate noise profile from the first 0.5 seconds
     noise_sample = y[:int(sr * 0.5)]
     reduced_y = nr.reduce_noise(y=y, sr=sr, y_noise=noise_sample)
@@ -138,15 +148,49 @@ def batch_fusion_predictions(audio_files, y_true):
 
     return y_pred
 
-# Example Usage
-long_audio_file = "./combined_model/validation_test/Ses03F_script01_3.wav"  # Input audio file
-audio_files, y_true = split_audio(long_audio_file, df)
+def batch_process_all_files(audio_folder_path, csv_folder_path):
+    all_y_true = []
+    all_y_pred = []
 
-# Get fused predictions
-y_pred = batch_fusion_predictions(audio_files, y_true)
+    for filename in os.listdir(audio_folder_path):
+        if filename.endswith(".wav"):
+            base_name = os.path.splitext(filename)[0]
+            audio_path = os.path.join(audio_folder_path, filename)
+            csv_path = os.path.join(csv_folder_path, f"{base_name}.csv")
+
+            if not os.path.exists(csv_path):
+                print(f"CSV not found for {filename}, skipping...")
+                continue
+
+            # Load CSV
+            df = pd.read_csv(csv_path)
+
+            # Segment and get true labels
+            audio_files, y_true = split_audio(audio_path, df)
+
+            # Get predictions
+            y_pred = batch_fusion_predictions(audio_files, y_true)
+
+            # Collect for global evaluation
+            all_y_true.extend(y_true)
+            all_y_pred.extend(y_pred)
+
+            clean_output_dir()
+
+    return all_y_true, all_y_pred
+
+
+# long_audio_file = "./combined_model/validation_test/Ses01M_script03_1.wav"  # Input audio file
+# audio_files, y_true = split_audio(long_audio_file, df)
+
+# # Get fused predictions
+# y_pred = batch_fusion_predictions(audio_files, y_true)
+
+# Run batch processing
+all_y_true, all_y_pred = batch_process_all_files(audio_folder_path, csv_folder_path)
 
 # Compute confusion matrix
-cm = confusion_matrix(y_true, y_pred)
+cm = confusion_matrix(all_y_true, all_y_pred)
 
 # Plot confusion matrix
 plt.figure(figsize=(6,5))
@@ -159,5 +203,5 @@ plt.title('Confusion Matrix')
 plt.show()
 
 # Print classification report
-report = classification_report(y_true, y_pred, target_names=class_labels.values())
+report = classification_report(all_y_true, all_y_pred, target_names=class_labels.values())
 print(report)
