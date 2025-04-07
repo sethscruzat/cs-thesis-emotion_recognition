@@ -154,7 +154,7 @@ def fusion_prediction(audio_input, text):
 
 # ============================================================== PREDICTION =======================================================
 
-audio_file = "./combined_model/prediction_test/neutral_test_8_seconds.wav"  # audio file
+audio_file = "./combined_model/prediction_test/negative_test_6seconds.wav"  # audio file
 text = speech_to_text(audio_file)
 audio_input = preprocess_audio(audio_file)
 

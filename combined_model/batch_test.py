@@ -15,15 +15,12 @@ import assemblyai as aai
 from tensorflow.keras.models import load_model
 
 # Load Models
-cnn_model = load_model("./combined_model/models/cnn_six_seconds.keras")  # Load trained CNN model
+cnn_model = load_model("./combined_model/models/cnn_six_seconds_ver2.keras")  # Load trained CNN model
 nb_model = joblib.load("./combined_model/models/best_model.pkl")# Load trained Naïve Bayes model
 vectorizer = joblib.load("./combined_model/models/tfidf_vectorizer.pkl")
 
-sterm_model = load_model("./combined_model/models/sterm.keras")
-
-audio_folder_path = "./speech_model/audio_3/wav"
-csv_folder_path = "./speech_model/labels_3"
-
+audio_folder_path = "./speech_model/audio_2/wav"
+csv_folder_path = "./speech_model/labels_2"
 
 output_dir = "./combined_model/validation_test/extracted_audio"
 
@@ -31,20 +28,13 @@ output_dir = "./combined_model/validation_test/extracted_audio"
 cnn_weight = 0.50 
 nb_weight = 0.86 
 
-sterm_weight = 0.39
-sterm_nb_weight = 0.56
-
 # Normalize weights so they sum to 1
 total_weight = cnn_weight + nb_weight
 cnn_weight /= total_weight
 nb_weight /= total_weight
 
-total_sterm = sterm_weight + sterm_nb_weight
-sterm_weight /= total_sterm
-sterm_nb_weight /= total_sterm
-
-class_labels = {2:"positive", 1: "neutral", 0: "negative"}
-class_labels_reversed = {"positive": 2, "neutral": 1, "negative": 0}
+class_labels = {0: "negative", 1: "neutral", 2:"positive" }
+class_labels_reversed = { "negative": 0, "neutral": 1, "positive": 2}
 
 def clean_output_dir():
     for file in os.listdir(output_dir):
@@ -92,7 +82,7 @@ def audio_to_spectogram(file_path):
     spectogram = spectogram / 255.0
     
     # Reshape for CNN input
-    return np.expand_dims(spectogram, axis=1)  # Shape: (1, 128, T, 1)
+    return np.expand_dims(spectogram, axis=1)
 
 
 def predict_audio(audio_file):
@@ -160,6 +150,7 @@ def batch_process_all_files(audio_folder_path, csv_folder_path):
 
     for filename in os.listdir(audio_folder_path):
         if filename.endswith(".wav"):
+            print(f"processing: {filename}")
             base_name = os.path.splitext(filename)[0]
             audio_path = os.path.join(audio_folder_path, filename)
             csv_path = os.path.join(csv_folder_path, f"{base_name}.csv")
