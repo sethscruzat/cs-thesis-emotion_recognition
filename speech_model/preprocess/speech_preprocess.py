@@ -1,13 +1,13 @@
 import os
-from pydub import AudioSegment
 import librosa
 import librosa.display
 import numpy as np
 import matplotlib.pyplot as plt
 import noisereduce as nr
 import cv2
+from pydub import AudioSegment
 
-input_folder = "./dataset/5/wav"
+input_folder = "./dataset/5/wav" # change input and output folder as needed
 output_folder = "./speech_model/output_spectrograms/5/"
 
 def split_audio_to_segments(file_path, segment_length): #change segment length as needed
@@ -23,7 +23,6 @@ def split_audio_to_segments(file_path, segment_length): #change segment length a
     return segments
 
 def reduce_noise(y, sr):
-    """Apply noise reduction using noisereduce."""
     # Estimate noise profile from the first 0.5 seconds
     noise_sample = y[:int(sr * 0.5)]
     reduced_y = nr.reduce_noise(y=y, sr=sr, y_noise=noise_sample)
@@ -55,14 +54,10 @@ def process_audio_segment(segment, sr=22050, n_mels=128, output_dir=output_folde
     specific_output_folder = output_dir + file_prefix
     os.makedirs(specific_output_folder, exist_ok=True)
 
-    segment_name = f"{file_prefix}_{j}.png"  # Unique naming
-    
+    segment_name = f"{file_prefix}_{j}.png" 
     librosa.display.specshow(mel_spec_db, sr=sr, hop_length=hop_length, x_axis='time', y_axis='mel')
-
     plt.colorbar(format='%+2.0f dB')
     plt.title('Mel Spectrogram (db)')
-
-    # plt.colorbar()
 
     plt.tight_layout()
     
@@ -73,24 +68,16 @@ def process_audio_segment(segment, sr=22050, n_mels=128, output_dir=output_folde
 def process_audio_folder(folder_path, segment_length=9, output_dir=output_folder):
     for root, _, files in os.walk(folder_path):
         for file in files:
-            if file.endswith((".wav", ".mp3")):  # Check file type
+            if file.endswith((".wav", ".mp3")):
                 file_path = os.path.join(root, file)
                 print(f"Processing file: {file_path}")
                 
-                # Split file into segments
+                # Splits file into multiple segments
                 segments = split_audio_to_segments(file_path, segment_length)
                 
-                # Process each segment
+                # Processes each segment
                 for i, segment in enumerate(segments):
                     process_audio_segment(segment, output_dir=output_dir, file_prefix=f"{os.path.splitext(file)[0]}", j = i)
 
 # BATCH PROCESSING
 process_audio_folder(folder_path=input_folder,output_dir=output_folder)
-
-# # SINGLE FILE PROCESSING
-# # Split file into segments
-# segments = split_audio_to_segments("./dataset/wav/Ses05F_impro01.wav")
-
-# # Process each segment
-# for i, segment in enumerate(segments):
-#     process_audio_segment(segment, output_dir="./speech_model/output_spectrograms/", file_prefix=f"{os.path.splitext("Ses05F_impro01.wav")[0]}", j = i)

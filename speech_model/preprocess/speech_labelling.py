@@ -3,7 +3,7 @@ import re
 import pandas as pd
 from pathlib import Path
 
-# path to EmoEvaluation folder
+# path to EmoEvaluation folder which contains emotion labels with timestamps but in .txt format
 emo_eval_folder = "./dataset/4/EmoEvaluation/"
 # path to output dir
 output_dir = "./speech_model/labels/by_utterance/4"
@@ -63,11 +63,3 @@ for file in os.listdir(emo_eval_folder):
         session_data.to_csv(os.path.join(output_dir, output_csv), index=False)
 
 print("Processing Done.")
-
-# Example: Process an EmoEvaluation file
-# Single file processing
-# emo_eval_file = os.path.join(emo_eval_folder, "Ses05F_impro01.txt")  # Replace with the correct session file
-# emotion_data = parse_emo_eval(emo_eval_file)
-
-# output_csv = "Ses05F_impro01_annotations.csv"
-# emotion_data.to_csv(output_csv, index=False)
