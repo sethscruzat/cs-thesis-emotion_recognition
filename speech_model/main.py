@@ -54,7 +54,7 @@ model.compile(optimizer=Adam(learning_rate=0.0005), loss=tf.keras.losses.Categor
 model.summary()
 
 # ============================================================== PROCESSING ===============================================================
-df = pd.read_csv("./speech_model/label/all_labels_six.csv") # load labels
+df = pd.read_csv("./speech_model/final/all_labels_six.csv") # load labels
 
 X = [] # spectrograms
 Y = [] # labels
@@ -70,7 +70,7 @@ def load_dataset(spectrogram_folder):
 def resize_spectrogram(image):
     return cv2.resize(image, (256, 128), interpolation=cv2.INTER_AREA)
 
-load_dataset("./speech_model/all_spectrograms/six_seconds")
+load_dataset("./speech_model/final/six_seconds")
 
 X_resized = np.array([resize_spectrogram(img) for img in X])  # resizes all spectrograms in array X
 

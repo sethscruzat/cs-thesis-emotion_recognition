@@ -1,10 +1,7 @@
 dataset/
 labels/
 output_spectrograms/
-all_spectrograms/
+all_spectrograms
 label/
 prediction_test/
-extracted_audio/
-audio_2/
-labels_2/
 .env
