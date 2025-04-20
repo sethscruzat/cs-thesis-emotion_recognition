@@ -14,7 +14,7 @@ from pydub import AudioSegment
 from tensorflow.keras.models import load_model
 
 # Load Models
-cnn_model = load_model("./combined_model/models/cnn_six_seconds_ver2.keras")  # Load trained CNN model
+cnn_model = load_model("./combined_model/models/cnn_ver2.keras")  # Load trained CNN model
 nb_model = joblib.load("./combined_model/models/best_model.pkl")# Load trained Naïve Bayes model
 vectorizer = joblib.load("./combined_model/models/tfidf_vectorizer.pkl")
 
