@@ -1,18 +1,21 @@
 import numpy as np
 import tensorflow as tf
 import pandas as pd
-from pydub import AudioSegment
 import librosa
-import seaborn as sns
-import matplotlib.pyplot as plt
 import joblib
 import cv2
+import psutil
+import tracemalloc
 import os
-import shutil
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import confusion_matrix, classification_report
+import time
+import seaborn as sns
 import assemblyai as aai
+import matplotlib.pyplot as plt
+from dotenv import load_dotenv
+from pydub import AudioSegment
 from tensorflow.keras.models import load_model
+from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.preprocessing import StandardScaler
 
 # Load Models
 nb_model = joblib.load("./combined_model/models/best_model.pkl")# Load trained Naïve Bayes model
@@ -25,7 +28,7 @@ csv_folder_path = "./speech_model/labels_2"
 
 output_dir = "./combined_model/validation_test/extracted_audio"
 
-sterm_weight = 0.36
+sterm_weight = 0.38
 sterm_nb_weight = 0.56
 
 total_sterm = sterm_weight + sterm_nb_weight

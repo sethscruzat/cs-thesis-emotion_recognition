@@ -8,10 +8,14 @@ import psutil
 import tracemalloc
 import os
 import time
+import seaborn as sns
 import assemblyai as aai
+import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 from pydub import AudioSegment
 from tensorflow.keras.models import load_model
+from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.preprocessing import StandardScaler
 
 # Load Models
 cnn_model = load_model("./combined_model/models/cnn_ver2.keras")  # Load trained CNN model
